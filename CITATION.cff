@@ -3,6 +3,14 @@ message: "If you use these materials, please cite them as below and cite the sou
 title: "Buyer and seller value from optional automated bargaining in electronic commerce: reproducibility materials"
 version: "1.0.0"
 date-released: "2026-10-15"
+doi: "10.5281/zenodo.23401250"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23401250"
+    description: "Version 1.0.0 archived on Zenodo"
+  - type: doi
+    value: "10.5281/zenodo.23401249"
+    description: "Concept DOI (all versions)"
 license: MIT
 repository-code: "https://github.com/bankyresearch/buyer-seller-value-optional-bargaining"
 authors:
