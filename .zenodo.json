@@ -1,0 +1,17 @@
+{
+  "title": "Buyer and seller value from optional automated bargaining in electronic commerce: reproducibility materials",
+  "upload_type": "software",
+  "description": "<p>Code, data and documentation supporting the manuscript <em>Buyer and seller value from optional automated bargaining in electronic commerce</em> by Bankatesh Choudhary and Meenakshi Sharma.</p><p>Includes the original AmazonHistoryPrice (Apache-2.0) and CaSiNo (CC BY 4.0) source files, cleaned numerical tables, variable definitions and transformations, analysis, simulation and figure-generation code, frozen fitted Q iteration checkpoints, saved synthetic negotiation outcomes, sensitivity results, checksums and a review guide (review_support/REVIEW_GUIDE.txt).</p><p>The CraigslistBargain corpus (He et al., 2018) is not redistributed because its maintainers state no data licence. Scripts in review_support/ download the exact files from the original CodaLab endpoints, accept them only if their SHA-256 checksums match the study record, and regenerate all 15 withheld Craigslist-derived files.</p><p>Author code is released under the MIT licence and author-generated data under CC BY 4.0 (LICENSE-DATA.md). Simulated outcomes are not observations of real customers.</p>",
+  "creators": [
+    {"name": "Choudhary, Bankatesh", "affiliation": "Birla Institute of Technology Mesra", "orcid": "0009-0004-6516-3828"},
+    {"name": "Sharma, Meenakshi", "affiliation": "Birla Institute of Technology Mesra"}
+  ],
+  "keywords": ["automated bargaining", "electronic commerce", "posted pricing", "buyer and seller value", "computational modelling", "reproducibility"],
+  "related_identifiers": [
+    {"identifier": "10.18653/v1/D18-1256", "relation": "references", "scheme": "doi", "resource_type": "publication-conferencepaper"},
+    {"identifier": "10.18653/v1/2024.findings-acl.213", "relation": "references", "scheme": "doi", "resource_type": "publication-conferencepaper"},
+    {"identifier": "10.18653/v1/2021.naacl-main.254", "relation": "references", "scheme": "doi", "resource_type": "publication-conferencepaper"}
+  ],
+  "version": "1.0.0",
+  "access_right": "open"
+}
