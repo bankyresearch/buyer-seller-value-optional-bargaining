@@ -1,0 +1,85 @@
+{
+  "description": "SHA-256 of the 15 Craigslist-derived files withheld from redistribution (SOURCE_OMISSIONS.json), taken from the authors' preserved study outputs. Checksums only; no corpus content.",
+  "files": [
+    {
+      "path": "bargaining_framework_revision/results/structured_offer_events.csv",
+      "sha256": "e92029b60d17bf700162a64641a8e881e8cdf17b0dbfbc9202e6684d80dd62b4",
+      "bytes": 1342053
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/Mixed_history__Gradient_boosting.joblib",
+      "sha256": "9eced914cc42f66cda27df8ce06a55e9d136c4a71f3f4e65c43a126b70bb7ca5",
+      "bytes": 218969
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/Mixed_history__Ridge.joblib",
+      "sha256": "02de10704a9e66e86dedfa3ba3f22f42e79599eb17cb500f8adc9d429a455b8c",
+      "bytes": 1915
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/Mixed_history_features.csv.gz",
+      "sha256": "2f68e0f9c4d9bf951e1ef92ed5ede3e273217111da70bf52fe61a0fff81af6fd",
+      "bytes": 566990,
+      "content_sha256": "50a1e78a138514c8dcf1e90498900c5b0215b2deca2890449cec229c283fbfa1"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/Native-only_history__Gradient_boosting.joblib",
+      "sha256": "a6ce0c53af6652f9b8f664a424db6a428ed67e220b26787d9b5aa5cfd3ff4eb3",
+      "bytes": 38005
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/Native-only_history__Ridge.joblib",
+      "sha256": "0b327a4d3db75417902f24b2155e9661d9b36b851efcf2f7e96ee0d1c496dfe1",
+      "bytes": 1841
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/Native-only_history_features.csv.gz",
+      "sha256": "8e569461a9c32a5e8a772955d28bd411f4e3cacaad74e56174dc6f6b826bd4f0",
+      "bytes": 513918,
+      "content_sha256": "22e5c0014a1f0c945ea16153600ef1183ae6615840ac0148adadad487a84e527"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/No-price-history_context__Gradient_boosting.joblib",
+      "sha256": "17934b8a57fbf25732375f0c7080a32a02e4ed763298f22d992815ae128c7b24",
+      "bytes": 38885
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/No-price-history_context__Ridge.joblib",
+      "sha256": "c183785d37b5840dc9a5fc79a63441e7b6e8fd0294d6b96b7619437b66fdbb29",
+      "bytes": 1513
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/No-price-history_context_features.csv.gz",
+      "sha256": "e2b3f83416898faa5438dfac7d41e1f4d348938bcb24cc860bbf4769c3ff9194",
+      "bytes": 513923,
+      "content_sha256": "22e5c0014a1f0c945ea16153600ef1183ae6615840ac0148adadad487a84e527"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/development_selection.csv",
+      "sha256": "1a5f1859e5a02fc11e7ec4de888b6f77bbd666582c9ac8f76c37147459d35bed",
+      "bytes": 1222
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/predictions.csv.gz",
+      "sha256": "13f0617fbdf540c6c4c6f00e78fda77d97e6a4835d55cf95b2006537714c555e",
+      "bytes": 283272,
+      "content_sha256": "de1333001028b37918b2661036944c881c6667f5558ad71984c953403b7db4dc"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/scenario_errors.csv",
+      "sha256": "876d29d9fddf88044c12c72ef75c9a777fc45067f50a347b5878b6faec88bd94",
+      "bytes": 76755
+    },
+    {
+      "path": "multidataset_bargaining/data/processed/craigslist_dialogues.csv",
+      "sha256": "0269ddc867ddfc7ac6f18c8865ab5135b7f754c1bd68653b5fb2b809b8ef23f0",
+      "bytes": 1336831
+    },
+    {
+      "path": "multidataset_bargaining/data/processed/craigslist_price_events.csv",
+      "sha256": "2f0462077db0b113ab05dbc5308d96a7ee40b51b333ede3e1a5d08c93512a1ef",
+      "bytes": 4544019
+    }
+  ],
+  "note": "content_sha256 is the SHA-256 of the decompressed CSV; gzip headers embed a write timestamp, so compressed bytes differ between runs. Gradient-boosting .joblib files are pickles whose bytes can differ while predictions are identical; their test predictions are checked through predictions.csv.gz."
+}

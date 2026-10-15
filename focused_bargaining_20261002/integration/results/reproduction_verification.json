@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "rows_compared": 2223360,
+  "files_compared": 48,
+  "tolerance_absolute": 1e-12,
+  "maximum_numeric_difference": 0.0,
+  "random_draw_arrays": "exact",
+  "scope": "Full same-environment alternate-directory trajectory replay, not external researcher replication.",
+  "excluded": "Elapsed time and gzip metadata"
+}

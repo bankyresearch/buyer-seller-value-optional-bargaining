@@ -1,0 +1,961 @@
+regime,acceptance_coefficient,policy,selection,metric,mean,lo,hi,clusters
+Low valuations,0.25,Clock-only FQI,Exogenous,seller_increment,0.008536537223096413,0.003431368698271681,0.014044041325192727,193
+Low valuations,0.25,Clock-only FQI,Exogenous,buyer_increment,-0.0072313093104003886,-0.008335583683073286,-0.006059707360661167,193
+Low valuations,0.25,Clock-only FQI,Exogenous,joint_increment,0.0013052279126960261,-0.004870114590649627,0.007940988783261682,193
+Low valuations,0.25,Clock-only FQI,Exogenous,conversion_increment,0.11601036269430053,0.09597409326424872,0.13672943652849742,193
+Low valuations,0.25,Clock-only FQI,Exogenous,negotiation_rounds,2.148536269430052,2.0987318652849742,2.1954088406735752,193
+Low valuations,0.25,Clock-only FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,0.25,Clock-only FQI,Exogenous,new_margin,0.019279218570246674,0.014377389441515231,0.024557267507482626,193
+Low valuations,0.25,Clock-only FQI,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.25,Clock-only FQI,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.25,Clock-only FQI,Exogenous,seller_interaction_cost,0.010742681347150259,0.01049365932642487,0.010977044203367875,193
+Low valuations,0.25,Clock-only FQI,Value-dependent odds,seller_increment,0.01138204963079522,0.004575158264362241,0.018725388433590305,193
+Low valuations,0.25,Clock-only FQI,Value-dependent odds,buyer_increment,-0.009641745747200519,-0.011114111577431049,-0.008079609814214891,193
+Low valuations,0.25,Clock-only FQI,Value-dependent odds,joint_increment,0.0017403038835947019,-0.006493486120866169,0.010587985044348911,193
+Low valuations,0.25,Clock-only FQI,Value-dependent odds,conversion_increment,0.1546804835924007,0.12796545768566495,0.18230591537132987,193
+Low valuations,0.25,Clock-only FQI,Value-dependent odds,negotiation_rounds,2.8647150259067358,2.798309153713299,2.9272117875647674,193
+Low valuations,0.25,Clock-only FQI,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,0.25,Clock-only FQI,Value-dependent odds,new_margin,0.025705624760328893,0.019169852588686975,0.032743023343310175,193
+Low valuations,0.25,Clock-only FQI,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.25,Clock-only FQI,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.25,Clock-only FQI,Value-dependent odds,seller_interaction_cost,0.014323575129533679,0.013991545768566491,0.014636058937823833,193
+Low valuations,0.25,Full-state FQI,Exogenous,seller_increment,0.0073000267323922,0.002630813459049202,0.012443757056198268,193
+Low valuations,0.25,Full-state FQI,Exogenous,buyer_increment,-0.008608031333610882,-0.009395377758424825,-0.007755092893637319,193
+Low valuations,0.25,Full-state FQI,Exogenous,joint_increment,-0.0013080046012186818,-0.006847487444687801,0.004668802609962502,193
+Low valuations,0.25,Full-state FQI,Exogenous,conversion_increment,0.09267487046632122,0.07508290155440416,0.1105990932642487,193
+Low valuations,0.25,Full-state FQI,Exogenous,negotiation_rounds,2.1885492227979273,2.1462451424870466,2.2279425194300515,193
+Low valuations,0.25,Full-state FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,0.25,Full-state FQI,Exogenous,new_margin,0.018242772846381837,0.013702408303658825,0.023173830439566567,193
+Low valuations,0.25,Full-state FQI,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.25,Full-state FQI,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.25,Full-state FQI,Exogenous,seller_interaction_cost,0.010942746113989637,0.010731225712435236,0.01113971259715026,193
+Low valuations,0.25,Full-state FQI,Value-dependent odds,seller_increment,0.009733368976522933,0.0035077512787322672,0.01659167607493102,193
+Low valuations,0.25,Full-state FQI,Value-dependent odds,buyer_increment,-0.011477375111481176,-0.012527170344566432,-0.010340123858183089,193
+Low valuations,0.25,Full-state FQI,Value-dependent odds,joint_increment,-0.0017440061349582431,-0.009129983259583734,0.006225070146616666,193
+Low valuations,0.25,Full-state FQI,Value-dependent odds,conversion_increment,0.123566493955095,0.1001105354058722,0.1474654576856649,193
+Low valuations,0.25,Full-state FQI,Value-dependent odds,negotiation_rounds,2.918065630397237,2.8616601899827288,2.970590025906736,193
+Low valuations,0.25,Full-state FQI,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,0.25,Full-state FQI,Value-dependent odds,new_margin,0.024323697128509115,0.018269877738211763,0.030898440586088764,193
+Low valuations,0.25,Full-state FQI,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.25,Full-state FQI,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.25,Full-state FQI,Value-dependent odds,seller_interaction_cost,0.014590328151986182,0.014308300949913644,0.014852950129533676,193
+Low valuations,0.25,Buyer responsive,Exogenous,seller_increment,0.0020387037273794715,-0.0015255753338926775,0.005939541304551796,193
+Low valuations,0.25,Buyer responsive,Exogenous,buyer_increment,-0.010191854629001565,-0.010562135503836747,-0.009803257616034238,193
+Low valuations,0.25,Buyer responsive,Exogenous,joint_increment,-0.008153150901622094,-0.01206857379121638,-0.0038515993660759393,193
+Low valuations,0.25,Buyer responsive,Exogenous,conversion_increment,0.06998056994818652,0.05942114637305699,0.08099174222797928,193
+Low valuations,0.25,Buyer responsive,Exogenous,negotiation_rounds,2.2747733160621766,2.252873218911917,2.2963406735751297,193
+Low valuations,0.25,Buyer responsive,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,0.25,Buyer responsive,Exogenous,new_margin,0.013412570307690353,0.009937168352912086,0.017236348701762823,193
+Low valuations,0.25,Buyer responsive,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.25,Buyer responsive,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.25,Buyer responsive,Exogenous,seller_interaction_cost,0.01137386658031088,0.011264366094559585,0.011481703367875646,193
+Low valuations,0.25,Buyer responsive,Value-dependent odds,seller_increment,0.0027182716365059625,-0.002034100445190236,0.00791938840606906,193
+Low valuations,0.25,Buyer responsive,Value-dependent odds,buyer_increment,-0.01358913950533542,-0.014082847338448997,-0.013071010154712315,193
+Low valuations,0.25,Buyer responsive,Value-dependent odds,joint_increment,-0.010870867868829457,-0.016091431721621842,-0.005135465821434585,193
+Low valuations,0.25,Buyer responsive,Value-dependent odds,conversion_increment,0.09330742659758204,0.079228195164076,0.1079889896373057,193
+Low valuations,0.25,Buyer responsive,Value-dependent odds,negotiation_rounds,3.0330310880829017,3.003830958549222,3.0617875647668393,193
+Low valuations,0.25,Buyer responsive,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,0.25,Buyer responsive,Value-dependent odds,new_margin,0.01788342707692047,0.013249557803882782,0.0229817982690171,193
+Low valuations,0.25,Buyer responsive,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.25,Buyer responsive,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.25,Buyer responsive,Value-dependent odds,seller_interaction_cost,0.015165155440414507,0.015019154792746113,0.015308937823834197,193
+Low valuations,0.25,Time concession,Exogenous,seller_increment,0.002885680536332552,-0.0008762515592855594,0.006944502770352552,193
+Low valuations,0.25,Time concession,Exogenous,buyer_increment,-0.009978785148975308,-0.010374770160211455,-0.009564412459745398,193
+Low valuations,0.25,Time concession,Exogenous,joint_increment,-0.0070931046126427545,-0.011196721770744475,-0.0026230332953167497,193
+Low valuations,0.25,Time concession,Exogenous,conversion_increment,0.07930699481865285,0.06794041450777202,0.09093426165803108,193
+Low valuations,0.25,Time concession,Exogenous,negotiation_rounds,2.260751295336788,2.2373947538860097,2.2836204663212434,193
+Low valuations,0.25,Time concession,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,0.25,Time concession,Exogenous,new_margin,0.01418943701301649,0.010536220819843284,0.01817036107539645,193
+Low valuations,0.25,Time concession,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.25,Time concession,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.25,Time concession,Exogenous,seller_interaction_cost,0.01130375647668394,0.011186973769430054,0.011418102331606218,193
+Low valuations,0.25,Time concession,Value-dependent odds,seller_increment,0.003847574048443402,-0.0011683354123807458,0.009259337027136733,193
+Low valuations,0.25,Time concession,Value-dependent odds,buyer_increment,-0.01330504686530041,-0.01383302688028194,-0.0127525499463272,193
+Low valuations,0.25,Time concession,Value-dependent odds,joint_increment,-0.009457472816857007,-0.01492896236099263,-0.0034973777270889943,193
+Low valuations,0.25,Time concession,Value-dependent odds,conversion_increment,0.1057426597582038,0.09058721934369603,0.1212456822107081,193
+Low valuations,0.25,Time concession,Value-dependent odds,negotiation_rounds,3.01433506044905,2.9831930051813473,3.044827288428325,193
+Low valuations,0.25,Time concession,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,0.25,Time concession,Value-dependent odds,new_margin,0.018919249350688654,0.014048294426457712,0.02422714810052859,193
+Low valuations,0.25,Time concession,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.25,Time concession,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.25,Time concession,Value-dependent odds,seller_interaction_cost,0.015071675302245253,0.014915965025906735,0.015224136442141626,193
+Low valuations,0.5,Clock-only FQI,Exogenous,seller_increment,0.008616864241134559,0.0034743914045629776,0.014164047951938598,193
+Low valuations,0.5,Clock-only FQI,Exogenous,buyer_increment,-0.0071131899607464084,-0.008224155161731944,-0.005941624720732032,193
+Low valuations,0.5,Clock-only FQI,Exogenous,joint_increment,0.00150367428038815,-0.004697201932064947,0.00817004203116767,193
+Low valuations,0.5,Clock-only FQI,Exogenous,conversion_increment,0.11661917098445596,0.09647749352331608,0.13735897020725388,193
+Low valuations,0.5,Clock-only FQI,Exogenous,negotiation_rounds,2.1389831606217617,2.0872051489637307,2.1870106865284975,193
+Low valuations,0.5,Clock-only FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,0.5,Clock-only FQI,Exogenous,new_margin,0.019311780044243367,0.014381327748652549,0.0246282233762136,193
+Low valuations,0.5,Clock-only FQI,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.5,Clock-only FQI,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.5,Clock-only FQI,Exogenous,seller_interaction_cost,0.010694915803108806,0.010436025744818654,0.010935053432642488,193
+Low valuations,0.5,Clock-only FQI,Value-dependent odds,seller_increment,0.011489152321512746,0.004632521872750635,0.018885397269251463,193
+Low valuations,0.5,Clock-only FQI,Value-dependent odds,buyer_increment,-0.009484253280995211,-0.010965540215642592,-0.007922166294309372,193
+Low valuations,0.5,Clock-only FQI,Value-dependent odds,joint_increment,0.0020048990405175334,-0.00626293590941993,0.010893389374890221,193
+Low valuations,0.5,Clock-only FQI,Value-dependent odds,conversion_increment,0.1554922279792746,0.1286366580310881,0.18314529360967183,193
+Low valuations,0.5,Clock-only FQI,Value-dependent odds,negotiation_rounds,2.851977547495682,2.7829401986183075,2.9160142487046636,193
+Low valuations,0.5,Clock-only FQI,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,0.5,Clock-only FQI,Value-dependent odds,new_margin,0.02574904005899116,0.019175103664870064,0.0328376311682848,193
+Low valuations,0.5,Clock-only FQI,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.5,Clock-only FQI,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.5,Clock-only FQI,Value-dependent odds,seller_interaction_cost,0.014259887737478409,0.013914700993091538,0.014580071243523316,193
+Low valuations,0.5,Full-state FQI,Exogenous,seller_increment,0.007372048937328578,0.0026853731345218143,0.012552712711459958,193
+Low valuations,0.5,Full-state FQI,Exogenous,buyer_increment,-0.008562897263670917,-0.009359538503796718,-0.007706250802869961,193
+Low valuations,0.5,Full-state FQI,Exogenous,joint_increment,-0.0011908483263423375,-0.00675169973452772,0.004819931716628799,193
+Low valuations,0.5,Full-state FQI,Exogenous,conversion_increment,0.0929922279792746,0.07534909326424871,0.11096761658031086,193
+Low valuations,0.5,Full-state FQI,Exogenous,negotiation_rounds,2.183782383419689,2.140739151554404,2.2237190738341965,193
+Low valuations,0.5,Full-state FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,0.5,Full-state FQI,Exogenous,new_margin,0.01829096085442702,0.013738519325303584,0.02325264841915374,193
+Low valuations,0.5,Full-state FQI,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.5,Full-state FQI,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.5,Full-state FQI,Exogenous,seller_interaction_cost,0.010918911917098447,0.01070369575777202,0.011118595369170986,193
+Low valuations,0.5,Full-state FQI,Value-dependent odds,seller_increment,0.00982939858310477,0.0035804975126957532,0.016736950281946612,193
+Low valuations,0.5,Full-state FQI,Value-dependent odds,buyer_increment,-0.011417196351561219,-0.012479384671728957,-0.010275001070493279,193
+Low valuations,0.5,Full-state FQI,Value-dependent odds,joint_increment,-0.0015877977684564497,-0.009002266312703627,0.006426575622171736,193
+Low valuations,0.5,Full-state FQI,Value-dependent odds,conversion_increment,0.12398963730569948,0.10046545768566494,0.14795682210708117,193
+Low valuations,0.5,Full-state FQI,Value-dependent odds,negotiation_rounds,2.9117098445595855,2.8543188687392056,2.9649587651122618,193
+Low valuations,0.5,Full-state FQI,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,0.5,Full-state FQI,Value-dependent odds,new_margin,0.024387947805902695,0.018318025767071446,0.031003531225538318,193
+Low valuations,0.5,Full-state FQI,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.5,Full-state FQI,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.5,Full-state FQI,Value-dependent odds,seller_interaction_cost,0.014558549222797928,0.014271594343696029,0.014824793825561313,193
+Low valuations,0.5,Buyer responsive,Exogenous,seller_increment,0.002175557469327105,-0.0014377504952956279,0.006146170113421149,193
+Low valuations,0.5,Buyer responsive,Exogenous,buyer_increment,-0.010113144630699553,-0.010480964004838698,-0.009721263472951028,193
+Low valuations,0.5,Buyer responsive,Exogenous,joint_increment,-0.007937587161372446,-0.011906649448082706,-0.003597606340010431,193
+Low valuations,0.5,Buyer responsive,Exogenous,conversion_increment,0.07056347150259067,0.05990608808290156,0.08180051813471503,193
+Low valuations,0.5,Buyer responsive,Exogenous,negotiation_rounds,2.2670012953367875,2.2439443005181348,2.2892203691709843,193
+Low valuations,0.5,Buyer responsive,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,0.5,Buyer responsive,Exogenous,new_margin,0.01351056394601104,0.009981800445058834,0.01736351566484562,193
+Low valuations,0.5,Buyer responsive,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.5,Buyer responsive,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.5,Buyer responsive,Exogenous,seller_interaction_cost,0.011335006476683937,0.011219721502590674,0.011446101845854924,193
+Low valuations,0.5,Buyer responsive,Value-dependent odds,seller_increment,0.00290074329243614,-0.0019170006603941693,0.00819489348456153,193
+Low valuations,0.5,Buyer responsive,Value-dependent odds,buyer_increment,-0.013484192840932734,-0.013974618673118264,-0.012961684630601374,193
+Low valuations,0.5,Buyer responsive,Value-dependent odds,joint_increment,-0.010583449548496595,-0.015875532597443606,-0.004796808453347241,193
+Low valuations,0.5,Buyer responsive,Value-dependent odds,conversion_increment,0.0940846286701209,0.0798747841105354,0.10906735751295338,193
+Low valuations,0.5,Buyer responsive,Value-dependent odds,negotiation_rounds,3.0226683937823835,2.9919257340241794,3.052293825561313,193
+Low valuations,0.5,Buyer responsive,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,0.5,Buyer responsive,Value-dependent odds,new_margin,0.018014085261348057,0.013309067260078446,0.023151354219794164,193
+Low valuations,0.5,Buyer responsive,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.5,Buyer responsive,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.5,Buyer responsive,Value-dependent odds,seller_interaction_cost,0.015113341968911918,0.014959628670120899,0.015261469127806564,193
+Low valuations,0.5,Time concession,Exogenous,seller_increment,0.002992005541447238,-0.0008277327662336315,0.007092074157741794,193
+Low valuations,0.5,Time concession,Exogenous,buyer_increment,-0.009908389449392593,-0.01030410085200886,-0.009488166854260332,193
+Low valuations,0.5,Time concession,Exogenous,joint_increment,-0.006916383907945356,-0.01108569314974634,-0.0024095228661981955,193
+Low valuations,0.5,Time concession,Exogenous,conversion_increment,0.0797279792746114,0.06826424870466322,0.09151554404145078,193
+Low valuations,0.5,Time concession,Exogenous,negotiation_rounds,2.2543069948186525,2.2299846178756475,2.277818167098446,193
+Low valuations,0.5,Time concession,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,0.5,Time concession,Exogenous,new_margin,0.014263540515540503,0.010558757947279722,0.018282634586515453,193
+Low valuations,0.5,Time concession,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.5,Time concession,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.5,Time concession,Exogenous,seller_interaction_cost,0.011271534974093264,0.011149923089378237,0.011389090835492232,193
+Low valuations,0.5,Time concession,Value-dependent odds,seller_increment,0.003989340721929651,-0.0011036436883115086,0.009456098876989057,193
+Low valuations,0.5,Time concession,Value-dependent odds,buyer_increment,-0.013211185932523458,-0.013738801136011811,-0.012650889139013773,193
+Low valuations,0.5,Time concession,Value-dependent odds,joint_increment,-0.009221845210593807,-0.014780924199661783,-0.00321269715493093,193
+Low valuations,0.5,Time concession,Value-dependent odds,conversion_increment,0.10630397236614852,0.09101899827288429,0.12202072538860104,193
+Low valuations,0.5,Time concession,Value-dependent odds,negotiation_rounds,3.0057426597582038,2.9733128238341973,3.037090889464594,193
+Low valuations,0.5,Time concession,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,0.5,Time concession,Value-dependent odds,new_margin,0.01901805402072067,0.014078343929706296,0.02437684611535394,193
+Low valuations,0.5,Time concession,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.5,Time concession,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.5,Time concession,Value-dependent odds,seller_interaction_cost,0.015028713298791017,0.014866564119170986,0.01518545444732297,193
+Low valuations,0.0,Clock-only FQI,Exogenous,seller_increment,0.008623686342396556,0.0035188535668935496,0.014154989479591481,193
+Low valuations,0.0,Clock-only FQI,Exogenous,buyer_increment,-0.00750915793936641,-0.008574812332333403,-0.006390956499841155,193
+Low valuations,0.0,Clock-only FQI,Exogenous,joint_increment,0.0011145284030301468,-0.00504182220761023,0.0076968558441051415,193
+Low valuations,0.0,Clock-only FQI,Exogenous,conversion_increment,0.11547927461139895,0.09560961787564767,0.1360827396373057,193
+Low valuations,0.0,Clock-only FQI,Exogenous,negotiation_rounds,2.157454663212435,2.10863957253886,2.20314167746114,193
+Low valuations,0.0,Clock-only FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,0.0,Clock-only FQI,Exogenous,new_margin,0.019410959658458734,0.014495467287502919,0.02471009981540285,193
+Low valuations,0.0,Clock-only FQI,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.0,Clock-only FQI,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.0,Clock-only FQI,Exogenous,seller_interaction_cost,0.010787273316062175,0.010543197862694302,0.0110157083873057,193
+Low valuations,0.0,Clock-only FQI,Value-dependent odds,seller_increment,0.011498248456528741,0.0046918047558580644,0.01887331930612197,193
+Low valuations,0.0,Clock-only FQI,Value-dependent odds,buyer_increment,-0.01001221058582188,-0.011433083109777867,-0.00852127533312154,193
+Low valuations,0.0,Clock-only FQI,Value-dependent odds,joint_increment,0.0014860378707068618,-0.006722429610146972,0.010262474458806854,193
+Low valuations,0.0,Clock-only FQI,Value-dependent odds,conversion_increment,0.15397236614853194,0.12747949050086355,0.18144365284974093,193
+Low valuations,0.0,Clock-only FQI,Value-dependent odds,negotiation_rounds,2.87660621761658,2.811519430051814,2.937522236614853,193
+Low valuations,0.0,Clock-only FQI,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,0.0,Clock-only FQI,Value-dependent odds,new_margin,0.02588127954461164,0.019327289716670554,0.03294679975387046,193
+Low valuations,0.0,Clock-only FQI,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.0,Clock-only FQI,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.0,Clock-only FQI,Value-dependent odds,seller_interaction_cost,0.014383031088082901,0.014057597150259065,0.014687611183074267,193
+Low valuations,0.0,Full-state FQI,Exogenous,seller_increment,0.007315183874410148,0.0026286392684868646,0.01246497253055066,193
+Low valuations,0.0,Full-state FQI,Exogenous,buyer_increment,-0.008722128003377695,-0.009484239310309723,-0.007896327667017623,193
+Low valuations,0.0,Full-state FQI,Exogenous,joint_increment,-0.0014069441289675476,-0.006931205144331573,0.00455119722218375,193
+Low valuations,0.0,Full-state FQI,Exogenous,conversion_increment,0.09242875647668394,0.07486334196891192,0.11037726683937822,193
+Low valuations,0.0,Full-state FQI,Exogenous,negotiation_rounds,2.1933290155440415,2.1516630505181342,2.2320540803108813,193
+Low valuations,0.0,Full-state FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,0.0,Full-state FQI,Exogenous,new_margin,0.018281828952130354,0.013730547481236723,0.023217758472808634,193
+Low valuations,0.0,Full-state FQI,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.0,Full-state FQI,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.0,Full-state FQI,Exogenous,seller_interaction_cost,0.010966645077720206,0.010758315252590673,0.011160270401554402,193
+Low valuations,0.0,Full-state FQI,Value-dependent odds,seller_increment,0.00975357849921353,0.0035048523579824867,0.016619963374067542,193
+Low valuations,0.0,Full-state FQI,Value-dependent odds,buyer_increment,-0.011629504004503593,-0.012645652413746296,-0.010528436889356828,193
+Low valuations,0.0,Full-state FQI,Value-dependent odds,joint_increment,-0.0018759255052900633,-0.009241606859108764,0.0060682629629116676,193
+Low valuations,0.0,Full-state FQI,Value-dependent odds,conversion_increment,0.1232383419689119,0.09981778929188256,0.147169689119171,193
+Low valuations,0.0,Full-state FQI,Value-dependent odds,negotiation_rounds,2.924438687392055,2.868884067357513,2.9760721070811744,193
+Low valuations,0.0,Full-state FQI,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,0.0,Full-state FQI,Value-dependent odds,new_margin,0.02437577193617381,0.018307396641648963,0.030957011297078178,193
+Low valuations,0.0,Full-state FQI,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.0,Full-state FQI,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.0,Full-state FQI,Value-dependent odds,seller_interaction_cost,0.014622193436960276,0.014344420336787563,0.014880360535405871,193
+Low valuations,0.0,Buyer responsive,Exogenous,seller_increment,0.0020988472987384806,-0.0014812756099869002,0.006032135245095663,193
+Low valuations,0.0,Buyer responsive,Exogenous,buyer_increment,-0.010382264081945767,-0.01072457581117109,-0.01001107564804347,193
+Low valuations,0.0,Buyer responsive,Exogenous,joint_increment,-0.008283416783207287,-0.01218629765848086,-0.004016652054970162,193
+Low valuations,0.0,Buyer responsive,Exogenous,conversion_increment,0.06968911917098446,0.059098121761658025,0.08073186528497409,193
+Low valuations,0.0,Buyer responsive,Exogenous,negotiation_rounds,2.2815090673575127,2.2599093264248706,2.3023988018134713,193
+Low valuations,0.0,Buyer responsive,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,0.0,Buyer responsive,Exogenous,new_margin,0.013506392635526044,0.010019609711187562,0.017370068721681772,193
+Low valuations,0.0,Buyer responsive,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.0,Buyer responsive,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.0,Buyer responsive,Exogenous,seller_interaction_cost,0.011407545336787565,0.011299546632124353,0.011511994009067359,193
+Low valuations,0.0,Buyer responsive,Value-dependent odds,seller_increment,0.0027984630649846402,-0.0019750341466492,0.00804284699346088,193
+Low valuations,0.0,Buyer responsive,Value-dependent odds,buyer_increment,-0.013843018775927689,-0.014299434414894787,-0.013348100864057962,193
+Low valuations,0.0,Buyer responsive,Value-dependent odds,joint_increment,-0.011044555710943047,-0.016248396877974487,-0.005355536073293549,193
+Low valuations,0.0,Buyer responsive,Value-dependent odds,conversion_increment,0.09291882556131259,0.0787974956822107,0.10764248704663214,193
+Low valuations,0.0,Buyer responsive,Value-dependent odds,negotiation_rounds,3.0420120898100174,3.013212435233161,3.0698650690846283,193
+Low valuations,0.0,Buyer responsive,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,0.0,Buyer responsive,Value-dependent odds,new_margin,0.018008523514034726,0.01335947961491675,0.023160091628909026,193
+Low valuations,0.0,Buyer responsive,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.0,Buyer responsive,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.0,Buyer responsive,Value-dependent odds,seller_interaction_cost,0.015210060449050086,0.015066062176165802,0.015349325345423144,193
+Low valuations,0.0,Time concession,Exogenous,seller_increment,0.002909155426705147,-0.0008692567261841862,0.00697242404975891,193
+Low valuations,0.0,Time concession,Exogenous,buyer_increment,-0.01012265975764627,-0.010488227948350854,-0.00973011547376512,193
+Low valuations,0.0,Time concession,Exogenous,joint_increment,-0.007213504330941122,-0.011292153526033806,-0.002725998734533032,193
+Low valuations,0.0,Time concession,Exogenous,conversion_increment,0.07901554404145078,0.06764815414507773,0.09060880829015544,193
+Low valuations,0.0,Time concession,Exogenous,negotiation_rounds,2.265932642487047,2.2427752590673578,2.2883435880829013,193
+Low valuations,0.0,Time concession,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,0.0,Time concession,Exogenous,new_margin,0.01423881863914038,0.010586668031074402,0.018205066415238343,193
+Low valuations,0.0,Time concession,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.0,Time concession,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.0,Time concession,Exogenous,seller_interaction_cost,0.011329663212435235,0.011213876295336786,0.011441717940414509,193
+Low valuations,0.0,Time concession,Value-dependent odds,seller_increment,0.0038788739022735286,-0.0011590089682455818,0.009296565399678547,193
+Low valuations,0.0,Time concession,Value-dependent odds,buyer_increment,-0.013496879676861692,-0.013984303931134472,-0.012973487298353492,193
+Low valuations,0.0,Time concession,Value-dependent odds,joint_increment,-0.009618005774588163,-0.015056204701378402,-0.00363466497937737,193
+Low valuations,0.0,Time concession,Value-dependent odds,conversion_increment,0.10535405872193436,0.09019753886010362,0.1208117443868739,193
+Low valuations,0.0,Time concession,Value-dependent odds,negotiation_rounds,3.0212435233160617,2.9903670120898096,3.051124784110535,193
+Low valuations,0.0,Time concession,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,0.0,Time concession,Value-dependent odds,new_margin,0.018985091518853837,0.014115557374765874,0.02427342188698445,193
+Low valuations,0.0,Time concession,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,0.0,Time concession,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,0.0,Time concession,Value-dependent odds,seller_interaction_cost,0.01510621761658031,0.01495183506044905,0.015255623920552677,193
+Low valuations,1.0,Clock-only FQI,Exogenous,seller_increment,0.009345416228155778,0.004021927697189532,0.015073777865865038,193
+Low valuations,1.0,Clock-only FQI,Exogenous,buyer_increment,-0.007396189231784194,-0.008431695742941656,-0.006317839902560223,193
+Low valuations,1.0,Clock-only FQI,Exogenous,joint_increment,0.001949226996371583,-0.004330552390669505,0.008682948050924968,193
+Low valuations,1.0,Clock-only FQI,Exogenous,conversion_increment,0.11786917098445597,0.09748413212435235,0.13863568652849742,193
+Low valuations,1.0,Clock-only FQI,Exogenous,negotiation_rounds,2.1153044041450775,2.0605458225388604,2.1660450129533677,193
+Low valuations,1.0,Clock-only FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,1.0,Clock-only FQI,Exogenous,new_margin,0.019921938248881166,0.014867790401897982,0.02540946015142663,193
+Low valuations,1.0,Clock-only FQI,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,1.0,Clock-only FQI,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,1.0,Clock-only FQI,Exogenous,seller_interaction_cost,0.010576522020725392,0.0103027291126943,0.01083022506476684,193
+Low valuations,1.0,Clock-only FQI,Value-dependent odds,seller_increment,0.01246055497087437,0.005362570262919375,0.020098370487820053,193
+Low valuations,1.0,Clock-only FQI,Value-dependent odds,buyer_increment,-0.009861585642378925,-0.011242260990588874,-0.008423786536746962,193
+Low valuations,1.0,Clock-only FQI,Value-dependent odds,joint_increment,0.002598969328495444,-0.005774069854226007,0.011577264067899959,193
+Low valuations,1.0,Clock-only FQI,Value-dependent odds,conversion_increment,0.15715889464594127,0.12997884283246974,0.18484758203799656,193
+Low valuations,1.0,Clock-only FQI,Value-dependent odds,negotiation_rounds,2.820405872193437,2.7473944300518136,2.8880600172711572,193
+Low valuations,1.0,Clock-only FQI,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,1.0,Clock-only FQI,Value-dependent odds,new_margin,0.026562584331841554,0.019823720535863974,0.03387928020190217,193
+Low valuations,1.0,Clock-only FQI,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,1.0,Clock-only FQI,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,1.0,Clock-only FQI,Value-dependent odds,seller_interaction_cost,0.014102029360967185,0.013736972150259067,0.014440300086355787,193
+Low valuations,1.0,Full-state FQI,Exogenous,seller_increment,0.007820616374762213,0.0030311149635753993,0.013086450020653492,193
+Low valuations,1.0,Full-state FQI,Exogenous,buyer_increment,-0.008704058294479126,-0.009455503018606683,-0.007895340431002162,193
+Low valuations,1.0,Full-state FQI,Exogenous,joint_increment,-0.0008834419197169119,-0.00648623748039348,0.00516785653119765,193
+Low valuations,1.0,Full-state FQI,Exogenous,conversion_increment,0.09395077720207254,0.07618507124352332,0.11201716321243524,193
+Low valuations,1.0,Full-state FQI,Exogenous,negotiation_rounds,2.1692810880829017,2.1254070595854926,2.2104998380829013,193
+Low valuations,1.0,Full-state FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,1.0,Full-state FQI,Exogenous,new_margin,0.01866702181517672,0.014062234308292405,0.023708957715592963,193
+Low valuations,1.0,Full-state FQI,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,1.0,Full-state FQI,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,1.0,Full-state FQI,Exogenous,seller_interaction_cost,0.010846405440414509,0.010627035297927464,0.011052499190414507,193
+Low valuations,1.0,Full-state FQI,Value-dependent odds,seller_increment,0.01042748849968295,0.004041486618100532,0.01744860002753799,193
+Low valuations,1.0,Full-state FQI,Value-dependent odds,buyer_increment,-0.0116054110593055,-0.012607337358142241,-0.01052712057466955,193
+Low valuations,1.0,Full-state FQI,Value-dependent odds,joint_increment,-0.0011779225596225483,-0.00864831664052464,0.006890475374930201,193
+Low valuations,1.0,Full-state FQI,Value-dependent odds,conversion_increment,0.1252677029360967,0.1015800949913644,0.14935621761658027,193
+Low valuations,1.0,Full-state FQI,Value-dependent odds,negotiation_rounds,2.892374784110535,2.8338760794473234,2.947333117443869,193
+Low valuations,1.0,Full-state FQI,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,1.0,Full-state FQI,Value-dependent odds,new_margin,0.02488936242023563,0.018749645744389882,0.031611943620790624,193
+Low valuations,1.0,Full-state FQI,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,1.0,Full-state FQI,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,1.0,Full-state FQI,Value-dependent odds,seller_interaction_cost,0.014461873920552676,0.014169380397236612,0.014736665587219342,193
+Low valuations,1.0,Buyer responsive,Exogenous,seller_increment,0.0033344300635354145,-0.000505444741034303,0.007490864603373809,193
+Low valuations,1.0,Buyer responsive,Exogenous,buyer_increment,-0.010477361428457975,-0.010744981674291224,-0.010193178541303888,193
+Low valuations,1.0,Buyer responsive,Exogenous,joint_increment,-0.00714293136492256,-0.011252559405120884,-0.0027335489939530624,193
+Low valuations,1.0,Buyer responsive,Exogenous,conversion_increment,0.07237694300518134,0.06146373056994819,0.0837119494818653,193
+Low valuations,1.0,Buyer responsive,Exogenous,negotiation_rounds,2.2300841968911915,2.2038147668393786,2.2550866256476687,193
+Low valuations,1.0,Buyer responsive,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,1.0,Buyer responsive,Exogenous,new_margin,0.014484851047991373,0.01076373042073147,0.018560994414928648,193
+Low valuations,1.0,Buyer responsive,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,1.0,Buyer responsive,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,1.0,Buyer responsive,Exogenous,seller_interaction_cost,0.011150420984455957,0.011019073834196891,0.011275433128238343,193
+Low valuations,1.0,Buyer responsive,Value-dependent odds,seller_increment,0.004445906751380553,-0.0006739263213790709,0.009987819471165076,193
+Low valuations,1.0,Buyer responsive,Value-dependent odds,buyer_increment,-0.013969815237943963,-0.014326642232388297,-0.013590904721738514,193
+Low valuations,1.0,Buyer responsive,Value-dependent odds,joint_increment,-0.009523908486563414,-0.015003412540161179,-0.003644731991937415,193
+Low valuations,1.0,Buyer responsive,Value-dependent odds,conversion_increment,0.09650259067357513,0.08195164075993093,0.11161593264248705,193
+Low valuations,1.0,Buyer responsive,Value-dependent odds,negotiation_rounds,2.973445595854922,2.9384196891191707,3.0067821675302246,193
+Low valuations,1.0,Buyer responsive,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,1.0,Buyer responsive,Value-dependent odds,new_margin,0.019313134730655164,0.014351640560975293,0.02474799255323819,193
+Low valuations,1.0,Buyer responsive,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,1.0,Buyer responsive,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,1.0,Buyer responsive,Value-dependent odds,seller_interaction_cost,0.01486722797927461,0.014692098445595853,0.015033910837651123,193
+Low valuations,1.0,Time concession,Exogenous,seller_increment,0.003774596859726319,-0.000188987231341717,0.00802529728761907,193
+Low valuations,1.0,Time concession,Exogenous,buyer_increment,-0.010252991433603148,-0.010572400043415454,-0.00992160321691294,193
+Low valuations,1.0,Time concession,Exogenous,joint_increment,-0.006478394573876828,-0.010748594418432757,-0.0019326904078030103,193
+Low valuations,1.0,Time concession,Exogenous,conversion_increment,0.08069948186528497,0.06913536269430053,0.09258419689119171,193
+Low valuations,1.0,Time concession,Exogenous,negotiation_rounds,2.2332577720207256,2.2067997085492226,2.258551651554404,193
+Low valuations,1.0,Time concession,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Low valuations,1.0,Time concession,Exogenous,new_margin,0.014940885719829947,0.011100106371470573,0.01905911150994171,193
+Low valuations,1.0,Time concession,Exogenous,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,1.0,Time concession,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,1.0,Time concession,Exogenous,seller_interaction_cost,0.011166288860103625,0.011033998542746113,0.01129275825777202,193
+Low valuations,1.0,Time concession,Value-dependent odds,seller_increment,0.005032795812968424,-0.0002519829751222891,0.010700396383492091,193
+Low valuations,1.0,Time concession,Value-dependent odds,buyer_increment,-0.013670655244804196,-0.014096533391220608,-0.013228804289217256,193
+Low valuations,1.0,Time concession,Value-dependent odds,joint_increment,-0.00863785943183577,-0.014331459224577004,-0.0025769205437373485,193
+Low valuations,1.0,Time concession,Value-dependent odds,conversion_increment,0.1075993091537133,0.09218048359240069,0.12344559585492228,193
+Low valuations,1.0,Time concession,Value-dependent odds,negotiation_rounds,2.977677029360967,2.9423996113989643,3.0114022020725386,193
+Low valuations,1.0,Time concession,Value-dependent odds,effective_opt_in,0.6666666666666667,0.6666666666666663,0.6666666666666665,193
+Low valuations,1.0,Time concession,Value-dependent odds,new_margin,0.01992118095977326,0.01480014182862743,0.025412148679922288,193
+Low valuations,1.0,Time concession,Value-dependent odds,discount_cannibalization,0.0,0.0,0.0,193
+Low valuations,1.0,Time concession,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Low valuations,1.0,Time concession,Value-dependent odds,seller_interaction_cost,0.014888385146804836,0.014711998056994817,0.015057011010362695,193
+Reference,0.25,Clock-only FQI,Exogenous,seller_increment,0.01142865950405665,0.0073122265779763515,0.01575062814886275,193
+Reference,0.25,Clock-only FQI,Exogenous,buyer_increment,0.007498509741837397,0.0051740134011879204,0.009913307433969754,193
+Reference,0.25,Clock-only FQI,Exogenous,joint_increment,0.018927169245894045,0.012707911518721358,0.02540486531011406,193
+Reference,0.25,Clock-only FQI,Exogenous,conversion_increment,0.15705310880829015,0.1433992066062176,0.17085994170984453,193
+Reference,0.25,Clock-only FQI,Exogenous,negotiation_rounds,1.8409067357512952,1.7916510686528497,1.8904915803108808,193
+Reference,0.25,Clock-only FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,0.25,Clock-only FQI,Exogenous,new_margin,0.03195361663689025,0.02736027503618619,0.036772983561028906,193
+Reference,0.25,Clock-only FQI,Exogenous,discount_cannibalization,0.009559122820937073,0.00868717917671497,0.010524986714020758,193
+Reference,0.25,Clock-only FQI,Exogenous,lost_checkout_margin,0.001761300633140046,0.0015997690332627845,0.0019323480948691169,193
+Reference,0.25,Clock-only FQI,Exogenous,seller_interaction_cost,0.009204533678756477,0.008958255343264249,0.009452457901554405,193
+Reference,0.25,Clock-only FQI,Value-dependent odds,seller_increment,0.024075813627643352,0.018193516288032948,0.030269100676662785,193
+Reference,0.25,Clock-only FQI,Value-dependent odds,buyer_increment,0.005231628707338744,0.0027463348605282468,0.007813480003506736,193
+Reference,0.25,Clock-only FQI,Value-dependent odds,joint_increment,0.029307442334982097,0.0209624176571671,0.03790151419066155,193
+Reference,0.25,Clock-only FQI,Value-dependent odds,conversion_increment,0.2136830742659758,0.19577363989637303,0.23187240932642483,193
+Reference,0.25,Clock-only FQI,Value-dependent odds,negotiation_rounds,2.196411917098445,2.137216105354059,2.255786917098446,193
+Reference,0.25,Clock-only FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,0.25,Clock-only FQI,Value-dependent odds,new_margin,0.042604822182520326,0.036480366714914926,0.049030644748038546,193
+Reference,0.25,Clock-only FQI,Value-dependent odds,discount_cannibalization,0.006372748547291382,0.005791452784476647,0.0070166578093471725,193
+Reference,0.25,Clock-only FQI,Value-dependent odds,lost_checkout_margin,0.001174200422093364,0.001066512688841856,0.0012882320632460777,193
+Reference,0.25,Clock-only FQI,Value-dependent odds,seller_interaction_cost,0.010982059585492226,0.010686080526770295,0.011278934585492228,193
+Reference,0.25,Full-state FQI,Exogenous,seller_increment,0.014412191215589967,0.010205485257923723,0.018926011090604947,193
+Reference,0.25,Full-state FQI,Exogenous,buyer_increment,0.0038899403348073313,0.002108783624380357,0.005748527481641872,193
+Reference,0.25,Full-state FQI,Exogenous,joint_increment,0.018302131550397296,0.012390209257197984,0.024508665242834123,193
+Reference,0.25,Full-state FQI,Exogenous,conversion_increment,0.15604598445595852,0.143989475388601,0.16787661917098445,193
+Reference,0.25,Full-state FQI,Exogenous,negotiation_rounds,1.8835427461139898,1.8418123380829015,1.924845531088083,193
+Reference,0.25,Full-state FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,0.25,Full-state FQI,Exogenous,new_margin,0.03368900558985185,0.02903689032804484,0.03857677643770615,193
+Reference,0.25,Full-state FQI,Exogenous,discount_cannibalization,0.007803225647149387,0.007096980604086281,0.008566717680600968,193
+Reference,0.25,Full-state FQI,Exogenous,lost_checkout_margin,0.002055874996542545,0.0018780572014510163,0.002250883804882385,193
+Reference,0.25,Full-state FQI,Exogenous,seller_interaction_cost,0.009417713730569948,0.009209061690414508,0.009624227655440413,193
+Reference,0.25,Full-state FQI,Value-dependent odds,seller_increment,0.02717046540051907,0.02116069115336076,0.03341597711461684,193
+Reference,0.25,Full-state FQI,Value-dependent odds,buyer_increment,0.0017219461440193718,-0.00017908645964241128,0.003703343524474858,193
+Reference,0.25,Full-state FQI,Value-dependent odds,joint_increment,0.02889241154453844,0.02110801832971489,0.0371777272633009,193
+Reference,0.25,Full-state FQI,Value-dependent odds,conversion_increment,0.2128562176165803,0.1971018458549223,0.22852256044905006,193
+Reference,0.25,Full-state FQI,Value-dependent odds,negotiation_rounds,2.235094991364421,2.1843861183074265,2.285943652849741,193
+Reference,0.25,Full-state FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,0.25,Full-state FQI,Value-dependent odds,new_margin,0.044918674119802465,0.03871585377072644,0.05143570191694153,193
+Reference,0.25,Full-state FQI,Value-dependent odds,discount_cannibalization,0.005202150431432924,0.004731320402724187,0.005711145120400643,193
+Reference,0.25,Full-state FQI,Value-dependent odds,lost_checkout_margin,0.0013705833310283637,0.0012520381343006774,0.0015005892032549232,193
+Reference,0.25,Full-state FQI,Value-dependent odds,seller_interaction_cost,0.011175474956822107,0.010921930591537133,0.011429718264248705,193
+Reference,0.25,Buyer responsive,Exogenous,seller_increment,0.008080974242651622,0.004372127271994783,0.012040836992973824,193
+Reference,0.25,Buyer responsive,Exogenous,buyer_increment,0.005962665908907584,0.004872888003678524,0.0071071491652809895,193
+Reference,0.25,Buyer responsive,Exogenous,joint_increment,0.014043640151559206,0.009318381784433474,0.018949967576843887,193
+Reference,0.25,Buyer responsive,Exogenous,conversion_increment,0.1382933937823834,0.12988908678756478,0.14672967940414508,193
+Reference,0.25,Buyer responsive,Exogenous,negotiation_rounds,1.8873380829015542,1.8608468264248703,1.9127283031088083,193
+Reference,0.25,Buyer responsive,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,0.25,Buyer responsive,Exogenous,new_margin,0.029473232139494664,0.025465369373185887,0.033732458061416545,193
+Reference,0.25,Buyer responsive,Exogenous,discount_cannibalization,0.010173944379950776,0.009674760747790502,0.010726455972360851,193
+Reference,0.25,Buyer responsive,Exogenous,lost_checkout_margin,0.0017816231023844928,0.0015969194832725505,0.00199091520533403,193
+Reference,0.25,Buyer responsive,Exogenous,seller_interaction_cost,0.009436690414507771,0.009304234132124353,0.009563641515544043,193
+Reference,0.25,Buyer responsive,Value-dependent odds,seller_increment,0.019966945014695103,0.01472783043705575,0.02551509308618614,193
+Reference,0.25,Buyer responsive,Value-dependent odds,buyer_increment,0.002681225939902931,0.0015199628872267605,0.0038716042552616277,193
+Reference,0.25,Buyer responsive,Value-dependent odds,joint_increment,0.022648170954598035,0.016367337626620765,0.029243414780490626,193
+Reference,0.25,Buyer responsive,Value-dependent odds,conversion_increment,0.18846070811744386,0.17735211571675305,0.1996359563903281,193
+Reference,0.25,Buyer responsive,Value-dependent odds,negotiation_rounds,2.27206390328152,2.2389183937823836,2.305139788428325,193
+Reference,0.25,Buyer responsive,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,0.25,Buyer responsive,Value-dependent odds,new_margin,0.03929764285265955,0.033953825830914525,0.044976610748555385,193
+Reference,0.25,Buyer responsive,Value-dependent odds,discount_cannibalization,0.006782629586633851,0.006449840498527003,0.0071509706482405675,193
+Reference,0.25,Buyer responsive,Value-dependent odds,lost_checkout_margin,0.0011877487349229953,0.0010646129888483664,0.00132727680355602,193
+Reference,0.25,Buyer responsive,Value-dependent odds,seller_interaction_cost,0.011360319516407596,0.011194591968911918,0.011525698942141624,193
+Reference,0.25,Time concession,Exogenous,seller_increment,0.009787011525537077,0.0059831067052746436,0.013851904111712244,193
+Reference,0.25,Time concession,Exogenous,buyer_increment,0.00492582365035969,0.003770144344863524,0.0061108877442871,193
+Reference,0.25,Time concession,Exogenous,joint_increment,0.014712835175896768,0.009848844993797784,0.019786400558232536,193
+Reference,0.25,Time concession,Exogenous,conversion_increment,0.14344235751295337,0.13463366256476686,0.15235144106217618,193
+Reference,0.25,Time concession,Exogenous,negotiation_rounds,1.8903497409326424,1.8622077396373058,1.917779306994819,193
+Reference,0.25,Time concession,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,0.25,Time concession,Exogenous,new_margin,0.030174445605433718,0.026049593345307875,0.03457372764059611,193
+Reference,0.25,Time concession,Exogenous,discount_cannibalization,0.009107265326971162,0.008576324975005526,0.009663474111262102,193
+Reference,0.25,Time concession,Exogenous,lost_checkout_margin,0.0018284200482622604,0.0016380822730346282,0.0020402046546130195,193
+Reference,0.25,Time concession,Exogenous,seller_interaction_cost,0.00945174870466321,0.00931103869818653,0.009588896534974094,193
+Reference,0.25,Time concession,Value-dependent odds,seller_increment,0.021617223579541843,0.016250138208681382,0.02728159555762243,193
+Reference,0.25,Time concession,Value-dependent odds,buyer_increment,0.0020771730972355545,0.0008375765948458122,0.0033215941007640405,193
+Reference,0.25,Time concession,Value-dependent odds,joint_increment,0.023694396676777398,0.017188916390600485,0.030497537948136182,193
+Reference,0.25,Time concession,Value-dependent odds,conversion_increment,0.1954339378238342,0.18386226252158896,0.2074268674438687,193
+Reference,0.25,Time concession,Value-dependent odds,negotiation_rounds,2.2649827288428326,2.2301759499136447,2.2991148531951637,193
+Reference,0.25,Time concession,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,0.25,Time concession,Value-dependent odds,new_margin,0.04023259414057829,0.03473279112707716,0.04609830352079482,193
+Reference,0.25,Time concession,Value-dependent odds,discount_cannibalization,0.006071510217980775,0.005717549983337017,0.006442316074174734,193
+Reference,0.25,Time concession,Value-dependent odds,lost_checkout_margin,0.0012189466988415068,0.0010920548486897522,0.0013601364364086797,193
+Reference,0.25,Time concession,Value-dependent odds,seller_interaction_cost,0.011324913644214162,0.01115087974956822,0.01149557426597582,193
+Reference,0.5,Clock-only FQI,Exogenous,seller_increment,0.012456475660088192,0.008255632795862661,0.01688995595763804,193
+Reference,0.5,Clock-only FQI,Exogenous,buyer_increment,0.008610814025071403,0.006362316267192681,0.010926778781805719,193
+Reference,0.5,Clock-only FQI,Exogenous,joint_increment,0.021067289685159595,0.01476319555718519,0.02751049767888776,193
+Reference,0.5,Clock-only FQI,Exogenous,conversion_increment,0.1603821243523316,0.14682861075129533,0.1742532383419689,193
+Reference,0.5,Clock-only FQI,Exogenous,negotiation_rounds,1.733581606217617,1.685373218911917,1.7827912888601034,193
+Reference,0.5,Clock-only FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,0.5,Clock-only FQI,Exogenous,new_margin,0.03201780620093113,0.027398260175879534,0.036851140030934884,193
+Reference,0.5,Clock-only FQI,Exogenous,discount_cannibalization,0.009696362860560696,0.008869431731782089,0.010570016376922646,193
+Reference,0.5,Clock-only FQI,Exogenous,lost_checkout_margin,0.0011970596491941493,0.00106621923954426,0.0013289819991195476,193
+Reference,0.5,Clock-only FQI,Exogenous,seller_interaction_cost,0.008667908031088084,0.008426866094559586,0.008913956444300517,193
+Reference,0.5,Clock-only FQI,Value-dependent odds,seller_increment,0.024896110187138953,0.01891408501259574,0.031154521081903645,193
+Reference,0.5,Clock-only FQI,Value-dependent odds,buyer_increment,0.006237717187148356,0.003792562486844248,0.008742681975853716,193
+Reference,0.5,Clock-only FQI,Value-dependent odds,joint_increment,0.031133827374287305,0.02279511758865801,0.03973749613981611,193
+Reference,0.5,Clock-only FQI,Value-dependent odds,conversion_increment,0.21677892918825556,0.19885022668393781,0.23527094127806564,193
+Reference,0.5,Clock-only FQI,Value-dependent odds,negotiation_rounds,2.1064032815198614,2.0460545120898104,2.166215025906736,193
+Reference,0.5,Clock-only FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,0.5,Clock-only FQI,Value-dependent odds,new_margin,0.04269040826790815,0.03653101356783938,0.04913485337457984,193
+Reference,0.5,Clock-only FQI,Value-dependent odds,discount_cannibalization,0.0064642419070404635,0.005912954487854723,0.007046677584615098,193
+Reference,0.5,Clock-only FQI,Value-dependent odds,lost_checkout_margin,0.0007980397661294327,0.0007108128263628399,0.0008859879994130317,193
+Reference,0.5,Clock-only FQI,Value-dependent odds,seller_interaction_cost,0.010532016407599312,0.01023027256044905,0.010831075129533676,193
+Reference,0.5,Full-state FQI,Exogenous,seller_increment,0.015299012642513769,0.011053186947569444,0.01984076581465601,193
+Reference,0.5,Full-state FQI,Exogenous,buyer_increment,0.0044028294399231505,0.002653991506568275,0.006208807241919314,193
+Reference,0.5,Full-state FQI,Exogenous,joint_increment,0.01970184208243692,0.013814295617050798,0.02588960700427863,193
+Reference,0.5,Full-state FQI,Exogenous,conversion_increment,0.15825129533678756,0.14634366904145077,0.17020174870466323,193
+Reference,0.5,Full-state FQI,Exogenous,negotiation_rounds,1.813711139896373,1.7737419041450782,1.8541897668393783,193
+Reference,0.5,Full-state FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,0.5,Full-state FQI,Exogenous,new_margin,0.03376291992286379,0.029085769581063826,0.03867524636852858,193
+Reference,0.5,Full-state FQI,Exogenous,discount_cannibalization,0.007733919729652596,0.007049863167625418,0.008476914722832685,193
+Reference,0.5,Full-state FQI,Exogenous,lost_checkout_margin,0.0016614318512155563,0.001502741222012673,0.0018261070339816465,193
+Reference,0.5,Full-state FQI,Exogenous,seller_interaction_cost,0.009068555699481866,0.00886870952072539,0.009270948834196891,193
+Reference,0.5,Full-state FQI,Value-dependent odds,seller_increment,0.02786339545809281,0.021799048894218142,0.034170232817369105,193
+Reference,0.5,Full-state FQI,Value-dependent odds,buyer_increment,0.0021847165824860977,0.00031998741868703316,0.004125447441081814,193
+Reference,0.5,Full-state FQI,Value-dependent odds,joint_increment,0.030048112040578907,0.022263823114383244,0.03835304784462567,193
+Reference,0.5,Full-state FQI,Value-dependent odds,conversion_increment,0.21485751295336786,0.19914049006908466,0.23065678972366144,193
+Reference,0.5,Full-state FQI,Value-dependent odds,negotiation_rounds,2.1780526770293607,2.1279748488773746,2.228674114853195,193
+Reference,0.5,Full-state FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,0.5,Full-state FQI,Value-dependent odds,new_margin,0.04501722656381838,0.0387810261080851,0.05156699515803809,193
+Reference,0.5,Full-state FQI,Value-dependent odds,discount_cannibalization,0.005155946486435064,0.0046999087784169455,0.0056512764818884564,193
+Reference,0.5,Full-state FQI,Value-dependent odds,lost_checkout_margin,0.0011076212341437042,0.0010018274813417818,0.0012174046893210974,193
+Reference,0.5,Full-state FQI,Value-dependent odds,seller_interaction_cost,0.010890263385146804,0.010639874244386874,0.011143370574265976,193
+Reference,0.5,Buyer responsive,Exogenous,seller_increment,0.008770857012893572,0.004860881015901053,0.012961232105979121,193
+Reference,0.5,Buyer responsive,Exogenous,buyer_increment,0.00901690070367502,0.008005008151283622,0.010044521417911475,193
+Reference,0.5,Buyer responsive,Exogenous,joint_increment,0.01778775771656859,0.012950140880812264,0.022762619667671173,193
+Reference,0.5,Buyer responsive,Exogenous,conversion_increment,0.14423575129533678,0.13576708225388603,0.15278902202072536,193
+Reference,0.5,Buyer responsive,Exogenous,negotiation_rounds,1.7141515544041455,1.6874975712435236,1.7412613341968914,193
+Reference,0.5,Buyer responsive,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,0.5,Buyer responsive,Exogenous,new_margin,0.029626291175201994,0.025518230702539977,0.034020415830899944,193
+Reference,0.5,Buyer responsive,Exogenous,discount_cannibalization,0.011509737477749835,0.011072435727033845,0.011965013033706317,193
+Reference,0.5,Buyer responsive,Exogenous,lost_checkout_margin,0.0007749389125378632,0.0006570191414750897,0.0008976691304888376,193
+Reference,0.5,Buyer responsive,Exogenous,seller_interaction_cost,0.008570757772020725,0.008437487856217616,0.008706306670984456,193
+Reference,0.5,Buyer responsive,Value-dependent odds,seller_increment,0.020696544387918632,0.015289124725173197,0.026419303123048715,193
+Reference,0.5,Buyer responsive,Value-dependent odds,buyer_increment,0.0052724580294530735,0.004158246187682093,0.006368133430796411,193
+Reference,0.5,Buyer responsive,Value-dependent odds,joint_increment,0.025969002417371708,0.019537216836421713,0.03264865375622066,193
+Reference,0.5,Buyer responsive,Value-dependent odds,conversion_increment,0.19412780656303974,0.1829436528497409,0.20553135794473223,193
+Reference,0.5,Buyer responsive,Value-dependent odds,negotiation_rounds,2.123078583765112,2.088966968911917,2.158122841105354,193
+Reference,0.5,Buyer responsive,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,0.5,Buyer responsive,Value-dependent odds,new_margin,0.039501721566935995,0.034024307603386636,0.04536055444119992,193
+Reference,0.5,Buyer responsive,Value-dependent odds,discount_cannibalization,0.00767315831849989,0.007381623818022563,0.007976675355804213,193
+Reference,0.5,Buyer responsive,Value-dependent odds,lost_checkout_margin,0.0005166259416919087,0.000438012760983393,0.0005984460869925583,193
+Reference,0.5,Buyer responsive,Value-dependent odds,seller_interaction_cost,0.01061539291882556,0.010444834844559587,0.010790614205526773,193
+Reference,0.5,Time concession,Exogenous,seller_increment,0.011487760604846853,0.007493123457254112,0.015717239431112345,193
+Reference,0.5,Time concession,Exogenous,buyer_increment,0.005822530101776236,0.004738365719250834,0.006951272129806962,193
+Reference,0.5,Time concession,Exogenous,joint_increment,0.017310290706623085,0.012317765264232856,0.022387300146818393,193
+Reference,0.5,Time concession,Exogenous,conversion_increment,0.147684585492228,0.13875688147668394,0.15646089702072538,193
+Reference,0.5,Time concession,Exogenous,negotiation_rounds,1.7690414507772023,1.7409002590673577,1.7974425194300518,193
+Reference,0.5,Time concession,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,0.5,Time concession,Exogenous,new_margin,0.030456875261571745,0.026226221622282084,0.03494996369189127,193
+Reference,0.5,Time concession,Exogenous,discount_cannibalization,0.00895833444043439,0.008490067540662453,0.009449153020098824,193
+Reference,0.5,Time concession,Exogenous,lost_checkout_margin,0.0011655729624044926,0.0010208231529420025,0.0013218345433428681,193
+Reference,0.5,Time concession,Exogenous,seller_interaction_cost,0.00884520725388601,0.008704501295336786,0.00898721259715026,193
+Reference,0.5,Time concession,Value-dependent odds,seller_increment,0.02305376415274193,0.01753280057420647,0.02889354505887003,193
+Reference,0.5,Time concession,Value-dependent odds,buyer_increment,0.0029606792526447484,0.00176508448598112,0.004130823055654631,193
+Reference,0.5,Time concession,Value-dependent odds,joint_increment,0.026014443405386677,0.019351750677542946,0.03286397109225748,193
+Reference,0.5,Time concession,Value-dependent odds,conversion_increment,0.19964378238341968,0.18777498920552677,0.21131368739205528,193
+Reference,0.5,Time concession,Value-dependent odds,negotiation_rounds,2.1612262521588947,2.126055159758204,2.1976063255613125,193
+Reference,0.5,Time concession,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,0.5,Time concession,Value-dependent odds,new_margin,0.04060916701542899,0.03496829549637611,0.04659995158918835,193
+Reference,0.5,Time concession,Value-dependent odds,discount_cannibalization,0.005972222960289593,0.0056600450271083015,0.006299435346732549,193
+Reference,0.5,Time concession,Value-dependent odds,lost_checkout_margin,0.000777048641602995,0.0006805487686280016,0.0008812230288952453,193
+Reference,0.5,Time concession,Value-dependent odds,seller_interaction_cost,0.010806131260794473,0.01063027579879102,0.010988031627806562,193
+Reference,0.0,Clock-only FQI,Exogenous,seller_increment,0.013261114204347313,0.009124188708463874,0.017641891623937696,193
+Reference,0.0,Clock-only FQI,Exogenous,buyer_increment,0.004280799213564796,0.002054219036250663,0.006572543785273311,193
+Reference,0.0,Clock-only FQI,Exogenous,joint_increment,0.017541913417912107,0.011355650968416153,0.024010790670616376,193
+Reference,0.0,Clock-only FQI,Exogenous,conversion_increment,0.15481865284974095,0.14108937823834197,0.1686056509067357,193
+Reference,0.0,Clock-only FQI,Exogenous,negotiation_rounds,1.9080440414507769,1.859523639896373,1.9572746113989636,193
+Reference,0.0,Clock-only FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,0.0,Clock-only FQI,Exogenous,new_margin,0.03242299020549068,0.027798359406134083,0.03728221987836648,193
+Reference,0.0,Clock-only FQI,Exogenous,discount_cannibalization,0.007508972903471291,0.006672829244863522,0.008422140098433954,193
+Reference,0.0,Clock-only FQI,Exogenous,lost_checkout_margin,0.0021126828904181848,0.0019337624615981784,0.002299288135026944,193
+Reference,0.0,Clock-only FQI,Exogenous,seller_interaction_cost,0.009540220207253886,0.009297618199481867,0.009786373056994818,193
+Reference,0.0,Clock-only FQI,Value-dependent odds,seller_increment,0.025539575651463666,0.019631506819921818,0.03178216614078778,193
+Reference,0.0,Clock-only FQI,Value-dependent odds,buyer_increment,0.0025251214087525817,0.00013201707610114406,0.00494784112985639,193
+Reference,0.0,Clock-only FQI,Value-dependent odds,joint_increment,0.028064697060216248,0.019799866068467405,0.036615919800516344,193
+Reference,0.0,Clock-only FQI,Value-dependent odds,conversion_increment,0.21148531951640762,0.19339863989637304,0.22967805483592396,193
+Reference,0.0,Clock-only FQI,Value-dependent odds,negotiation_rounds,2.2553281519861827,2.196813687392055,2.3138714378238343,193
+Reference,0.0,Clock-only FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,0.0,Clock-only FQI,Value-dependent odds,new_margin,0.0432306536073209,0.03706447920817878,0.049709626504488645,193
+Reference,0.0,Clock-only FQI,Value-dependent odds,discount_cannibalization,0.005005981935647527,0.004448552829909014,0.005614760065622636,193
+Reference,0.0,Clock-only FQI,Value-dependent odds,lost_checkout_margin,0.0014084552602787897,0.0012891749743987855,0.0015328587566846295,193
+Reference,0.0,Clock-only FQI,Value-dependent odds,seller_interaction_cost,0.011276640759930914,0.010984068436960275,0.01156935718911917,193
+Reference,0.0,Full-state FQI,Exogenous,seller_increment,0.015165633579127116,0.010916095206185486,0.019669837035433374,193
+Reference,0.0,Full-state FQI,Exogenous,buyer_increment,0.0024248751870479344,0.0007217628171164196,0.0042401572361468525,193
+Reference,0.0,Full-state FQI,Exogenous,joint_increment,0.01759050876617505,0.011743615861988892,0.023810278615703343,193
+Reference,0.0,Full-state FQI,Exogenous,conversion_increment,0.15488665803108806,0.14289038212435234,0.16676497733160625,193
+Reference,0.0,Full-state FQI,Exogenous,negotiation_rounds,1.9176619170984455,1.8763591321243522,1.9580000000000002,193
+Reference,0.0,Full-state FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,0.0,Full-state FQI,Exogenous,new_margin,0.03390271155193934,0.029241563622668863,0.03881399211073767,193
+Reference,0.0,Full-state FQI,Exogenous,discount_cannibalization,0.0069244625723875585,0.006251564197411419,0.0076586233534551695,193
+Reference,0.0,Full-state FQI,Exogenous,lost_checkout_margin,0.002224305814932429,0.002039698803138348,0.002424417997060901,193
+Reference,0.0,Full-state FQI,Exogenous,seller_interaction_cost,0.009588309585492227,0.009381795660621764,0.00979,193
+Reference,0.0,Full-state FQI,Value-dependent odds,seller_increment,0.027776306080469167,0.0217425070111425,0.034025259272098714,193
+Reference,0.0,Full-state FQI,Value-dependent odds,buyer_increment,0.0004658963532882532,-0.0013616814518445169,0.002377671706816802,193
+Reference,0.0,Full-state FQI,Value-dependent odds,joint_increment,0.028242202433757423,0.0205390638336231,0.03651682323989977,193
+Reference,0.0,Full-state FQI,Value-dependent odds,conversion_increment,0.21171200345423144,0.19596006044905007,0.22737505397236613,193
+Reference,0.0,Full-state FQI,Value-dependent odds,negotiation_rounds,2.265626079447323,2.215717616580311,2.3156622409326424,193
+Reference,0.0,Full-state FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,0.0,Full-state FQI,Value-dependent odds,new_margin,0.04520361540258578,0.0389887514968918,0.05175198948098355,193
+Reference,0.0,Full-state FQI,Value-dependent odds,discount_cannibalization,0.004616308381591706,0.004167709464940946,0.005105748902303445,193
+Reference,0.0,Full-state FQI,Value-dependent odds,lost_checkout_margin,0.0014828705432882857,0.0013597992020922317,0.0016162786647072672,193
+Reference,0.0,Full-state FQI,Value-dependent odds,seller_interaction_cost,0.011328130397236612,0.011078588082901554,0.011578311204663213,193
+Reference,0.0,Buyer responsive,Exogenous,seller_increment,0.011036690150738104,0.0073049323802375065,0.015045954743033463,193
+Reference,0.0,Buyer responsive,Exogenous,buyer_increment,0.0010090171877297984,-1.7468289917261255e-05,0.002077445874061454,193
+Reference,0.0,Buyer responsive,Exogenous,joint_increment,0.012045707338467902,0.007365479882980006,0.016956790804085204,193
+Reference,0.0,Buyer responsive,Exogenous,conversion_increment,0.1352169689119171,0.12689362046632124,0.14355731865284976,193
+Reference,0.0,Buyer responsive,Exogenous,negotiation_rounds,1.986658031088083,1.961136658031088,2.011113989637306,193
+Reference,0.0,Buyer responsive,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,0.0,Buyer responsive,Exogenous,new_margin,0.03016598767308967,0.02616495439750689,0.034459677688342495,193
+Reference,0.0,Buyer responsive,Exogenous,discount_cannibalization,0.006927212062643065,0.006477609989637559,0.007384970654743197,193
+Reference,0.0,Buyer responsive,Exogenous,lost_checkout_margin,0.002268795304268086,0.0020584841036604615,0.002492120366827,193
+Reference,0.0,Buyer responsive,Exogenous,seller_interaction_cost,0.009933290155440415,0.009805683290155442,0.010055569948186531,193
+Reference,0.0,Buyer responsive,Value-dependent odds,seller_increment,0.022292501968907637,0.017138934942994503,0.027825028228913362,193
+Reference,0.0,Buyer responsive,Value-dependent odds,buyer_increment,-0.0014386775868282505,-0.0025328243114413965,-0.0003264248330603817,193
+Reference,0.0,Buyer responsive,Value-dependent odds,joint_increment,0.020853824382079382,0.01465114128599801,0.02738292059363469,193
+Reference,0.0,Buyer responsive,Value-dependent odds,conversion_increment,0.18543825561312605,0.17450318436960274,0.1965465781519862,193
+Reference,0.0,Buyer responsive,Value-dependent odds,negotiation_rounds,2.359628670120898,2.3279344775474957,2.391085384283247,193
+Reference,0.0,Buyer responsive,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,0.0,Buyer responsive,Value-dependent odds,new_margin,0.04022131689745289,0.034886605863342524,0.04594623691778998,193
+Reference,0.0,Buyer responsive,Value-dependent odds,discount_cannibalization,0.004618141375095376,0.004318406659758371,0.0049233137698287965,193
+Reference,0.0,Buyer responsive,Value-dependent odds,lost_checkout_margin,0.0015125302028453907,0.0013723227357736406,0.0016614135778846664,193
+Reference,0.0,Buyer responsive,Value-dependent odds,seller_interaction_cost,0.011798143350604489,0.011639672387737476,0.011955426921416235,193
+Reference,0.0,Time concession,Exogenous,seller_increment,0.011586142200641301,0.007780006373674429,0.015712132210023683,193
+Reference,0.0,Time concession,Exogenous,buyer_increment,0.0016074536926567436,0.0004888477756673911,0.002753255457635194,193
+Reference,0.0,Time concession,Exogenous,joint_increment,0.013193595893298047,0.008310863013068387,0.01823295570060619,193
+Reference,0.0,Time concession,Exogenous,conversion_increment,0.1410621761658031,0.1322526716321244,0.14997004533678754,193
+Reference,0.0,Time concession,Exogenous,negotiation_rounds,1.9635362694300518,1.9365908354922279,1.9896737370466322,193
+Reference,0.0,Time concession,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,0.0,Time concession,Exogenous,new_margin,0.030641173973515394,0.026519324043195295,0.03501009027937296,193
+Reference,0.0,Time concession,Exogenous,discount_cannibalization,0.007004315576983671,0.006508349070330525,0.007521428700378635,193
+Reference,0.0,Time concession,Exogenous,lost_checkout_margin,0.0022330348487401654,0.0020248992959349373,0.002456577947151646,193
+Reference,0.0,Time concession,Exogenous,seller_interaction_cost,0.00981768134715026,0.00968295417746114,0.009948368685233161,193
+Reference,0.0,Time concession,Value-dependent odds,seller_increment,0.023045110610059556,0.01769565593793335,0.028767686850602173,193
+Reference,0.0,Time concession,Value-dependent odds,buyer_increment,-0.0007023145384040983,-0.0018802080756274522,0.00048673675919027557,193
+Reference,0.0,Time concession,Value-dependent odds,joint_increment,0.022342796071655457,0.01591009880530931,0.029126857021495985,193
+Reference,0.0,Time concession,Value-dependent odds,conversion_increment,0.19317789291882556,0.18173494170984456,0.20491391407599308,193
+Reference,0.0,Time concession,Value-dependent odds,negotiation_rounds,2.3303108808290154,2.297127590673575,2.362725064766839,193
+Reference,0.0,Time concession,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,0.0,Time concession,Value-dependent odds,new_margin,0.040854898631353866,0.035359098724260386,0.04668012037249729,193
+Reference,0.0,Time concession,Value-dependent odds,discount_cannibalization,0.004669543717989114,0.004338899380220349,0.005014285800252422,193
+Reference,0.0,Time concession,Value-dependent odds,lost_checkout_margin,0.0014886898991601097,0.0013499328639566246,0.0016377186314344302,193
+Reference,0.0,Time concession,Value-dependent odds,seller_interaction_cost,0.011651554404145078,0.011485637953367874,0.011813625323834195,193
+Reference,1.0,Clock-only FQI,Exogenous,seller_increment,0.022873604036556854,0.018135898496920575,0.027903559938372745,193
+Reference,1.0,Clock-only FQI,Exogenous,buyer_increment,0.004012673950380427,0.002435803736027807,0.005672874114396359,193
+Reference,1.0,Clock-only FQI,Exogenous,joint_increment,0.02688627798693728,0.020613834763305038,0.03337038051443543,193
+Reference,1.0,Clock-only FQI,Exogenous,conversion_increment,0.17069300518134717,0.1573937823834197,0.1841097797927461,193
+Reference,1.0,Clock-only FQI,Exogenous,negotiation_rounds,1.4381282383419691,1.3974464054404148,1.4789261658031088,193
+Reference,1.0,Clock-only FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,1.0,Clock-only FQI,Exogenous,new_margin,0.03588680806901082,0.03088210049314952,0.04112754402056128,193
+Reference,1.0,Clock-only FQI,Exogenous,discount_cannibalization,0.005822562840744114,0.005220295752534628,0.006470353248525167,193
+Reference,1.0,Clock-only FQI,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Reference,1.0,Clock-only FQI,Exogenous,seller_interaction_cost,0.007190641191709844,0.006987232027202073,0.007394630829015545,193
+Reference,1.0,Clock-only FQI,Value-dependent odds,seller_increment,0.03483105625690694,0.028268090998408348,0.04173856650871771,193
+Reference,1.0,Clock-only FQI,Value-dependent odds,buyer_increment,0.0019197323543462196,0.0001409395145014722,0.003791694083045567,193
+Reference,1.0,Clock-only FQI,Value-dependent odds,joint_increment,0.03675078861125316,0.028381145531662655,0.04538662997779646,193
+Reference,1.0,Clock-only FQI,Value-dependent odds,conversion_increment,0.22759067357512952,0.20985837651122624,0.24547970639032812,193
+Reference,1.0,Clock-only FQI,Value-dependent odds,negotiation_rounds,1.8272625215889462,1.772672603626943,1.882645077720207,193
+Reference,1.0,Clock-only FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,1.0,Clock-only FQI,Value-dependent odds,new_margin,0.047849077425347754,0.04117613399086602,0.05483672536074838,193
+Reference,1.0,Clock-only FQI,Value-dependent odds,discount_cannibalization,0.003881708560496076,0.003480197168356418,0.004313568832350111,193
+Reference,1.0,Clock-only FQI,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Reference,1.0,Clock-only FQI,Value-dependent odds,seller_interaction_cost,0.009136312607944732,0.008863363018134715,0.009413225388601038,193
+Reference,1.0,Full-state FQI,Exogenous,seller_increment,0.025998580466946548,0.021244721535274774,0.030945748981111684,193
+Reference,1.0,Full-state FQI,Exogenous,buyer_increment,-0.0005720605893664776,-0.001769818295743039,0.0006940903831737901,193
+Reference,1.0,Full-state FQI,Exogenous,joint_increment,0.025426519877580066,0.019565330005705133,0.03164409819427629,193
+Reference,1.0,Full-state FQI,Exogenous,conversion_increment,0.1672538860103627,0.15561965673575132,0.17895806347150262,193
+Reference,1.0,Full-state FQI,Exogenous,negotiation_rounds,1.5187564766839379,1.485225226683938,1.5535691386010362,193
+Reference,1.0,Full-state FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,1.0,Full-state FQI,Exogenous,new_margin,0.035403073326686754,0.03056770482369918,0.0405182218479244,193
+Reference,1.0,Full-state FQI,Exogenous,discount_cannibalization,0.0018107104763205185,0.001494294318715326,0.002181241413896345,193
+Reference,1.0,Full-state FQI,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Reference,1.0,Full-state FQI,Exogenous,seller_interaction_cost,0.0075937823834196895,0.007426126133419691,0.007767845693005182,193
+Reference,1.0,Full-state FQI,Value-dependent odds,seller_increment,0.036323123254477466,0.029866451910266816,0.04308990138270312,193
+Reference,1.0,Full-state FQI,Value-dependent odds,buyer_increment,-0.001518678789033922,-0.002931968709543593,-4.2500217312816935e-05,193
+Reference,1.0,Full-state FQI,Value-dependent odds,joint_increment,0.03480444446544354,0.02697715064149262,0.04310948381716057,193
+Reference,1.0,Full-state FQI,Value-dependent odds,conversion_increment,0.2230051813471503,0.20749287564766838,0.23861075129533676,193
+Reference,1.0,Full-state FQI,Value-dependent odds,negotiation_rounds,1.9347668393782385,1.889460708117444,1.981298035405872,193
+Reference,1.0,Full-state FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,1.0,Full-state FQI,Value-dependent odds,new_margin,0.04720409776891567,0.040756939764932235,0.05402429579723252,193
+Reference,1.0,Full-state FQI,Value-dependent odds,discount_cannibalization,0.0012071403175470121,0.0009961962124768842,0.0014541609425975635,193
+Reference,1.0,Full-state FQI,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Reference,1.0,Full-state FQI,Value-dependent odds,seller_interaction_cost,0.009673834196891192,0.00944730354058722,0.00990649017702936,193
+Reference,1.0,Buyer responsive,Exogenous,seller_increment,0.014937160421741683,0.010568895525020201,0.019586518653802332,193
+Reference,1.0,Buyer responsive,Exogenous,buyer_increment,0.009616737003530149,0.00888528418882245,0.010337555823805729,193
+Reference,1.0,Buyer responsive,Exogenous,joint_increment,0.024553897425271833,0.019574783354684232,0.029761990507541126,193
+Reference,1.0,Buyer responsive,Exogenous,conversion_increment,0.15835492227979275,0.15009715025906736,0.16680699481865285,193
+Reference,1.0,Buyer responsive,Exogenous,negotiation_rounds,1.3838406735751299,1.3603286917098445,1.4084545012953364,193
+Reference,1.0,Buyer responsive,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,1.0,Buyer responsive,Exogenous,new_margin,0.033614634231656074,0.029098637962538258,0.03838796721734322,193
+Reference,1.0,Buyer responsive,Exogenous,discount_cannibalization,0.011758270442038745,0.01134840473804789,0.012157391729764003,193
+Reference,1.0,Buyer responsive,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Reference,1.0,Buyer responsive,Exogenous,seller_interaction_cost,0.006919203367875648,0.006801643458549224,0.007042272506476685,193
+Reference,1.0,Buyer responsive,Value-dependent odds,seller_increment,0.028206269838016464,0.02223687497569282,0.0344940846635878,193
+Reference,1.0,Buyer responsive,Value-dependent odds,buyer_increment,0.005434678024349427,0.004707224628444187,0.006156511430128728,193
+Reference,1.0,Buyer responsive,Value-dependent odds,joint_increment,0.03364094786236589,0.027001853842515074,0.040576511954787134,193
+Reference,1.0,Buyer responsive,Value-dependent odds,conversion_increment,0.211139896373057,0.2001295336787565,0.2224093264248705,193
+Reference,1.0,Buyer responsive,Value-dependent odds,negotiation_rounds,1.7548791018998273,1.722946351468048,1.7890786917098447,193
+Reference,1.0,Buyer responsive,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,1.0,Buyer responsive,Value-dependent odds,new_margin,0.044819512308874765,0.038798183950050996,0.05118395628979096,193
+Reference,1.0,Buyer responsive,Value-dependent odds,discount_cannibalization,0.007838846961359162,0.007565603158698592,0.008104927819842669,193
+Reference,1.0,Buyer responsive,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Reference,1.0,Buyer responsive,Value-dependent odds,seller_interaction_cost,0.008774395509499136,0.00861473175734024,0.008945393458549222,193
+Reference,1.0,Time concession,Exogenous,seller_increment,0.022994627137944954,0.018589451365234475,0.02764843682602944,193
+Reference,1.0,Time concession,Exogenous,buyer_increment,0.0004958851611992211,-0.00024067833818229017,0.0012447127762334148,193
+Reference,1.0,Time concession,Exogenous,joint_increment,0.023490512299144173,0.01836332010667333,0.028783822545590018,193
+Reference,1.0,Time concession,Exogenous,conversion_increment,0.15861398963730572,0.14974012305699483,0.16732512953367878,193
+Reference,1.0,Time concession,Exogenous,negotiation_rounds,1.463309585492228,1.4376279145077722,1.4903554080310883,193
+Reference,1.0,Time concession,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Reference,1.0,Time concession,Exogenous,new_margin,0.03548481043286316,0.030897431231062703,0.04027954964694063,193
+Reference,1.0,Time concession,Exogenous,discount_cannibalization,0.0051736353674570615,0.004836653502641234,0.0055308973272869865,193
+Reference,1.0,Time concession,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Reference,1.0,Time concession,Exogenous,seller_interaction_cost,0.0073165479274611405,0.0071881395725388614,0.0074517770401554394,193
+Reference,1.0,Time concession,Value-dependent odds,seller_increment,0.03455980207656637,0.028483982544787727,0.04090416308479211,193
+Reference,1.0,Time concession,Value-dependent odds,buyer_increment,-0.0023367010490373524,-0.0031090593728511223,-0.0015678928798403915,193
+Reference,1.0,Time concession,Value-dependent odds,joint_increment,0.032223101027529025,0.025385285194422545,0.0392812312265898,193
+Reference,1.0,Time concession,Value-dependent odds,conversion_increment,0.21148531951640762,0.19965349740932645,0.2231001727115717,193
+Reference,1.0,Time concession,Value-dependent odds,negotiation_rounds,1.8608376511226252,1.8261625647668394,1.8972069300518133,193
+Reference,1.0,Time concession,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Reference,1.0,Time concession,Value-dependent odds,new_margin,0.047313080577150876,0.041196574974750266,0.05370606619592083,193
+Reference,1.0,Time concession,Value-dependent odds,discount_cannibalization,0.0034490902449713745,0.0032244356684274895,0.0036872648848579907,193
+Reference,1.0,Time concession,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Reference,1.0,Time concession,Value-dependent odds,seller_interaction_cost,0.009304188255613126,0.009130812823834197,0.00948603465025907,193
+Stubborn offers,0.25,Clock-only FQI,Exogenous,seller_increment,-0.014994178655287033,-0.018320236948838744,-0.01120955439095883,193
+Stubborn offers,0.25,Clock-only FQI,Exogenous,buyer_increment,0.010288690734947158,0.006279875286927912,0.014267511164865566,193
+Stubborn offers,0.25,Clock-only FQI,Exogenous,joint_increment,-0.004705487920339876,-0.011638164897778058,0.002673902246311728,193
+Stubborn offers,0.25,Clock-only FQI,Exogenous,conversion_increment,0.05276230569948187,0.03472716968911917,0.07038252914507773,193
+Stubborn offers,0.25,Clock-only FQI,Exogenous,negotiation_rounds,2.040887305699482,1.9848733808290155,2.095568652849741,193
+Stubborn offers,0.25,Clock-only FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,0.25,Clock-only FQI,Exogenous,new_margin,0.01601461195446555,0.012078501924822757,0.020290996272698394,193
+Stubborn offers,0.25,Clock-only FQI,Exogenous,discount_cannibalization,0.01162079811512279,0.010179532942201705,0.013131780695841687,193
+Stubborn offers,0.25,Clock-only FQI,Exogenous,lost_checkout_margin,0.009183555966132387,0.0086608803979865,0.009739151561814676,193
+Stubborn offers,0.25,Clock-only FQI,Exogenous,seller_interaction_cost,0.01020443652849741,0.009924366904145079,0.010477843264248705,193
+Stubborn offers,0.25,Clock-only FQI,Value-dependent odds,seller_increment,-0.004430807852361128,-0.009293499614015484,0.0010428851635576836,193
+Stubborn offers,0.25,Clock-only FQI,Value-dependent odds,buyer_increment,0.009515498630428741,0.005247884524938686,0.01379940313841171,193
+Stubborn offers,0.25,Clock-only FQI,Value-dependent odds,joint_increment,0.005084690778067614,-0.0037757537797623586,0.014579558243474984,193
+Stubborn offers,0.25,Clock-only FQI,Value-dependent odds,conversion_increment,0.09543393782383418,0.0734369602763385,0.11722063903281518,193
+Stubborn offers,0.25,Clock-only FQI,Value-dependent odds,negotiation_rounds,2.382810880829015,2.320511010362694,2.4441479922279794,193
+Stubborn offers,0.25,Clock-only FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,0.25,Clock-only FQI,Value-dependent odds,new_margin,0.0213528159392874,0.01610466923309701,0.02705466169693119,193
+Stubborn offers,0.25,Clock-only FQI,Value-dependent odds,discount_cannibalization,0.0077471987434151925,0.006786355294801136,0.008754520463894456,193
+Stubborn offers,0.25,Clock-only FQI,Value-dependent odds,lost_checkout_margin,0.006122370644088257,0.005773920265324335,0.006492767707876452,193
+Stubborn offers,0.25,Clock-only FQI,Value-dependent odds,seller_interaction_cost,0.011914054404145077,0.011602555051813472,0.012220739961139898,193
+Stubborn offers,0.25,Full-state FQI,Exogenous,seller_increment,-0.017462711633365373,-0.020510874941622365,-0.013982169870248397,193
+Stubborn offers,0.25,Full-state FQI,Exogenous,buyer_increment,0.0012026746356668542,-0.0017740343789339518,0.0043450549271724145,193
+Stubborn offers,0.25,Full-state FQI,Exogenous,joint_increment,-0.01626003699769852,-0.02221117040899497,-0.009911139347322488,193
+Stubborn offers,0.25,Full-state FQI,Exogenous,conversion_increment,0.01718588082901554,0.0022245790155440426,0.032506638601036274,193
+Stubborn offers,0.25,Full-state FQI,Exogenous,negotiation_rounds,2.129779792746114,2.0855629857512956,2.1715739961139895,193
+Stubborn offers,0.25,Full-state FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,0.25,Full-state FQI,Exogenous,new_margin,0.013257415191673467,0.00970422153411443,0.017093516487372153,193
+Stubborn offers,0.25,Full-state FQI,Exogenous,discount_cannibalization,0.007744969463261144,0.00662178691651493,0.00892127555773021,193
+Stubborn offers,0.25,Full-state FQI,Exogenous,lost_checkout_margin,0.012326258398047128,0.011728905272655596,0.012904775995451334,193
+Stubborn offers,0.25,Full-state FQI,Exogenous,seller_interaction_cost,0.01064889896373057,0.010427814928756475,0.010857869980569947,193
+Stubborn offers,0.25,Full-state FQI,Value-dependent odds,seller_increment,-0.008088159631248834,-0.012486164833538805,-0.0031811465780759588,193
+Stubborn offers,0.25,Full-state FQI,Value-dependent odds,buyer_increment,0.0004984842913695217,-0.002664407397669543,0.0037856371882974728,193
+Stubborn offers,0.25,Full-state FQI,Value-dependent odds,joint_increment,-0.0075896753398793145,-0.015051057716356897,0.0004738035331145822,193
+Stubborn offers,0.25,Full-state FQI,Value-dependent odds,conversion_increment,0.05352547495682212,0.035204069516407595,0.07240938039723661,193
+Stubborn offers,0.25,Full-state FQI,Value-dependent odds,negotiation_rounds,2.4767789291882556,2.4254322107081174,2.526645077720207,193
+Stubborn offers,0.25,Full-state FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,0.25,Full-state FQI,Value-dependent odds,new_margin,0.017676553588897956,0.012938962045485908,0.022791355316496197,193
+Stubborn offers,0.25,Full-state FQI,Value-dependent odds,discount_cannibalization,0.005163312975507429,0.004414524611009953,0.005947517038486806,193
+Stubborn offers,0.25,Full-state FQI,Value-dependent odds,lost_checkout_margin,0.008217505598698084,0.007819270181770395,0.008603183996967556,193
+Stubborn offers,0.25,Full-state FQI,Value-dependent odds,seller_interaction_cost,0.012383894645941279,0.012127161053540588,0.012633225388601036,193
+Stubborn offers,0.25,Buyer responsive,Exogenous,seller_increment,-0.017419324082232988,-0.019701163605200387,-0.014779470346037627,193
+Stubborn offers,0.25,Buyer responsive,Exogenous,buyer_increment,0.0036569666581445512,0.001555074134734144,0.00573879884768366,193
+Stubborn offers,0.25,Buyer responsive,Exogenous,joint_increment,-0.013762357424088436,-0.017858404226115256,-0.009282159450645016,193
+Stubborn offers,0.25,Buyer responsive,Exogenous,conversion_increment,0.027121113989637305,0.01737329987046632,0.03711220854922279,193
+Stubborn offers,0.25,Buyer responsive,Exogenous,negotiation_rounds,2.113633419689119,2.085098769430052,2.1416815090673578,193
+Stubborn offers,0.25,Buyer responsive,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,0.25,Buyer responsive,Exogenous,new_margin,0.012058300184886246,0.009342638154436773,0.015071611630462597,193
+Stubborn offers,0.25,Buyer responsive,Exogenous,discount_cannibalization,0.009483666444169985,0.008624354199310014,0.010348165288715799,193
+Stubborn offers,0.25,Buyer responsive,Exogenous,lost_checkout_margin,0.009425790724503653,0.009040963787376856,0.009825132664634641,193
+Stubborn offers,0.25,Buyer responsive,Exogenous,seller_interaction_cost,0.010568167098445597,0.01042549384715026,0.01070840754533679,193
+Stubborn offers,0.25,Buyer responsive,Value-dependent odds,seller_increment,-0.008960026294258794,-0.012282424830622697,-0.00516141063561276,193
+Stubborn offers,0.25,Buyer responsive,Value-dependent odds,buyer_increment,0.0019194246443436556,-0.00020994042957704544,0.004047588195268412,193
+Stubborn offers,0.25,Buyer responsive,Value-dependent odds,joint_increment,-0.007040601649915139,-0.01226222788672227,-0.001263400568887297,193
+Stubborn offers,0.25,Buyer responsive,Value-dependent odds,conversion_increment,0.05987694300518135,0.04796928972366148,0.07194003670120894,193
+Stubborn offers,0.25,Buyer responsive,Value-dependent odds,negotiation_rounds,2.4862910189982728,2.452828151986183,2.5190042098445593,193
+Stubborn offers,0.25,Buyer responsive,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,0.25,Buyer responsive,Value-dependent odds,new_margin,0.01607773357984833,0.012456850872582364,0.02009548217395013,193
+Stubborn offers,0.25,Buyer responsive,Value-dependent odds,discount_cannibalization,0.006322444296113323,0.005749569466206675,0.006898776859143864,193
+Stubborn offers,0.25,Buyer responsive,Value-dependent odds,lost_checkout_margin,0.006283860483002436,0.00602730919158457,0.006550088443089761,193
+Stubborn offers,0.25,Buyer responsive,Value-dependent odds,seller_interaction_cost,0.012431455094991365,0.012264140759930917,0.012595021049222797,193
+Stubborn offers,0.25,Time concession,Exogenous,seller_increment,-0.01764344594805476,-0.019979372465307652,-0.014969091486449001,193
+Stubborn offers,0.25,Time concession,Exogenous,buyer_increment,0.0036302396198695528,0.001388301638343811,0.005829026672153278,193
+Stubborn offers,0.25,Time concession,Exogenous,joint_increment,-0.014013206328185205,-0.018256303895499985,-0.009422771730663729,193
+Stubborn offers,0.25,Time concession,Exogenous,conversion_increment,0.028545984455958552,0.01834520725388601,0.03900785297927461,193
+Stubborn offers,0.25,Time concession,Exogenous,negotiation_rounds,2.1220854922279795,2.0925170012953367,2.151231379533679,193
+Stubborn offers,0.25,Time concession,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,0.25,Time concession,Exogenous,new_margin,0.012198104796611198,0.009428479893023731,0.015266953271073256,193
+Stubborn offers,0.25,Time concession,Exogenous,discount_cannibalization,0.009261902110372236,0.008360530096128279,0.010187214685362132,193
+Stubborn offers,0.25,Time concession,Exogenous,lost_checkout_margin,0.009969221173153823,0.009555671379602693,0.01038954363585427,193
+Stubborn offers,0.25,Time concession,Exogenous,seller_interaction_cost,0.010610427461139896,0.010462585006476684,0.010756156897668396,193
+Stubborn offers,0.25,Time concession,Value-dependent odds,seller_increment,-0.008996052132050458,-0.01241177665037044,-0.005155344469629098,193
+Stubborn offers,0.25,Time concession,Value-dependent odds,buyer_increment,0.0022400307648487443,1.1552077619134445e-05,0.00446734121051727,193
+Stubborn offers,0.25,Time concession,Value-dependent odds,joint_increment,-0.0067560213672017136,-0.0121519811037881,-0.0008495885181145777,193
+Stubborn offers,0.25,Time concession,Value-dependent odds,conversion_increment,0.06322322970639031,0.0508306347150259,0.07601710924006906,193
+Stubborn offers,0.25,Time concession,Value-dependent odds,negotiation_rounds,2.4878886010362695,2.4533425086355782,2.5216326640759927,193
+Stubborn offers,0.25,Time concession,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,0.25,Time concession,Value-dependent odds,new_margin,0.01626413972881493,0.012571306524031644,0.02035593769476433,193
+Stubborn offers,0.25,Time concession,Value-dependent odds,discount_cannibalization,0.006174601406914824,0.005573686730752185,0.006791476456908089,193
+Stubborn offers,0.25,Time concession,Value-dependent odds,lost_checkout_margin,0.006646147448769215,0.006370447586401797,0.006926362423902845,193
+Stubborn offers,0.25,Time concession,Value-dependent odds,seller_interaction_cost,0.012439443005181346,0.012266712543177892,0.012608163320379964,193
+Stubborn offers,0.5,Clock-only FQI,Exogenous,seller_increment,-0.008367044102556615,-0.012031968283361191,-0.00423857383613541,193
+Stubborn offers,0.5,Clock-only FQI,Exogenous,buyer_increment,0.014501191008795314,0.011008395126034649,0.017982985299157782,193
+Stubborn offers,0.5,Clock-only FQI,Exogenous,joint_increment,0.006134146906238701,-0.0008481854690217886,0.013494171326545042,193
+Stubborn offers,0.5,Clock-only FQI,Exogenous,conversion_increment,0.08792098445595854,0.07078222150259067,0.10531096178756477,193
+Stubborn offers,0.5,Clock-only FQI,Exogenous,negotiation_rounds,1.8877655440414507,1.8323809909326425,1.9428784002590673,193
+Stubborn offers,0.5,Clock-only FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,0.5,Clock-only FQI,Exogenous,new_margin,0.01831401093210154,0.014208691403767449,0.022820268488120885,193
+Stubborn offers,0.5,Clock-only FQI,Exogenous,discount_cannibalization,0.01215187684092249,0.01100810818107915,0.013393372981197171,193
+Stubborn offers,0.5,Clock-only FQI,Exogenous,lost_checkout_margin,0.005090350473528413,0.004699407301021703,0.005498312138590042,193
+Stubborn offers,0.5,Clock-only FQI,Exogenous,seller_interaction_cost,0.009438827720207255,0.009161904954663212,0.009714392001295336,193
+Stubborn offers,0.5,Clock-only FQI,Value-dependent odds,seller_increment,0.0016597438621836634,-0.0036707720047147005,0.007492096827413033,193
+Stubborn offers,0.5,Clock-only FQI,Value-dependent odds,buyer_increment,0.013532584891349033,0.009695125991644524,0.017391600145750263,193
+Stubborn offers,0.5,Clock-only FQI,Value-dependent odds,joint_increment,0.015192328753532698,0.006217203215659837,0.02474976795907034,193
+Stubborn offers,0.5,Clock-only FQI,Value-dependent odds,conversion_increment,0.13170120898100174,0.10973364637305699,0.15355737262521588,193
+Stubborn offers,0.5,Clock-only FQI,Value-dependent odds,negotiation_rounds,2.252823834196891,2.187839486183074,2.316347150259067,193
+Stubborn offers,0.5,Clock-only FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,0.5,Clock-only FQI,Value-dependent odds,new_margin,0.02441868124280205,0.018944921871689932,0.030427024650827843,193
+Stubborn offers,0.5,Clock-only FQI,Value-dependent odds,discount_cannibalization,0.008101251227281659,0.007338738787386101,0.008928915320798113,193
+Stubborn offers,0.5,Clock-only FQI,Value-dependent odds,lost_checkout_margin,0.0033935669823522744,0.0031329382006811345,0.0036655414257266952,193
+Stubborn offers,0.5,Clock-only FQI,Value-dependent odds,seller_interaction_cost,0.011264119170984454,0.010939197430915372,0.011581735751295338,193
+Stubborn offers,0.5,Full-state FQI,Exogenous,seller_increment,-0.012542536730679857,-0.01582551729091669,-0.008866609155419791,193
+Stubborn offers,0.5,Full-state FQI,Exogenous,buyer_increment,0.00470874604195369,0.0019257752383918152,0.007646310808803916,193
+Stubborn offers,0.5,Full-state FQI,Exogenous,joint_increment,-0.007833790688726167,-0.013729846870788869,-0.0014495179604485536,193
+Stubborn offers,0.5,Full-state FQI,Exogenous,conversion_increment,0.04308937823834197,0.028664669689119175,0.058047684585492226,193
+Stubborn offers,0.5,Full-state FQI,Exogenous,negotiation_rounds,2.0178886010362693,1.9749838082901556,2.058698834196891,193
+Stubborn offers,0.5,Full-state FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,0.5,Full-state FQI,Exogenous,new_margin,0.01540576466278249,0.011646715080413988,0.01941756759532642,193
+Stubborn offers,0.5,Full-state FQI,Exogenous,discount_cannibalization,0.008847510239658631,0.007888397587038092,0.009888878611441465,193
+Stubborn offers,0.5,Full-state FQI,Exogenous,lost_checkout_margin,0.00901134814862237,0.00850992727849403,0.009461292655100055,193
+Stubborn offers,0.5,Full-state FQI,Exogenous,seller_interaction_cost,0.010089443005181348,0.00987491904145078,0.010293494170984458,193
+Stubborn offers,0.5,Full-state FQI,Value-dependent odds,seller_increment,-0.0032683834511371018,-0.008012249942275916,0.001926031988694885,193
+Stubborn offers,0.5,Full-state FQI,Value-dependent odds,buyer_increment,0.0035255566368792,0.0005596919145580011,0.006683351450712371,193
+Stubborn offers,0.5,Full-state FQI,Value-dependent odds,joint_increment,0.0002571731857420967,-0.00730806545250277,0.008423366198274008,193
+Stubborn offers,0.5,Full-state FQI,Value-dependent odds,conversion_increment,0.07993955094991363,0.06178308506044904,0.09883770509499136,193
+Stubborn offers,0.5,Full-state FQI,Value-dependent odds,negotiation_rounds,2.380699481865285,2.3302625215889465,2.4294380397236615,193
+Stubborn offers,0.5,Full-state FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,0.5,Full-state FQI,Value-dependent odds,new_margin,0.020541019550376658,0.015528953440551984,0.02589009012710189,193
+Stubborn offers,0.5,Full-state FQI,Value-dependent odds,discount_cannibalization,0.00589834015977242,0.00525893172469206,0.006592585740960976,193
+Stubborn offers,0.5,Full-state FQI,Value-dependent odds,lost_checkout_margin,0.006007565432414914,0.005673284852329354,0.006307528436733371,193
+Stubborn offers,0.5,Full-state FQI,Value-dependent odds,seller_interaction_cost,0.011903497409326424,0.011651312607944733,0.012147190198618306,193
+Stubborn offers,0.5,Buyer responsive,Exogenous,seller_increment,-0.006758580058949283,-0.009972828692628064,-0.0031916309235711176,193
+Stubborn offers,0.5,Buyer responsive,Exogenous,buyer_increment,0.010249937973860713,0.008565257669865572,0.012037657627315172,193
+Stubborn offers,0.5,Buyer responsive,Exogenous,joint_increment,0.003491357914911431,-0.0012265381106528021,0.008485872137586795,193
+Stubborn offers,0.5,Buyer responsive,Exogenous,conversion_increment,0.07721826424870466,0.06701708225388602,0.08775906735751295,193
+Stubborn offers,0.5,Buyer responsive,Exogenous,negotiation_rounds,1.8528497409326425,1.8219162888601037,1.8822263601036267,193
+Stubborn offers,0.5,Buyer responsive,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,0.5,Buyer responsive,Exogenous,new_margin,0.01725281746013996,0.01388900033128064,0.020960831485836287,193
+Stubborn offers,0.5,Buyer responsive,Exogenous,discount_cannibalization,0.011673320733400808,0.011035823389306304,0.012338439736504921,193
+Stubborn offers,0.5,Buyer responsive,Exogenous,lost_checkout_margin,0.003073828081025222,0.0028046528037417627,0.003333937232852356,193
+Stubborn offers,0.5,Buyer responsive,Exogenous,seller_interaction_cost,0.00926424870466321,0.009109581444300519,0.009411131800518136,193
+Stubborn offers,0.5,Buyer responsive,Value-dependent odds,seller_increment,0.0018337014453533697,-0.002606330073269882,0.006695332211423318,193
+Stubborn offers,0.5,Buyer responsive,Value-dependent odds,buyer_increment,0.007416780227584232,0.005533111103606188,0.009325587005190867,193
+Stubborn offers,0.5,Buyer responsive,Value-dependent odds,joint_increment,0.009250481672937603,0.003102495259244179,0.015791188094208493,193
+Stubborn offers,0.5,Buyer responsive,Value-dependent odds,conversion_increment,0.11143134715025907,0.09860616364421416,0.12472204231433506,193
+Stubborn offers,0.5,Buyer responsive,Value-dependent odds,negotiation_rounds,2.2677245250431777,2.229852115716753,2.3048612910189985,193
+Stubborn offers,0.5,Buyer responsive,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,0.5,Buyer responsive,Value-dependent odds,new_margin,0.023003756613519947,0.018518667108374187,0.02794777531444839,193
+Stubborn offers,0.5,Buyer responsive,Value-dependent odds,discount_cannibalization,0.007782213822267205,0.007357215592870868,0.008225626491003276,193
+Stubborn offers,0.5,Buyer responsive,Value-dependent odds,lost_checkout_margin,0.0020492187206834814,0.001869768535827842,0.0022226248219015705,193
+Stubborn offers,0.5,Buyer responsive,Value-dependent odds,seller_interaction_cost,0.011338622625215889,0.011149260578583765,0.011524306455094991,193
+Stubborn offers,0.5,Time concession,Exogenous,seller_increment,-0.007935116492705964,-0.010987976338326485,-0.004451230293768127,193
+Stubborn offers,0.5,Time concession,Exogenous,buyer_increment,0.00659235651456652,0.004869696087775361,0.008406921041457367,193
+Stubborn offers,0.5,Time concession,Exogenous,joint_increment,-0.0013427599781394425,-0.005946700179273522,0.0036272698913182924,193
+Stubborn offers,0.5,Time concession,Exogenous,conversion_increment,0.06615932642487046,0.0557318652849741,0.07694624352331605,193
+Stubborn offers,0.5,Time concession,Exogenous,negotiation_rounds,1.9418393782383419,1.9101683937823835,1.9728635038860103,193
+Stubborn offers,0.5,Time concession,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,0.5,Time concession,Exogenous,new_margin,0.01618796819425541,0.012909071515742686,0.01982127006341869,193
+Stubborn offers,0.5,Time concession,Exogenous,discount_cannibalization,0.009271578263038488,0.008653404297171347,0.009937755555195606,193
+Stubborn offers,0.5,Time concession,Exogenous,lost_checkout_margin,0.005142309532731176,0.00484356833514625,0.005454350906964733,193
+Stubborn offers,0.5,Time concession,Exogenous,seller_interaction_cost,0.009709196891191709,0.009550841968911919,0.009864317519430054,193
+Stubborn offers,0.5,Time concession,Value-dependent odds,seller_increment,0.0002909771274578358,-0.003966209096906157,0.005075133165068662,193
+Stubborn offers,0.5,Time concession,Value-dependent odds,buyer_increment,0.004779732778331743,0.0028258984940245906,0.006735013855504417,193
+Stubborn offers,0.5,Time concession,Value-dependent odds,joint_increment,0.005070709905789578,-0.0009647559904352381,0.011585026705018145,193
+Stubborn offers,0.5,Time concession,Value-dependent odds,conversion_increment,0.10159758203799656,0.0884496437823834,0.11524341537132987,193
+Stubborn offers,0.5,Time concession,Value-dependent odds,negotiation_rounds,2.3367443868739204,2.2986809153713295,2.3737073618307427,193
+Stubborn offers,0.5,Time concession,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,0.5,Time concession,Value-dependent odds,new_margin,0.021583957592340546,0.017212095354323588,0.026428360084558254,193
+Stubborn offers,0.5,Time concession,Value-dependent odds,discount_cannibalization,0.006181052175358992,0.0057689361981142296,0.006625170370130403,193
+Stubborn offers,0.5,Time concession,Value-dependent odds,lost_checkout_margin,0.0034282063551541184,0.0032290455567641663,0.0036362339379764886,193
+Stubborn offers,0.5,Time concession,Value-dependent odds,seller_interaction_cost,0.011683721934369604,0.01149340457685665,0.011868536809153715,193
+Stubborn offers,0.0,Clock-only FQI,Exogenous,seller_increment,-0.016444112365967985,-0.019644932619823852,-0.012825909344592764,193
+Stubborn offers,0.0,Clock-only FQI,Exogenous,buyer_increment,0.00398921682829599,0.0004365527276423502,0.0077234264446402094,193
+Stubborn offers,0.0,Clock-only FQI,Exogenous,joint_increment,-0.012454895537671998,-0.0189472878668063,-0.0053721811883511794,193
+Stubborn offers,0.0,Clock-only FQI,Exogenous,conversion_increment,0.02936204663212436,0.012590592616580316,0.04639815414507771,193
+Stubborn offers,0.0,Clock-only FQI,Exogenous,negotiation_rounds,2.1188082901554406,2.067478626943005,2.167474902849741,193
+Stubborn offers,0.0,Clock-only FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,0.0,Clock-only FQI,Exogenous,new_margin,0.01483115034111023,0.011066748158424036,0.018966616277196507,193
+Stubborn offers,0.0,Clock-only FQI,Exogenous,discount_cannibalization,0.008727611810929375,0.0073402217823216945,0.010148942100124134,193
+Stubborn offers,0.0,Clock-only FQI,Exogenous,lost_checkout_margin,0.011953609445371641,0.011433367783790362,0.012480805411471719,193
+Stubborn offers,0.0,Clock-only FQI,Exogenous,seller_interaction_cost,0.010594041450777204,0.010337393134715026,0.010837374514248706,193
+Stubborn offers,0.0,Clock-only FQI,Value-dependent odds,seller_increment,-0.006287764838678918,-0.011000442699123954,-0.001075896802610084,193
+Stubborn offers,0.0,Clock-only FQI,Value-dependent odds,buyer_increment,0.003704086187202091,4.149441278317667e-05,0.007596455557606243,193
+Stubborn offers,0.0,Clock-only FQI,Value-dependent odds,joint_increment,-0.002583678651476829,-0.010831408199972267,0.006413206289943692,193
+Stubborn offers,0.0,Clock-only FQI,Value-dependent odds,conversion_increment,0.07030008635578584,0.049799384715025895,0.09129333981001728,193
+Stubborn offers,0.0,Clock-only FQI,Value-dependent odds,negotiation_rounds,2.4550302245250433,2.3981773531951642,2.5107153497409325,193
+Stubborn offers,0.0,Clock-only FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,0.0,Clock-only FQI,Value-dependent odds,new_margin,0.019774867121480307,0.014755664211232042,0.025288821702928673,193
+Stubborn offers,0.0,Clock-only FQI,Value-dependent odds,discount_cannibalization,0.0058184078739529155,0.004893481188214462,0.006765961400082757,193
+Stubborn offers,0.0,Clock-only FQI,Value-dependent odds,lost_checkout_margin,0.007969072963581092,0.007622245189193575,0.008320536940981147,193
+Stubborn offers,0.0,Clock-only FQI,Value-dependent odds,seller_interaction_cost,0.012275151122625214,0.01199088676597582,0.012553576748704663,193
+Stubborn offers,0.0,Full-state FQI,Exogenous,seller_increment,-0.01915648998242989,-0.02202667734972341,-0.015818432087056192,193
+Stubborn offers,0.0,Full-state FQI,Exogenous,buyer_increment,-0.0032238677478169673,-0.0060791712314669415,-0.0001948212604510472,193
+Stubborn offers,0.0,Full-state FQI,Exogenous,joint_increment,-0.02238035773024686,-0.028062359957354704,-0.016223503203096408,193
+Stubborn offers,0.0,Full-state FQI,Exogenous,conversion_increment,-0.0014896373056994794,-0.01609188795336787,0.014003319300518131,193
+Stubborn offers,0.0,Full-state FQI,Exogenous,negotiation_rounds,2.187402849740933,2.1445463082901557,2.226842616580311,193
+Stubborn offers,0.0,Full-state FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,0.0,Full-state FQI,Exogenous,new_margin,0.012077670882064668,0.008637637386765675,0.01576242722996214,193
+Stubborn offers,0.0,Full-state FQI,Exogenous,discount_cannibalization,0.0054836921253965075,0.004327955156287656,0.006648110967418173,193
+Stubborn offers,0.0,Full-state FQI,Exogenous,lost_checkout_margin,0.01481345449039339,0.01417268149530165,0.01542559743112513,193
+Stubborn offers,0.0,Full-state FQI,Exogenous,seller_interaction_cost,0.010937014248704663,0.010722731541450776,0.011134213082901554,193
+Stubborn offers,0.0,Full-state FQI,Value-dependent odds,seller_increment,-0.0100697524572383,-0.014299317423851585,-0.005347304562818912,193
+Stubborn offers,0.0,Full-state FQI,Value-dependent odds,buyer_increment,-0.0032633876124279065,-0.006192897343888887,-0.00010656081844194312,193
+Stubborn offers,0.0,Full-state FQI,Value-dependent odds,joint_increment,-0.013333140069666207,-0.020524705443725335,-0.005586265698400892,193
+Stubborn offers,0.0,Full-state FQI,Value-dependent odds,conversion_increment,0.03462435233160622,0.016902202072538862,0.053476737910189975,193
+Stubborn offers,0.0,Full-state FQI,Value-dependent odds,negotiation_rounds,2.528376511226252,2.47834682642487,2.57536841537133,193
+Stubborn offers,0.0,Full-state FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,0.0,Full-state FQI,Value-dependent odds,new_margin,0.01610356117608622,0.011516849849020903,0.021016569639949523,193
+Stubborn offers,0.0,Full-state FQI,Value-dependent odds,discount_cannibalization,0.003655794750264339,0.0028853034375251035,0.004432073978278782,193
+Stubborn offers,0.0,Full-state FQI,Value-dependent odds,lost_checkout_margin,0.009875636326928925,0.009448454330201098,0.01028373162075009,193
+Stubborn offers,0.0,Full-state FQI,Value-dependent odds,seller_interaction_cost,0.012641882556131261,0.01239173413212435,0.012876842076856647,193
+Stubborn offers,0.0,Buyer responsive,Exogenous,seller_increment,-0.022007768981210648,-0.02381567150108987,-0.019865569749700454,193
+Stubborn offers,0.0,Buyer responsive,Exogenous,buyer_increment,-0.0038436989053518998,-0.005672186713937595,-0.0019238835048279999,193
+Stubborn offers,0.0,Buyer responsive,Exogenous,joint_increment,-0.02585146788656254,-0.02930512471523023,-0.021965113562924982,193
+Stubborn offers,0.0,Buyer responsive,Exogenous,conversion_increment,-0.007059585492227978,-0.016062580958549223,0.0026238665803108765,193
+Stubborn offers,0.0,Buyer responsive,Exogenous,negotiation_rounds,2.2329339378238338,2.2080958549222798,2.2564459196891193,193
+Stubborn offers,0.0,Buyer responsive,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,0.0,Buyer responsive,Exogenous,new_margin,0.009397604453683003,0.007011649474227031,0.012051915398774097,193
+Stubborn offers,0.0,Buyer responsive,Exogenous,discount_cannibalization,0.005895233042073407,0.005086962812036451,0.00670405777090264,193
+Stubborn offers,0.0,Buyer responsive,Exogenous,lost_checkout_margin,0.014345470703701065,0.013808302729147761,0.014888940671075573,193
+Stubborn offers,0.0,Buyer responsive,Exogenous,seller_interaction_cost,0.011164669689119172,0.0110404792746114,0.011282229598445596,193
+Stubborn offers,0.0,Buyer responsive,Value-dependent odds,seller_increment,-0.013912173588299949,-0.01669423906520742,-0.010773487781602656,193
+Stubborn offers,0.0,Buyer responsive,Value-dependent odds,buyer_increment,-0.00451745176670666,-0.006383422811306677,-0.002570017497727297,193
+Stubborn offers,0.0,Buyer responsive,Value-dependent odds,joint_increment,-0.01842962535500661,-0.022873540944707477,-0.013412714876910654,193
+Stubborn offers,0.0,Buyer responsive,Value-dependent odds,conversion_increment,0.025129533678756474,0.014529091105354056,0.03646696891191708,193
+Stubborn offers,0.0,Buyer responsive,Value-dependent odds,negotiation_rounds,2.5897020725388598,2.5612262521588947,2.617251187392055,193
+Stubborn offers,0.0,Buyer responsive,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,0.0,Buyer responsive,Value-dependent odds,new_margin,0.012530139271577334,0.00934886596563604,0.01606922053169879,193
+Stubborn offers,0.0,Buyer responsive,Value-dependent odds,discount_cannibalization,0.003930155361382272,0.003391308541357633,0.004469371847268426,193
+Stubborn offers,0.0,Buyer responsive,Value-dependent odds,lost_checkout_margin,0.009563647135800709,0.009205535152765175,0.009925960447383714,193
+Stubborn offers,0.0,Buyer responsive,Value-dependent odds,seller_interaction_cost,0.0129485103626943,0.012806131260794473,0.013086255936960276,193
+Stubborn offers,0.0,Time concession,Exogenous,seller_increment,-0.021447468487938423,-0.023371587540396296,-0.01910392979085371,193
+Stubborn offers,0.0,Time concession,Exogenous,buyer_increment,-0.002564686813434716,-0.004533622747523306,-0.0005560594324822604,193
+Stubborn offers,0.0,Time concession,Exogenous,joint_increment,-0.02401215530137314,-0.02772191485019243,-0.019821379830657397,193
+Stubborn offers,0.0,Time concession,Exogenous,conversion_increment,-0.0005019430051813465,-0.010120223445595853,0.009860751295336787,193
+Stubborn offers,0.0,Time concession,Exogenous,negotiation_rounds,2.217422279792746,2.1916118847150257,2.241871761658031,193
+Stubborn offers,0.0,Time concession,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,0.0,Time concession,Exogenous,new_margin,0.00999755946836333,0.00745844936845036,0.012765651935243717,193
+Stubborn offers,0.0,Time concession,Exogenous,discount_cannibalization,0.006357744299057108,0.005514255722506802,0.007223674140605473,193
+Stubborn offers,0.0,Time concession,Exogenous,lost_checkout_margin,0.014000172258280916,0.013466173365075088,0.014536920669569109,193
+Stubborn offers,0.0,Time concession,Exogenous,seller_interaction_cost,0.011087111398963732,0.010958059423575132,0.011209358808290156,193
+Stubborn offers,0.0,Time concession,Value-dependent odds,seller_increment,-0.01310455938092571,-0.016023281693465553,-0.009746524292087916,193
+Stubborn offers,0.0,Time concession,Value-dependent odds,buyer_increment,-0.003183646918568796,-0.005184293936444998,-0.0011231418814498396,193
+Stubborn offers,0.0,Time concession,Value-dependent odds,joint_increment,-0.016288206299494505,-0.021054845360891,-0.010900854548538992,193
+Stubborn offers,0.0,Time concession,Value-dependent odds,conversion_increment,0.033257772020725385,0.021824805699481864,0.045563741364421415,193
+Stubborn offers,0.0,Time concession,Value-dependent odds,negotiation_rounds,2.5725388601036268,2.5420973661485324,2.6016855569948185,193
+Stubborn offers,0.0,Time concession,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,0.0,Time concession,Value-dependent odds,new_margin,0.013330079291151105,0.009944599157933812,0.01702086924699162,193
+Stubborn offers,0.0,Time concession,Value-dependent odds,discount_cannibalization,0.004238496199371404,0.003676170481671202,0.004815782760403648,193
+Stubborn offers,0.0,Time concession,Value-dependent odds,lost_checkout_margin,0.009333448172187276,0.008977448910050059,0.009691280446379406,193
+Stubborn offers,0.0,Time concession,Value-dependent odds,seller_interaction_cost,0.012862694300518134,0.01271048683074266,0.013008427784974094,193
+Stubborn offers,1.0,Clock-only FQI,Exogenous,seller_increment,0.01926861887791371,0.014947375694168723,0.02385525844148055,193
+Stubborn offers,1.0,Clock-only FQI,Exogenous,buyer_increment,0.007617659109023574,0.005621396824647676,0.009678603270722473,193
+Stubborn offers,1.0,Clock-only FQI,Exogenous,joint_increment,0.026886277986937285,0.020613834763305038,0.03337038051443543,193
+Stubborn offers,1.0,Clock-only FQI,Exogenous,conversion_increment,0.17069300518134717,0.1573937823834197,0.1841097797927461,193
+Stubborn offers,1.0,Clock-only FQI,Exogenous,negotiation_rounds,1.4381282383419691,1.3974464054404148,1.4789261658031088,193
+Stubborn offers,1.0,Clock-only FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,1.0,Clock-only FQI,Exogenous,new_margin,0.03228182291036767,0.02768567377889105,0.03714360871232141,193
+Stubborn offers,1.0,Clock-only FQI,Exogenous,discount_cannibalization,0.005822562840744114,0.005220295752534628,0.006470353248525167,193
+Stubborn offers,1.0,Clock-only FQI,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Stubborn offers,1.0,Clock-only FQI,Exogenous,seller_interaction_cost,0.007190641191709844,0.006987232027202073,0.007394630829015545,193
+Stubborn offers,1.0,Clock-only FQI,Value-dependent odds,seller_increment,0.03002440937871608,0.023977002278316027,0.036432427046884805,193
+Stubborn offers,1.0,Clock-only FQI,Value-dependent odds,buyer_increment,0.006726379232537083,0.004334796776983652,0.009121165496639234,193
+Stubborn offers,1.0,Clock-only FQI,Value-dependent odds,joint_increment,0.036750788611253166,0.02838114553166266,0.04538662997779647,193
+Stubborn offers,1.0,Clock-only FQI,Value-dependent odds,conversion_increment,0.22759067357512952,0.20985837651122624,0.24547970639032812,193
+Stubborn offers,1.0,Clock-only FQI,Value-dependent odds,negotiation_rounds,1.8272625215889462,1.772672603626943,1.882645077720207,193
+Stubborn offers,1.0,Clock-only FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,1.0,Clock-only FQI,Value-dependent odds,new_margin,0.043042430547156896,0.036914231705188066,0.049524811616428535,193
+Stubborn offers,1.0,Clock-only FQI,Value-dependent odds,discount_cannibalization,0.003881708560496076,0.003480197168356418,0.004313568832350111,193
+Stubborn offers,1.0,Clock-only FQI,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Stubborn offers,1.0,Clock-only FQI,Value-dependent odds,seller_interaction_cost,0.009136312607944732,0.008863363018134715,0.009413225388601038,193
+Stubborn offers,1.0,Full-state FQI,Exogenous,seller_increment,0.014616943468780928,0.010502908001225657,0.01897547491243548,193
+Stubborn offers,1.0,Full-state FQI,Exogenous,buyer_increment,0.00149679362465088,-3.1602978370732594e-05,0.0031217226878277682,193
+Stubborn offers,1.0,Full-state FQI,Exogenous,joint_increment,0.016113737093431807,0.010558472547207992,0.02209661628287139,193
+Stubborn offers,1.0,Full-state FQI,Exogenous,conversion_increment,0.11957253886010363,0.10777088730569948,0.13163228626943008,193
+Stubborn offers,1.0,Full-state FQI,Exogenous,negotiation_rounds,1.5575259067357512,1.525424708549223,1.590300841968912,193
+Stubborn offers,1.0,Full-state FQI,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,1.0,Full-state FQI,Exogenous,new_margin,0.024215283478780204,0.020020456415332386,0.02876957360599582,193
+Stubborn offers,1.0,Full-state FQI,Exogenous,discount_cannibalization,0.0018107104763205185,0.001494294318715326,0.002181241413896345,193
+Stubborn offers,1.0,Full-state FQI,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Stubborn offers,1.0,Full-state FQI,Exogenous,seller_interaction_cost,0.007787629533678757,0.007627123542746115,0.007951504209844558,193
+Stubborn offers,1.0,Full-state FQI,Value-dependent odds,seller_increment,0.021147607256923308,0.01550548321517717,0.02720168175808851,193
+Stubborn offers,1.0,Full-state FQI,Value-dependent odds,buyer_increment,0.001239793496322555,-0.0006594751369742493,0.0032434872475678726,193
+Stubborn offers,1.0,Full-state FQI,Value-dependent odds,joint_increment,0.022387400753245867,0.014953573385415544,0.030360238510772644,193
+Stubborn offers,1.0,Full-state FQI,Value-dependent odds,conversion_increment,0.1594300518134715,0.14369451640759928,0.17550971502590673,193
+Stubborn offers,1.0,Full-state FQI,Value-dependent odds,negotiation_rounds,1.9864594127806563,1.9435731865284973,2.0303772668393782,193
+Stubborn offers,1.0,Full-state FQI,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,1.0,Full-state FQI,Value-dependent odds,new_margin,0.032287044638373605,0.02669394188710984,0.0383594314746611,193
+Stubborn offers,1.0,Full-state FQI,Value-dependent odds,discount_cannibalization,0.0012071403175470121,0.0009961962124768842,0.0014541609425975635,193
+Stubborn offers,1.0,Full-state FQI,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Stubborn offers,1.0,Full-state FQI,Value-dependent odds,seller_interaction_cost,0.00993229706390328,0.009717865932642487,0.010151886334196893,193
+Stubborn offers,1.0,Buyer responsive,Exogenous,seller_increment,0.016961403564974782,0.01249958504915554,0.021668628207783307,193
+Stubborn offers,1.0,Buyer responsive,Exogenous,buyer_increment,0.010657923271366347,0.009866973240769395,0.011424730749860348,193
+Stubborn offers,1.0,Buyer responsive,Exogenous,joint_increment,0.02761932683634113,0.022493583900557817,0.03292305239309837,193
+Stubborn offers,1.0,Buyer responsive,Exogenous,conversion_increment,0.17976036269430049,0.17176084844559583,0.18782464378238345,193
+Stubborn offers,1.0,Buyer responsive,Exogenous,negotiation_rounds,1.3425518134715027,1.3196883095854928,1.3660314119170986,193
+Stubborn offers,1.0,Buyer responsive,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,1.0,Buyer responsive,Exogenous,new_margin,0.03543243307437104,0.03085995125687965,0.04025164892108824,193
+Stubborn offers,1.0,Buyer responsive,Exogenous,discount_cannibalization,0.011758270442038745,0.01134840473804789,0.012157391729764003,193
+Stubborn offers,1.0,Buyer responsive,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Stubborn offers,1.0,Buyer responsive,Exogenous,seller_interaction_cost,0.006712759067357512,0.00659844154792746,0.006830157059585493,193
+Stubborn offers,1.0,Buyer responsive,Value-dependent odds,seller_increment,0.030905260695660606,0.024797912666580473,0.037284916508861295,193
+Stubborn offers,1.0,Buyer responsive,Value-dependent odds,buyer_increment,0.00682292638146436,0.006019096406621133,0.007640713444355386,193
+Stubborn offers,1.0,Buyer responsive,Value-dependent odds,joint_increment,0.03772818707712496,0.030910581139641992,0.04479513095418298,193
+Stubborn offers,1.0,Buyer responsive,Value-dependent odds,conversion_increment,0.2396804835924007,0.22901446459412783,0.2504328583765112,193
+Stubborn offers,1.0,Buyer responsive,Value-dependent odds,negotiation_rounds,1.699827288428325,1.6687327288428322,1.7319343696027634,193
+Stubborn offers,1.0,Buyer responsive,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,1.0,Buyer responsive,Value-dependent odds,new_margin,0.0472432440991614,0.04114660167583953,0.05366886522811766,193
+Stubborn offers,1.0,Buyer responsive,Value-dependent odds,discount_cannibalization,0.007838846961359162,0.007565603158698592,0.008104927819842669,193
+Stubborn offers,1.0,Buyer responsive,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Stubborn offers,1.0,Buyer responsive,Value-dependent odds,seller_interaction_cost,0.008499136442141625,0.008343663644214164,0.008659671848013818,193
+Stubborn offers,1.0,Time concession,Exogenous,seller_increment,0.022111626220615927,0.017797537098776732,0.02661308473485906,193
+Stubborn offers,1.0,Time concession,Exogenous,buyer_increment,0.0013788860785282535,0.0005423349527449704,0.002238055943596184,193
+Stubborn offers,1.0,Time concession,Exogenous,joint_increment,0.023490512299144173,0.01836332010667333,0.028783822545590018,193
+Stubborn offers,1.0,Time concession,Exogenous,conversion_increment,0.15861398963730572,0.14974012305699483,0.16732512953367878,193
+Stubborn offers,1.0,Time concession,Exogenous,negotiation_rounds,1.463309585492228,1.4376279145077722,1.4903554080310883,193
+Stubborn offers,1.0,Time concession,Exogenous,effective_opt_in,0.5,0.4999999999999999,0.5,193
+Stubborn offers,1.0,Time concession,Exogenous,new_margin,0.03460180951553412,0.030121849539613093,0.03929360759580897,193
+Stubborn offers,1.0,Time concession,Exogenous,discount_cannibalization,0.0051736353674570615,0.004836653502641234,0.0055308973272869865,193
+Stubborn offers,1.0,Time concession,Exogenous,lost_checkout_margin,0.0,0.0,0.0,193
+Stubborn offers,1.0,Time concession,Exogenous,seller_interaction_cost,0.0073165479274611405,0.0071881395725388614,0.0074517770401554394,193
+Stubborn offers,1.0,Time concession,Value-dependent odds,seller_increment,0.03338246752012766,0.02743804876348958,0.03957743208685917,193
+Stubborn offers,1.0,Time concession,Value-dependent odds,buyer_increment,-0.0011593664925986422,-0.0020683593636535882,-0.00023872196647429128,193
+Stubborn offers,1.0,Time concession,Value-dependent odds,joint_increment,0.03222310102752902,0.025385285194422545,0.0392812312265898,193
+Stubborn offers,1.0,Time concession,Value-dependent odds,conversion_increment,0.21148531951640762,0.19965349740932645,0.2231001727115717,193
+Stubborn offers,1.0,Time concession,Value-dependent odds,negotiation_rounds,1.8608376511226252,1.8261625647668394,1.8972069300518133,193
+Stubborn offers,1.0,Time concession,Value-dependent odds,effective_opt_in,0.5764248704663213,0.5739853195164076,0.5788217832469775,193
+Stubborn offers,1.0,Time concession,Value-dependent odds,new_margin,0.046135746020712166,0.04016246605281745,0.05239147679441196,193
+Stubborn offers,1.0,Time concession,Value-dependent odds,discount_cannibalization,0.0034490902449713745,0.0032244356684274895,0.0036872648848579907,193
+Stubborn offers,1.0,Time concession,Value-dependent odds,lost_checkout_margin,0.0,0.0,0.0,193
+Stubborn offers,1.0,Time concession,Value-dependent odds,seller_interaction_cost,0.009304188255613126,0.009130812823834197,0.00948603465025907,193

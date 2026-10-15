@@ -1,0 +1,80 @@
+{
+  "protocol_sha256": "3acf504bbf0956d5f281c1401d1d01ab9ae7777e19ff7cf3299abd4b0c1c9fcd",
+  "implementation_sha256": "8d129b77fadffeac4c6b76c3082e26ba9b207764d01987cd1d88f75582407f25",
+  "source_sha256": {
+    "multidataset_bargaining\\data\\processed\\amazon_products.csv": "83d05184dbefce0524ebc9d50b5dcf72742c82f3e4e88086c972206d2855ff52",
+    "multidataset_bargaining\\data\\processed\\craigslist_dialogues.csv": "0269ddc867ddfc7ac6f18c8865ab5135b7f754c1bd68653b5fb2b809b8ef23f0",
+    "bargaining_framework_revision\\results\\selected_rules.json": "47481ba076b756c6a427afb3602601685fe01b102a7a69814496ef5808ea8e92",
+    "bargaining_strengthening_20260926\\learning_results\\frozen_settings.json": "002c2054a0173e932eed0299cd143795b32c1d31e37836aa77c6a833e450b3bb",
+    "bargaining_strengthening_20260926\\learning_controls.py": "175134e89b1906e909e30661637c1317ab8af6fa021513849b9341fc180a4222",
+    "bargaining_strengthening_20260926\\platform_controls.py": "77415825cbe9f062d79c25a5348d128c249123f223fe99038812b70fc6596e86",
+    "bargaining_framework_revision\\experiment.py": "6ea9334695403d83d7f01cfccc8f12e977c8d75c8e69ca320e1a032def78979c",
+    "multidataset_bargaining\\simulate.py": "843eab5b63ebc1618259daaa1b5d08afd031ebeec75909b97f4b07d74e981811"
+  },
+  "checkpoint_sha256": {
+    "bargaining_strengthening_20260926\\learning_results\\fqi_mixed_enriched_128_40_271.joblib": "fef02fdea1167369a95d2277ce5f35c2c4b4ad5eab7741e82e7720c4599d37ff",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_mixed_enriched_128_40_811.joblib": "0ef85ff7a25e0111771185d2b8450ec5c5e43706e32dbb88cc175b4677d23b8f",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_mixed_enriched_128_40_1601.joblib": "0a0b512838b15c616fb28c7023689f78567676efe10577d3b3a297aa88e9466d",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_mixed_enriched_128_40_2027.joblib": "a11653422c12c2b8a0c286396c0c1e4e480f84899ae37ea5b6c9f125159c1948",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_mixed_enriched_128_40_4093.joblib": "b3072e7a47a194968be234c1d233526bff128a857513849f04ce25237f5de545",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_clock_mixed_enriched_128_40_271.joblib": "948d9429486c414be45ae881302d0db46713b8c0d029469e5da844150a10ac84",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_clock_mixed_enriched_128_40_811.joblib": "1075ba5b4a000dda4a5688bb86d434df21525d6d51b17261567f6501d08a9541",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_clock_mixed_enriched_128_40_1601.joblib": "c0083d2f13fd5a78ebec5469437409fa4c3e91e2c5da57e3b9b5203a6f8dea62",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_clock_mixed_enriched_128_40_2027.joblib": "23060714919e1e5f69cf2beee0cd3a77e311fc37b4c9990faed52a7fa935e8ab",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_clock_mixed_enriched_128_40_4093.joblib": "cd101ed340de620808f8a5be652107966b25689a00c9f9ccb8091b04787b9ed5"
+  },
+  "potential_trajectories": 2223360,
+  "files": 48,
+  "products": 193,
+  "opportunities_per_product": 80,
+  "policy_instances_per_regime_coefficient": 12,
+  "seeds": [
+    271,
+    811,
+    1601,
+    2027,
+    4093
+  ],
+  "regimes": [
+    "Reference",
+    "Stubborn offers",
+    "Low valuations"
+  ],
+  "acceptance_coefficients": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "stream": "platform-controls-20260926",
+  "denominator": "Original opportunity; failures retained. Learned policy families average over five fixed seller seeds, not independent customers.",
+  "units": "Surplus and ratio fields use listing-price units; listing retains recorded currency magnitude.",
+  "rule_parameters": {
+    "Time concession": {
+      "terminal": 1.0,
+      "exponent": 1.0
+    },
+    "Buyer responsive": {
+      "terminal": 1.0,
+      "exponent": 1.0,
+      "weight": 0.25,
+      "markup": 0.2
+    }
+  },
+  "checks": {
+    "disjoint_product_splits": true,
+    "scenario_equivalence_to_original": 3,
+    "all_rule_cell_equivalence": 24,
+    "learned_seed_regime_equivalence_at_point25": 30,
+    "bounds_cents_surplus_and_failure_invariants": true,
+    "source_and_checkpoint_immutability": true,
+    "matched_customer_draws_all_policies": true
+  },
+  "elapsed_seconds": 127.20811160001904,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1"
+  }
+}

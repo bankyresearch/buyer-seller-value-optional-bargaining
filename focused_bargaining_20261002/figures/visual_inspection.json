@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "reviewed_on": "2026-10-02",
+  "method": "Manual visual inspection of 150dpi previews with view_image after rendering; numeric source assertions and vector font checks run by build_figures.py.",
+  "files": ["Fig1_preview.png", "Fig2_preview.png", "Fig3_preview.png", "Fig4_preview.png"],
+  "checks": {
+    "readable_8_to_11_point_labels": true,
+    "no_clipped_text_or_boxes": true,
+    "no_text_or_legend_collisions": true,
+    "common_forest_x_scale": true,
+    "common_decomposition_x_scale": true,
+    "common_sensitivity_y_scale": true,
+    "latent_values_not_shown_as_seller_policy_inputs": true,
+    "future_human_pilot_explicitly_uncompleted": true,
+    "sensitivity_markers_are_evaluated_settings": true,
+    "decomposition_net_markers_match_signed_component_sum": true
+  },
+  "repairs_after_initial_preview": ["Increased forest-title top margin", "Wrapped workflow policy text", "Adjusted dashed future-node vertical padding"],
+  "publisher_files": "Use Fig1 through Fig4 PNG/EPS/SVG files. Longer descriptive filenames are byte-identical aliases, not extra figures."
+}

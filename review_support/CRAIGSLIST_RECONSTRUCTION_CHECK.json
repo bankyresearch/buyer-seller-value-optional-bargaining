@@ -1,0 +1,118 @@
+{
+  "checked_utc_date": "2026-10-15",
+  "retrieval": {
+    "retrieved_utc": "2026-10-15T15:33:09.961920+00:00",
+    "python": "3.12.10",
+    "files": [
+      {
+        "file": "train.json",
+        "url": "https://worksheets.codalab.org/rest/bundles/0xd34bbbc5fb3b4fccbd19e10756ca8dd7/contents/blob/parsed.json",
+        "expected_sha256": "34033ff87565b9fc9eb0efe867e9d3e32456dbe1528cd1683f94a84b09f66ace",
+        "tls_certificate_error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)",
+        "tls_certificate_verified": false,
+        "downloaded_sha256": "34033ff87565b9fc9eb0efe867e9d3e32456dbe1528cd1683f94a84b09f66ace",
+        "downloaded_bytes": 20148723,
+        "matches_study_record": true
+      },
+      {
+        "file": "dev.json",
+        "url": "https://worksheets.codalab.org/rest/bundles/0x15c4160b43d44ee3a8386cca98da138c/contents/blob/parsed.json",
+        "expected_sha256": "03b35dc18bd90d87dac46893ac4db8ab3eed51786d192975be68d3bab38e306e",
+        "tls_certificate_error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)",
+        "tls_certificate_verified": false,
+        "downloaded_sha256": "03b35dc18bd90d87dac46893ac4db8ab3eed51786d192975be68d3bab38e306e",
+        "downloaded_bytes": 2287054,
+        "matches_study_record": true
+      },
+      {
+        "file": "test.json",
+        "url": "https://worksheets.codalab.org/rest/bundles/0x54d325bbcfb2463583995725ed8ca42b/contents/blob/",
+        "expected_sha256": "c802f15f80ea3066d429375393319d7234daacbd6a26a6ad5afd0ad78a2f7736",
+        "tls_certificate_error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)",
+        "tls_certificate_verified": false,
+        "downloaded_sha256": "c802f15f80ea3066d429375393319d7234daacbd6a26a6ad5afd0ad78a2f7736",
+        "downloaded_bytes": 2937841,
+        "matches_study_record": true
+      }
+    ],
+    "all_files_match": true
+  },
+  "reconstruction": {
+    "files": [
+      {
+        "path": "bargaining_framework_revision/results/structured_offer_events.csv",
+        "status": "byte_identical"
+      },
+      {
+        "path": "bargaining_strengthening_20260926/history_results/Mixed_history__Gradient_boosting.joblib",
+        "status": "model_predictions_identical"
+      },
+      {
+        "path": "bargaining_strengthening_20260926/history_results/Mixed_history__Ridge.joblib",
+        "status": "byte_identical"
+      },
+      {
+        "path": "bargaining_strengthening_20260926/history_results/Mixed_history_features.csv.gz",
+        "status": "content_identical_gzip_timestamp_differs"
+      },
+      {
+        "path": "bargaining_strengthening_20260926/history_results/Native-only_history__Gradient_boosting.joblib",
+        "status": "model_predictions_identical"
+      },
+      {
+        "path": "bargaining_strengthening_20260926/history_results/Native-only_history__Ridge.joblib",
+        "status": "byte_identical"
+      },
+      {
+        "path": "bargaining_strengthening_20260926/history_results/Native-only_history_features.csv.gz",
+        "status": "content_identical_gzip_timestamp_differs"
+      },
+      {
+        "path": "bargaining_strengthening_20260926/history_results/No-price-history_context__Gradient_boosting.joblib",
+        "status": "model_predictions_identical"
+      },
+      {
+        "path": "bargaining_strengthening_20260926/history_results/No-price-history_context__Ridge.joblib",
+        "status": "byte_identical"
+      },
+      {
+        "path": "bargaining_strengthening_20260926/history_results/No-price-history_context_features.csv.gz",
+        "status": "content_identical_gzip_timestamp_differs"
+      },
+      {
+        "path": "bargaining_strengthening_20260926/history_results/development_selection.csv",
+        "status": "byte_identical"
+      },
+      {
+        "path": "bargaining_strengthening_20260926/history_results/predictions.csv.gz",
+        "status": "content_identical_gzip_timestamp_differs"
+      },
+      {
+        "path": "bargaining_strengthening_20260926/history_results/scenario_errors.csv",
+        "status": "byte_identical"
+      },
+      {
+        "path": "multidataset_bargaining/data/processed/craigslist_dialogues.csv",
+        "status": "byte_identical"
+      },
+      {
+        "path": "multidataset_bargaining/data/processed/craigslist_price_events.csv",
+        "status": "byte_identical"
+      }
+    ],
+    "expected": 15,
+    "byte_identical": 8,
+    "verified": 15,
+    "history_summary_same_keys": true,
+    "history_summary_max_abs_difference": 0.0,
+    "history_summary_within_tolerance": true,
+    "source_sha256_match": true,
+    "environment": {
+      "python": "3.12.10",
+      "numpy": "2.5.3",
+      "pandas": "3.0.1",
+      "sklearn": "1.9.1"
+    }
+  },
+  "interpretation": "All three raw files retrieved from the original CodaLab endpoints match the study checksums. All 15 withheld derived files were regenerated: 8 byte-identical, 4 gzip files identical after decompression, 3 gradient-boosting checkpoints with identical test predictions. History-benchmark metrics equal the packaged summary exactly. This verifies reproduction of the study inputs, not the realism of the simulated customer model."
+}

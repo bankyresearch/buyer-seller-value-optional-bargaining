@@ -1,0 +1,19 @@
+{
+  "native_target_rows_verified": 5507,
+  "historical_views": 2,
+  "models_replayed": 6,
+  "raw_source_sha256": {
+    "train.json": "34033ff87565b9fc9eb0efe867e9d3e32456dbe1528cd1683f94a84b09f66ace",
+    "dev.json": "03b35dc18bd90d87dac46893ac4db8ab3eed51786d192975be68d3bab38e306e",
+    "test.json": "c802f15f80ea3066d429375393319d7234daacbd6a26a6ad5afd0ad78a2f7736"
+  },
+  "strict_prior_event_order": true,
+  "scope": "Same-team verification against original events, not an independent external audit.",
+  "separate_directory_reproduction": {
+    "full_retraining": true,
+    "summary_exact": true,
+    "compared_tables": 3,
+    "prediction_rows": 3276,
+    "numerical_absolute_tolerance": 1e-12
+  }
+}

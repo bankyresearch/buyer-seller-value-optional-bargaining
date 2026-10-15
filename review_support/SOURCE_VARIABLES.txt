@@ -1,0 +1,100 @@
+SOURCE VARIABLES AND TRANSFORMATIONS
+
+Exact implementation: multidataset_bargaining/prepare_data.py. No raw source is
+overwritten. The cleaned files are numerical derivatives, not original records.
+Hashing means SHA-256 of the UTF-8 string representation, unless stated below.
+
+CRAIGSLIST DIALOGUES
+dialogue, scenario: hashed original uuid and scenario_uuid.
+split: original train/dev/test partition, processed in that order.
+category: first knowledge-base item's Category, default unknown.
+listing: positive finite first knowledge-base item's Price; source price units.
+messages: count of events with action message.
+price_events: accepted bounded price events from either role.
+agreement: 1 exactly when outcome.reward equals 1, else 0.
+final_ratio: finite outcome.offer.price/listing in [0,2], otherwise missing.
+buyer_first/last and seller_first/last: first/last retained price divided by
+listing for that role, missing if no retained role price exists.
+buyer_price_count, seller_price_count: retained event counts per role.
+
+CRAIGSLIST PRICE EVENTS
+dialogue, scenario, split, category, listing: as above.
+role: buyer or seller from the event actor's original knowledge-base role.
+event: zero-based event position in the original dialogue.
+source_action: offer or message. Native offer prices use data.price. Message
+prices require exactly one DISTINCT currency-qualified number recognised by
+the two regular expressions in price(); bare numbers are not automatically
+treated as prices. The procedure is not semantic human annotation.
+target_ratio: accepted event price/listing in the inclusive interval [0,2].
+log_listing: natural logarithm of listing.
+last_own, last_other, last_public: last prior retained same-role, other-role or
+either-role price ratio; 1 if no such prior event exists.
+min_public, max_public: minimum/maximum prior retained public ratio; 1 if empty.
+own_seen, other_seen: whether that role has any prior retained price event.
+log_own_count, log_other_count: log(1 + respective prior event count).
+log_event: log(1 + zero-based event index).
+is_buyer: 1 for buyer, otherwise 0.
+Features are recorded BEFORE appending the current target to history.
+
+CRAIGSLIST EXCLUSIONS
+Require two knowledge bases with one buyer and one seller and a positive finite
+listing. Exclude duplicate dialogue identifiers or duplicate serialised event
+content (agent, action, data), missing scenario identifiers and scenarios already
+seen in an earlier partition. The code's precise order is authoritative:
+valid identifiers/content are registered before extracting bounded events;
+current-partition scenarios are accumulated and added to the past set after the
+partition. Out-of-domain prices exclude EVENTS, not necessarily whole dialogues.
+The saved audit records 6,449 retained dialogues and 16,059 price events.
+structured_offer_events.csv is derived separately by data_validation.py,
+structured_events(): targets and history both use native offer actions only.
+history_controls.py compares matched native targets under mixed, native-only and
+no-price-history contexts. Source-derived row-level inputs are currently omitted.
+
+AMAZON PRODUCTS
+product: hashed ASIN from /dp/ or /product/ in amazon_link/link, or hashed link
+or title when that pattern is absent. Deduplicate by this pre-hash key, retaining
+the first record in sorted source-filename order.
+category: record category, falling back to the source filename stem.
+current, lowest, highest, list, average: corresponding *_price fields, with
+currency dollar signs/commas removed; nonnumeric or nonfinite values missing.
+valid_current: 1 if current is present and strictly positive, else 0.
+split: first 12 hex digits of SHA-256('product-split-20260925:'+key), modulo 10;
+0-5 train, 6-7 dev, 8-9 test. Held-out evaluation uses 193 products.
+Historical minimum is a floor proxy input, not observed seller marginal cost.
+Simulation-specific floors and rounding are documented in the simulation schema
+and the protocol; do not confuse this descriptive table with executed floors.
+
+CASINO PARTICIPANTS
+dialogue: hashed original dialogue_id. actor: source's dialogue-local actor key.
+own_points, other_points: finite points_scored for the actor and counterpart.
+satisfaction: Extremely dissatisfied=1; Slightly dissatisfied=2; Undecided=3;
+Neither satisfied nor dissatisfied=3; Slightly satisfied=4; Extremely satisfied=5.
+liking: Extremely dislike=1; Slightly dislike=2; Undecided=3;
+Neither like nor dislike=3; Slightly like=4; Extremely like=5.
+Unrecognised response labels remain missing and are counted in casino_audit.json.
+messages: dialogue chat count excluding exact Submit-Deal, Accept-Deal,
+Reject-Deal and Walk-Away action text.
+agreement: 1 if any chat text is exactly Accept-Deal, otherwise 0.
+Participant rows share dialogue outcomes and are not independent dialogues.
+
+CASINO DIALOGUES
+dialogue, messages, agreement: as above.
+annotated: 1 if the source annotations list is nonempty.
+strategy_LABEL: count of that trimmed label after splitting annotation label
+strings by commas; absent strategy counts are filled with zero.
+Source demographics and personality traits are not used in the analysis tables.
+
+SIMULATION AND RESULTS
+Use focused_bargaining_20261002/integration/schema.json for trajectory variables
+and analysis/schema.json for metrics, coefficients, feasible-domain flags and
+undefined quantities. The October 5 protocol defines the eight structural
+settings; setting is their label, not an additional observed population.
+mean, lo, hi denote the point mean and 2.5/97.5 percentiles of the stated bootstrap.
+seed_means averages within each fixed seed; it does not create new participants.
+excluded_category and remaining_products identify leave-one-category-out subsets.
+seller_negative, buyer_negative, both_negative and both_positive count signs of
+PRODUCT MEANS, not frequencies of harm or benefit to individual customers.
+p10, median and p90 are descriptive quantiles of the 193 product means.
+All increments use listing-price units per original opportunity; plotting may
+multiply by 100 as labelled. Blank CSV values denote undefined/missing quantities,
+not automatically zeros. Scenario and product IDs are distinct cluster types.

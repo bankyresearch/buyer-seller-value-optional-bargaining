@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "numeric_points_verified": 132,
+  "figure_count": 4,
+  "source_hashes": {
+    "primary_intervals.csv": "77804c69a52658134eea8d28b2bf65d551ec66e5c0f578273bc72057a9970fc8",
+    "grid_point_estimates.csv": "32d18934de51dad0697e9117ee265d8d288e0673a818588fcf345c99e74d2557"
+  },
+  "build_source_sha256": "a61ca3ee89338c189d5386779d06c53063618216cac6d46a87febc175634d20b",
+  "figures": [
+    {
+      "figure": "Figure_1_workflow",
+      "width_inches": 6.3,
+      "height_inches": 7.2,
+      "png_pixels": [
+        7560,
+        8640
+      ],
+      "png_dpi": 1200,
+      "preview_dpi": 150,
+      "eps_type42_fonts": true,
+      "svg_editable_text": true,
+      "publisher_alias": "Fig1",
+      "file_sha256": {
+        ".png": "c2620f87bef3d0266edb5d57317ce07735f26506cec0c70f72bff004581a05aa",
+        ".eps": "7e2e0635af17dc440db80198c4f11e95bc1b6f7a672a1776a80b3a843c5e2da6",
+        ".svg": "f6a399bf142024c7f0ee75ad397d3022e0e7e8e7c51a9ed5e90417887b82de7f",
+        "_preview.png": "1651ec5c7ae735f14705bfc54dac88cfd2a320305f81dd67b0e98cce088d3119"
+      }
+    },
+    {
+      "figure": "Figure_2_seller_buyer_forest",
+      "width_inches": 6.3,
+      "height_inches": 6.3,
+      "png_pixels": [
+        7560,
+        7560
+      ],
+      "png_dpi": 1200,
+      "preview_dpi": 150,
+      "eps_type42_fonts": true,
+      "svg_editable_text": true,
+      "publisher_alias": "Fig2",
+      "file_sha256": {
+        ".png": "8b0989c02eba2457d90f2d6d838e29929498e672a6bec969f4a26145d919fce8",
+        ".eps": "e2fbf9ca1beef822be9306180ae4d9607d145e9b9b1cd232a4f1b50980f86380",
+        ".svg": "164e540b4831eb212a3de1fd6d8b21dc32dc208e208fce856be1b671a870333c",
+        "_preview.png": "3093fb47b05276174b819e7441ed4455ce60062bb6bd81b07be2b5ad1aa9f022"
+      }
+    },
+    {
+      "figure": "Figure_3_seller_decomposition",
+      "width_inches": 6.3,
+      "height_inches": 6.6,
+      "png_pixels": [
+        7560,
+        7920
+      ],
+      "png_dpi": 1200,
+      "preview_dpi": 150,
+      "eps_type42_fonts": true,
+      "svg_editable_text": true,
+      "publisher_alias": "Fig3",
+      "file_sha256": {
+        ".png": "cbad6027d91c088b29a4074c559bb7f003d43b0d23067238c7404fea29b6b16f",
+        ".eps": "4a6c1c3eb181f52142af04ad843c71907421ed633b08c43141b1d9239c00dc42",
+        ".svg": "1de2f00193f2187fbc4d11b8534e4b95c248583d340442cadb6b93b75b23eb43",
+        "_preview.png": "e67ba3fe4251b055136f7296c3b2cfeca28cba4a058dd166afdf65075c04e0c1"
+      }
+    },
+    {
+      "figure": "Figure_4_acceptance_sensitivity",
+      "width_inches": 6.3,
+      "height_inches": 6.5,
+      "png_pixels": [
+        7560,
+        7800
+      ],
+      "png_dpi": 1200,
+      "preview_dpi": 150,
+      "eps_type42_fonts": true,
+      "svg_editable_text": true,
+      "publisher_alias": "Fig4",
+      "file_sha256": {
+        ".png": "27f721402f610a0a17b8ff1a93cadf622b647502519fe02ba8c9f81666af4d57",
+        ".eps": "e70190767e1a33a0593c3dbab357b83c53a855a3059433fd1791bb8486a3d18b",
+        ".svg": "d79ad921d3cde33f1ac3cabfc4f48b32c7648c8ef0e258189f6259e7e522400c",
+        "_preview.png": "18a2881141ff4ca5045bf8e8f429ea5eb153630a1072a838c04abce2409856c0"
+      }
+    }
+  ],
+  "confidence_intervals": "Figure2 only, product-bootstrap95%; Figures3 and4 are point estimates",
+  "line_segments": "Figure4 segments are visual connections between evaluated settings, not interpolation estimates",
+  "visual_inspection": "Passed manual inspection of all four final preview designs; see visual_inspection.json. No clipping, text overlap, legend collision or mismatched numeric scales observed."
+}

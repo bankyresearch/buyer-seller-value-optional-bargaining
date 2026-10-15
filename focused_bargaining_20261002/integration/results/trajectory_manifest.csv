@@ -1,0 +1,49 @@
+regime,acceptance_coefficient,policy,policy_key,training_seeds,seed_count,base_file,rows,products,opportunities_per_product,elapsed_seconds,sha256
+Reference,0.25,Time concession,time,[-1],1,base_reference_a0.25_time.csv.gz,15440,193,80,0.7230361999827437,13054b5085bbdba824811885ad35ca1f0af0b57038fa4eadb06eafc27e08d98a
+Reference,0.25,Buyer responsive,responsive,[-1],1,base_reference_a0.25_responsive.csv.gz,15440,193,80,0.6913630000199191,6dd4af88a1636bb579dec0f80dc9f59aece510c3581c3e0cc37298b301cca543
+Reference,0.25,Full-state FQI,fqi_full,"[271, 811, 1601, 2027, 4093]",5,base_reference_a0.25_fqi_full.csv.gz,77200,193,80,10.010548899997957,bb7e96beec715e4ccc72016be8765c7a3e5a9e89deae35f78b4ec3535e0affcb
+Reference,0.25,Clock-only FQI,fqi_clock,"[271, 811, 1601, 2027, 4093]",5,base_reference_a0.25_fqi_clock.csv.gz,77200,193,80,7.820964099955745,9b6a9710ae17b6cc19e8127926775ac0c2069f3ab02a989f58c349c1c0bedcd1
+Reference,0.0,Time concession,time,[-1],1,base_reference_a0_time.csv.gz,15440,193,80,0.8001562999561429,c40dbca5706b52bec69d3f24311a73bb56a1747d8b601acb58aebf6a2284d5db
+Reference,0.0,Buyer responsive,responsive,[-1],1,base_reference_a0_responsive.csv.gz,15440,193,80,0.786082600010559,b98c8fd5aab99b6bdfebb2d605b2563f1e8483abffe18be4ced90e66df97e6f5
+Reference,0.0,Full-state FQI,fqi_full,"[271, 811, 1601, 2027, 4093]",5,base_reference_a0_fqi_full.csv.gz,77200,193,80,4.3546893000020646,7465ef940d914e973edee54a3571132788b5df565ddcf991cd92fa1905d7adce
+Reference,0.0,Clock-only FQI,fqi_clock,"[271, 811, 1601, 2027, 4093]",5,base_reference_a0_fqi_clock.csv.gz,77200,193,80,3.390646799991373,017f78e797bcf37cbdc2f665d7ec11b6fbd18bfdc5754925c9d0f334c0798fe5
+Reference,0.5,Time concession,time,[-1],1,base_reference_a0.5_time.csv.gz,15440,193,80,0.5591072000097483,b2e8413d205275d9fafa397270c5ae6c629b9940f297313de541d20de9c7aca5
+Reference,0.5,Buyer responsive,responsive,[-1],1,base_reference_a0.5_responsive.csv.gz,15440,193,80,0.6848285999731161,2997ff415d4fd89c0895c5c9e828a98af58ab5ffa79bf4d1a65fa2116d0e5d93
+Reference,0.5,Full-state FQI,fqi_full,"[271, 811, 1601, 2027, 4093]",5,base_reference_a0.5_fqi_full.csv.gz,77200,193,80,4.016338299959898,8b242c9366321b6ba9ab8695f6fbcb185bf11f1e051e938270e84b846810715b
+Reference,0.5,Clock-only FQI,fqi_clock,"[271, 811, 1601, 2027, 4093]",5,base_reference_a0.5_fqi_clock.csv.gz,77200,193,80,3.377506499993615,7cadcf262c300c4e550c6cb19ff81f3848457d62a75a536b70123224868f9bfd
+Reference,1.0,Time concession,time,[-1],1,base_reference_a1_time.csv.gz,15440,193,80,0.4657658999785781,9ea1b9479930d9fde167f438eebbc4a80cae663b8d711e73aaa7b71095741b34
+Reference,1.0,Buyer responsive,responsive,[-1],1,base_reference_a1_responsive.csv.gz,15440,193,80,0.603274000051897,41b11fdb3676970401a09049044dbf29000d902e1042a9dbf847280129df89bf
+Reference,1.0,Full-state FQI,fqi_full,"[271, 811, 1601, 2027, 4093]",5,base_reference_a1_fqi_full.csv.gz,77200,193,80,3.5202701999805868,1441f38f583bf37d43999c024b96582cfb432164882290168ade4c3d1686c7f7
+Reference,1.0,Clock-only FQI,fqi_clock,"[271, 811, 1601, 2027, 4093]",5,base_reference_a1_fqi_clock.csv.gz,77200,193,80,3.046741000027396,074adaed3856a428d5de802aae064ca2befee09edd529822dc60521ad58f103d
+Stubborn offers,0.25,Time concession,time,[-1],1,base_stubborn_offers_a0.25_time.csv.gz,15440,193,80,0.43361830001231283,0bbd2ee2b668c0c7bbf9b9743a6bbfda6a5e73a6ea717d949a32a7f797fdf694
+Stubborn offers,0.25,Buyer responsive,responsive,[-1],1,base_stubborn_offers_a0.25_responsive.csv.gz,15440,193,80,0.4129100000136532,6a3757fbe44f07b5d0cbd8ab1f5674c8aa4997e125f62e922ff6549dda00233e
+Stubborn offers,0.25,Full-state FQI,fqi_full,"[271, 811, 1601, 2027, 4093]",5,base_stubborn_offers_a0.25_fqi_full.csv.gz,77200,193,80,6.3362623999710195,2efbecead44128830f60dee59b55e3cf5100d75dbe6dea25bcda8c1da446761e
+Stubborn offers,0.25,Clock-only FQI,fqi_clock,"[271, 811, 1601, 2027, 4093]",5,base_stubborn_offers_a0.25_fqi_clock.csv.gz,77200,193,80,5.361971800040919,0fdbb53ae30c2e2f3d516da8493653d1a2c4d8e51fe9667d40b00916b15901b9
+Stubborn offers,0.0,Time concession,time,[-1],1,base_stubborn_offers_a0_time.csv.gz,15440,193,80,0.4088558999937959,d37e01f102bb987ed157914023242a5d3027eaa6599657b0372e3b4d1ab27b9e
+Stubborn offers,0.0,Buyer responsive,responsive,[-1],1,base_stubborn_offers_a0_responsive.csv.gz,15440,193,80,0.4622995000099763,ce9ffa8b5e7225ec8b9af9d38750a0390d2bbb6f9f573c2af8c87eba5c638aac
+Stubborn offers,0.0,Full-state FQI,fqi_full,"[271, 811, 1601, 2027, 4093]",5,base_stubborn_offers_a0_fqi_full.csv.gz,77200,193,80,3.8698779999976978,bf9993165e6cde676cc37391b5f8e87fdf41a538105239b674f462115b9b3ec9
+Stubborn offers,0.0,Clock-only FQI,fqi_clock,"[271, 811, 1601, 2027, 4093]",5,base_stubborn_offers_a0_fqi_clock.csv.gz,77200,193,80,3.6055230000056326,1f8184bc4048e7110e850df88fa725b8c6a8592c7b82015d05bf252ff97be000
+Stubborn offers,0.5,Time concession,time,[-1],1,base_stubborn_offers_a0.5_time.csv.gz,15440,193,80,0.4686684999614954,60bc1e36ed466b300e4b357c56af09e6d9d6684adaca56f0b975217ac67c7674
+Stubborn offers,0.5,Buyer responsive,responsive,[-1],1,base_stubborn_offers_a0.5_responsive.csv.gz,15440,193,80,0.5095911000389606,2d3fc0d792f493404382d09e4f12d41715cc0646b6136ec6c9a4c88731748c29
+Stubborn offers,0.5,Full-state FQI,fqi_full,"[271, 811, 1601, 2027, 4093]",5,base_stubborn_offers_a0.5_fqi_full.csv.gz,77200,193,80,4.203389199974481,2304b1ca832723435458dd00108dbdd182355b093c24a5e938edbb4463386ffb
+Stubborn offers,0.5,Clock-only FQI,fqi_clock,"[271, 811, 1601, 2027, 4093]",5,base_stubborn_offers_a0.5_fqi_clock.csv.gz,77200,193,80,3.481920699996408,57767db17847c4d93736c76cc07d39a59c0d7b7d745b62627c2f049557e13d5c
+Stubborn offers,1.0,Time concession,time,[-1],1,base_stubborn_offers_a1_time.csv.gz,15440,193,80,0.466016500024125,02ef43f3e9224df50b1bf484648d4eee8ae084f38f465819ca70f0be35cf0b92
+Stubborn offers,1.0,Buyer responsive,responsive,[-1],1,base_stubborn_offers_a1_responsive.csv.gz,15440,193,80,0.5479148000013083,e4f7b049cc4f2168c4080703bf1d8667ff668ffe91f62b01accda22310032c8e
+Stubborn offers,1.0,Full-state FQI,fqi_full,"[271, 811, 1601, 2027, 4093]",5,base_stubborn_offers_a1_fqi_full.csv.gz,77200,193,80,3.829346499987878,7f96eb0400995d17f5a8e9eb52e1df8adcd5793a398c358bd53ac7867a1873f5
+Stubborn offers,1.0,Clock-only FQI,fqi_clock,"[271, 811, 1601, 2027, 4093]",5,base_stubborn_offers_a1_fqi_clock.csv.gz,77200,193,80,3.222569299978204,8a35c101bf93de9ba09f6e8243a1f10f64cd52401d3e56527be05146d7f2a7db
+Low valuations,0.25,Time concession,time,[-1],1,base_low_valuations_a0.25_time.csv.gz,15440,193,80,0.4561033999780193,5c62bf7fab0b59cae26ef36ec4ab84d7ab58f5b2e912621e9ad635091d100e92
+Low valuations,0.25,Buyer responsive,responsive,[-1],1,base_low_valuations_a0.25_responsive.csv.gz,15440,193,80,0.44536109996261075,94397ee07ffea7427bc1f6d2850306061e72ad44c13caaa30f00279851ea8f70
+Low valuations,0.25,Full-state FQI,fqi_full,"[271, 811, 1601, 2027, 4093]",5,base_low_valuations_a0.25_fqi_full.csv.gz,77200,193,80,6.463433799974155,162057850c563ad4b2b5d6ad6f303ad1e41e07546ea0e4553405e2ff7720c9b4
+Low valuations,0.25,Clock-only FQI,fqi_clock,"[271, 811, 1601, 2027, 4093]",5,base_low_valuations_a0.25_fqi_clock.csv.gz,77200,193,80,5.748406900034752,156d44dcb26fce37cfb22fc8e453107536ac864d394d65e04703186f5aac7601
+Low valuations,0.0,Time concession,time,[-1],1,base_low_valuations_a0_time.csv.gz,15440,193,80,0.42329519998747855,323eaa23b4468aa20f873de099928d479fc8fab91f4a5d9e84720e6ec7f04407
+Low valuations,0.0,Buyer responsive,responsive,[-1],1,base_low_valuations_a0_responsive.csv.gz,15440,193,80,0.4106438999879174,0482e396a09ff79c55bfa9a669146beb9d6c2bd045ee77815289476a468bfd66
+Low valuations,0.0,Full-state FQI,fqi_full,"[271, 811, 1601, 2027, 4093]",5,base_low_valuations_a0_fqi_full.csv.gz,77200,193,80,4.520864799967967,2ea479625aca4cc8bf80c597700143728ca22508db5341d9204788d7448a9d09
+Low valuations,0.0,Clock-only FQI,fqi_clock,"[271, 811, 1601, 2027, 4093]",5,base_low_valuations_a0_fqi_clock.csv.gz,77200,193,80,3.6966695000301115,23fe537bbeed1e627dae102c1829ab7115ba8eb7f311a01711232d2df194396c
+Low valuations,0.5,Time concession,time,[-1],1,base_low_valuations_a0.5_time.csv.gz,15440,193,80,0.3877541000256315,a933762e834db2744447d6323f8e59db1758b20fe8d4a9f085d3492b1f82eb2b
+Low valuations,0.5,Buyer responsive,responsive,[-1],1,base_low_valuations_a0.5_responsive.csv.gz,15440,193,80,0.38340659998357296,39baf946014ef1f988237cead05fab74b353b5a58100c9c20499857962a2f79d
+Low valuations,0.5,Full-state FQI,fqi_full,"[271, 811, 1601, 2027, 4093]",5,base_low_valuations_a0.5_fqi_full.csv.gz,77200,193,80,4.081210000033025,7141fe8fc8ecfb740c153867e0d87179119a1332689a65057ec45a6d17917228
+Low valuations,0.5,Clock-only FQI,fqi_clock,"[271, 811, 1601, 2027, 4093]",5,base_low_valuations_a0.5_fqi_clock.csv.gz,77200,193,80,3.435667999961879,a1eb522de1e145292df2b39ba21608003b0e92a6f7a67e377f59182a847ab537
+Low valuations,1.0,Time concession,time,[-1],1,base_low_valuations_a1_time.csv.gz,15440,193,80,0.4108583999914117,40747b857458c46bae7cf4f9cff6454d97989045eb158172c1bf95ad1bfc3386
+Low valuations,1.0,Buyer responsive,responsive,[-1],1,base_low_valuations_a1_responsive.csv.gz,15440,193,80,0.41567269997904077,7c673146331e21d36520af43d74608fd6b2b30be136f79a5b6d30bc2723a613d
+Low valuations,1.0,Full-state FQI,fqi_full,"[271, 811, 1601, 2027, 4093]",5,base_low_valuations_a1_fqi_full.csv.gz,77200,193,80,3.765978100011125,9cf1bfd287dbc67490244a91454d515225170fa96d26ddadbc8b5b4075d7f634
+Low valuations,1.0,Clock-only FQI,fqi_clock,"[271, 811, 1601, 2027, 4093]",5,base_low_valuations_a1_fqi_clock.csv.gz,77200,193,80,3.3005205999943428,219fda4b78bc4b122a76a91d59d18dd0eb436b7fa25c9c0ff6555830e6301821

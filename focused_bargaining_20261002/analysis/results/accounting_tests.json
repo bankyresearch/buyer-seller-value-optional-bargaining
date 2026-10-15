@@ -1,0 +1,35 @@
+{
+  "tests_run": 16,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "fixture_grid_cases": 90,
+  "constructed_example": {
+    "label": "Constructed analytical illustration, not observed results",
+    "listing_units": true,
+    "opt_in": 0.5,
+    "fallback": 0.0,
+    "cost_per_round": 0.005,
+    "common_floor": 0.7,
+    "common_value": 0.95,
+    "prices": [
+      0.9,
+      0.88
+    ],
+    "rounds": [
+      6,
+      1
+    ],
+    "gross_seller": [
+      0.2,
+      0.18
+    ],
+    "incremental_seller": [
+      0.08500000000000003,
+      0.08750000000000002
+    ],
+    "exact_cost_crossing": 0.004,
+    "interpretation": "A higher conditional gross margin is reversed by its five extra rounds; subtraction of a common checkout baseline alone cannot cause a reversal."
+  },
+  "distinction": "Same-team independent accounting tests, not independent external scientific validation."
+}

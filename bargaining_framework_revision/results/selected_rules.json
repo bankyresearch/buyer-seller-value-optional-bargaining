@@ -1,0 +1,16 @@
+{
+  "Fixed price": {},
+  "Uniform discount": {
+    "discount": 0.1
+  },
+  "Time concession": {
+    "terminal": 1.0,
+    "exponent": 1.0
+  },
+  "Buyer responsive": {
+    "terminal": 1.0,
+    "exponent": 1.0,
+    "weight": 0.25,
+    "markup": 0.2
+  }
+}

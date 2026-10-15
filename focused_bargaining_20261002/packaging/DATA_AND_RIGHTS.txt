@@ -1,0 +1,55 @@
+SOURCE ATTRIBUTION AND REDISTRIBUTION LIMITS
+
+AmazonHistoryPrice
+Xia et al. (2024), Measuring Bargaining Abilities of LLMs: A Benchmark and a
+Buyer-Enhancement Method. Findings of ACL.
+https://aclanthology.org/2024.findings-acl.213/
+https://github.com/TianXiaSJTU/AmazonPriceHistory
+Pinned source revision 834ad9066d0627f0332504d5fa6d236706f2402b.
+The downloaded project includes an Apache 2.0 LICENSE, retained unchanged in
+multidataset_bargaining/data/raw/amazon/LICENSE. The numerical product table
+selects fields, hashes product identifiers and adds deterministic partitions;
+it is not an unchanged raw distribution. Historical prices do not measure costs.
+Exact acquisition URLs/hashes are in data/raw/acquisition.json. Raw catalogue
+files are omitted; download_pinned.py can acquire the documented sources only
+when explicitly executed with network access.
+
+CraigslistBargain
+He et al. (2018), Decoupling Strategy and Generation in Negotiation Dialogues.
+https://aclanthology.org/D18-1256/
+https://github.com/stanfordnlp/cocoa/tree/master/craigslistbargain
+Official source worksheet referenced by the original repository:
+https://worksheets.codalab.org/worksheets/0x453913e76b65495d8b9730d41c7e0a0c/
+Exact local train/dev/test SHA256 and sizes are in
+multidataset_bargaining/data/processed/craigslist_audit.json. The original
+acquisition revision was not recorded. This limitation is not repaired by
+inventing a revision. No corpus-specific redistribution permission document is
+available in this workspace. The package makes no blanket licensing claim for
+the corpus or for a derivative merely because source software is public.
+Only previously derived numeric price/history fields and hashed IDs are
+included for local review/reproducibility. Raw messages and personal attributes
+are excluded. Before public deposit, authors must verify the original dataset
+terms and decide whether numerical derivatives can be redistributed or should
+instead be recreated by recipients under upstream access terms. This note is
+not legal advice or a license grant.
+
+CaSiNo (supporting analysis only)
+Chawla et al. (2021), CaSiNo: A Corpus of Campsite Negotiation Dialogues for
+Automatic Negotiation Systems.
+https://aclanthology.org/2021.naacl-main.254/
+https://github.com/kushalchawla/CaSiNo
+Pinned revision 2f6ed4a6a55110152a7699fbaa8150d6036314be.
+Downloaded CC BY 4.0 LICENSE is retained unchanged. Derived tables retain
+numerical deal/point/outcome fields and dialogue-local role, not raw text or
+unused demographic/personality fields. Ordinal outcome responses are recoded
+in original response order (Undecided = 3). No endorsement by original authors
+is implied. Raw dialogue files are omitted.
+
+AUTHOR CODE AND SYNTHETIC OUTPUTS
+The local research code, transformed tables, saved fitted models and simulated
+outputs are not assigned a new blanket open-source license by this packaging
+helper. Authors should choose an appropriate code license before public release
+and retain all source rights/attributions. Only a local reviewer-preparation ZIP
+is created here; nothing is uploaded or published. Third-party numerical library
+licenses remain applicable when libraries are separately installed. No binary
+Python distribution or third-party dependency source is included.

@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "numeric_points_verified": 132,
+  "figure_count": 6,
+  "source_hashes": {
+    "primary_intervals.csv": "77804c69a52658134eea8d28b2bf65d551ec66e5c0f578273bc72057a9970fc8",
+    "grid_point_estimates.csv": "32d18934de51dad0697e9117ee265d8d288e0673a818588fcf345c99e74d2557"
+  },
+  "build_source_sha256": "a61ca3ee89338c189d5386779d06c53063618216cac6d46a87febc175634d20b",
+  "figures": [
+    {
+      "figure": "Fig1",
+      "width_mm": 180,
+      "height_mm": 182.88,
+      "minimum_visible_line_pt": 1,
+      "png_dpi": 600,
+      "vector_eps": true,
+      "sha256": {
+        "eps": "05219131d9842e98330d2c9c22284f9fb1125700ba919ffc7e27f5e480e2435b",
+        "svg": "fbc5fef078b26b2afc6cf56ae8c353fc63610c6b5584fea473f4e349fbeab59c",
+        "png": "4c75e4b590de3a12f3b5be1a1fca5d2474061083d758b183fa25d8f4d45857a9"
+      }
+    },
+    {
+      "figure": "Fig2",
+      "width_mm": 180,
+      "height_mm": 160.01999999999998,
+      "minimum_visible_line_pt": 1,
+      "png_dpi": 600,
+      "vector_eps": true,
+      "sha256": {
+        "eps": "4eac69511a8ccd71894c03b50038b301e8790d8c961b45ea282ef0f9ed8a0bff",
+        "svg": "43901aa9bfa91cd00722bf219cfca91bec2ba547b3eb245fb69387388c72701c",
+        "png": "0c8001716b8a28f71ba54e909ac5d3beb739b6edfa22c0717024a25aadeed11a"
+      }
+    },
+    {
+      "figure": "Fig3",
+      "width_mm": 180,
+      "height_mm": 167.64,
+      "minimum_visible_line_pt": 1,
+      "png_dpi": 600,
+      "vector_eps": true,
+      "sha256": {
+        "eps": "640e5438280679323d8f8e6190e5763e3f45407acb927f5e81f3b5c227e67fcb",
+        "svg": "7c9e0f1beca7d70696afd79e02d50f5a4d533b619a5ec118479fee6458b0b630",
+        "png": "b4683b4918699e3a36dc72003e52db01e36bd6d91c2a2753c7fae8fa43b1520d"
+      }
+    },
+    {
+      "figure": "Fig4",
+      "width_mm": 180,
+      "height_mm": 165.1,
+      "minimum_visible_line_pt": 1,
+      "png_dpi": 600,
+      "vector_eps": true,
+      "sha256": {
+        "eps": "eca703f9e956a4724da66174c4e4e5456edf71d4083ef5980c01fef48908d57a",
+        "svg": "9941eb3a1e466a887f4803c7db35ccf787e85e5cceacd68b4965b97766fe9679",
+        "png": "ff9900e8b1a544f031f56776dfb5efb32f566d1178e460431dd87e8cfc03f79b"
+      }
+    },
+    {
+      "figure": "Fig5",
+      "width_mm": 180,
+      "height_mm": 187.96,
+      "minimum_visible_line_pt": 1,
+      "png_dpi": 600,
+      "vector_eps": true,
+      "sha256": {
+        "eps": "681b34ca8a8db7b4f116d92177500afda8077337884ddab9b8a0f1f7b0e02578",
+        "svg": "7f689fbdb86eeb18c31435e02755a2ea380f92326a76267f9d34667b657dfc40",
+        "png": "5c960a68fe5c7ab3df0620b4b48a3a23d926890bd49c7b59eb21cae42d040863"
+      }
+    },
+    {
+      "figure": "Fig6",
+      "width_mm": 180,
+      "height_mm": 180.33999999999997,
+      "minimum_visible_line_pt": 1,
+      "png_dpi": 600,
+      "vector_eps": true,
+      "sha256": {
+        "eps": "f148fe2e15f7b60f0b9312c986f525be12c15d11dbd15762698218efe34b4c0e",
+        "svg": "5a44786729cd36b79f23d9a88f280aee6df6223e9115a56efd5dd0bc92f5a11e",
+        "png": "d4351e5ca1b82658df9f7fa1fb9c2fa31fb3f9230bd9203b88af38b2d8078576"
+      }
+    }
+  ],
+  "confidence_intervals": "Fig2 marginal 95% paired product-bootstrap intervals; Fig3-6 descriptive point estimates; Fig5 boundary intervals in supplementary cost_boundaries.csv",
+  "line_segments": "Figure4 segments are visual connections between evaluated settings, not interpolation estimates",
+  "visual_inspection": "Passed: all six scientific figures inspected; revised Figure 3 and Figure 4 label placement rechecked. See Verification/visual_qa.json.",
+  "width_mm": 180,
+  "minimum_visible_line_pt": 1,
+  "source": "Recorded scientific outputs; no generative imagery"
+}

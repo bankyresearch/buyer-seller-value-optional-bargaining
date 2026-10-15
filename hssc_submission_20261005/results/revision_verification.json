@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "policy_regime_cells": 12,
+  "product_counts": true,
+  "seed_average_identity": true,
+  "independent_category_deletions": true,
+  "threshold_roots": true,
+  "threshold_monotonicity": true,
+  "scope": "Same-team analysis validation, not human behaviour or independent external validation",
+  "structural_files": 32,
+  "structural_executions": 1482240,
+  "structural_hashes": true,
+  "independent_receipt_reconstruction": true
+}

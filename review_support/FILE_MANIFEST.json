@@ -1,0 +1,1457 @@
+{
+  "files": [
+    {
+      "path": "README_FIRST.txt",
+      "bytes": 448,
+      "sha256": "6b0d5f0809598cb41b7e64ca03154da15e92a2e627218eda7eff9099a4073207"
+    },
+    {
+      "path": "SOURCE_OMISSIONS.json",
+      "bytes": 1869,
+      "sha256": "8bfe78022dde9d8544990f0bb4fd7d8e29b4d4b86d36af8f00cf9dc5ea953557"
+    },
+    {
+      "path": "bargaining_framework_revision/data_validation.py",
+      "bytes": 6493,
+      "sha256": "ca91f8ca821366029c0fb6f162ef87b467d5824f6284dcb5312501193b4a651e"
+    },
+    {
+      "path": "bargaining_framework_revision/experiment.py",
+      "bytes": 15657,
+      "sha256": "6ea9334695403d83d7f01cfccc8f12e977c8d75c8e69ca320e1a032def78979c"
+    },
+    {
+      "path": "bargaining_framework_revision/results/selected_rules.json",
+      "bytes": 265,
+      "sha256": "47481ba076b756c6a427afb3602601685fe01b102a7a69814496ef5808ea8e92"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/HISTORY_PROTOCOL.md",
+      "bytes": 2331,
+      "sha256": "7450ee4c310d81a007bf7e15ff7cc4ac868eb4d22322e71ec131df94fb8a5b9b"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/LEARNING_PROTOCOL.md",
+      "bytes": 7965,
+      "sha256": "0fca3c4bdb2fffa4da256d2827e22151d9d2403718c1c18961a73e4bd3ee33ee"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/PLATFORM_PROTOCOL.md",
+      "bytes": 4611,
+      "sha256": "015ed28eb7e61e8134cf95d8405c8bd8be2e897a66dbdcc61999f7199bcae998"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_controls.py",
+      "bytes": 7076,
+      "sha256": "6a2a7c1d4129ce8bee1b1eb05cc2771cbb4b68d968c8808bbc001f80f982fa7a"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/INTERPRETATION.md",
+      "bytes": 1861,
+      "sha256": "622cfff2ce97aaef55d1049f5d735a5d3aff484f693605add013a0a9738ad437"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/summary.json",
+      "bytes": 5529,
+      "sha256": "04d06149f376a1af910f92972d24693b955523a4197a4e328e315567b829f044"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_results/verification.json",
+      "bytes": 722,
+      "sha256": "a6201e8299991fe4074b93e2f90c16c48f1385016125ccd615e7306428e1d908"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/history_verify.py",
+      "bytes": 5087,
+      "sha256": "1e4a46dee7c75b30cd42f880162c6a197320e9c01254bcb8232402cbc70bf419"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_controls.py",
+      "bytes": 21700,
+      "sha256": "175134e89b1906e909e30661637c1317ab8af6fa021513849b9341fc180a4222"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_results/candidate_scores.csv",
+      "bytes": 4819,
+      "sha256": "77382daaa0eac6de3e476bf3129e4a56270d14ab3e8d7215a74ac4f1f970d91c"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_results/fqi_clock_mixed_enriched_128_40_1601.joblib",
+      "bytes": 1104473,
+      "sha256": "c0083d2f13fd5a78ebec5469437409fa4c3e91e2c5da57e3b9b5203a6f8dea62"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_results/fqi_clock_mixed_enriched_128_40_2027.joblib",
+      "bytes": 1239029,
+      "sha256": "23060714919e1e5f69cf2beee0cd3a77e311fc37b4c9990faed52a7fa935e8ab"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_results/fqi_clock_mixed_enriched_128_40_271.joblib",
+      "bytes": 1175753,
+      "sha256": "948d9429486c414be45ae881302d0db46713b8c0d029469e5da844150a10ac84"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_results/fqi_clock_mixed_enriched_128_40_4093.joblib",
+      "bytes": 1176328,
+      "sha256": "cd101ed340de620808f8a5be652107966b25689a00c9f9ccb8091b04787b9ed5"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_results/fqi_clock_mixed_enriched_128_40_811.joblib",
+      "bytes": 1210145,
+      "sha256": "1075ba5b4a000dda4a5688bb86d434df21525d6d51b17261567f6501d08a9541"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_results/fqi_mixed_enriched_128_40_1601.joblib",
+      "bytes": 1529979,
+      "sha256": "0a0b512838b15c616fb28c7023689f78567676efe10577d3b3a297aa88e9466d"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_results/fqi_mixed_enriched_128_40_2027.joblib",
+      "bytes": 1485754,
+      "sha256": "a11653422c12c2b8a0c286396c0c1e4e480f84899ae37ea5b6c9f125159c1948"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_results/fqi_mixed_enriched_128_40_271.joblib",
+      "bytes": 1529899,
+      "sha256": "fef02fdea1167369a95d2277ce5f35c2c4b4ad5eab7741e82e7720c4599d37ff"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_results/fqi_mixed_enriched_128_40_4093.joblib",
+      "bytes": 1443503,
+      "sha256": "b3072e7a47a194968be234c1d233526bff128a857513849f04ce25237f5de545"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_results/fqi_mixed_enriched_128_40_811.joblib",
+      "bytes": 1492802,
+      "sha256": "0ef85ff7a25e0111771185d2b8450ec5c5e43706e32dbb88cc175b4677d23b8f"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_results/frozen_settings.json",
+      "bytes": 1579,
+      "sha256": "002c2054a0173e932eed0299cd143795b32c1d31e37836aa77c6a833e450b3bb"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/learning_results/training_coverage.csv",
+      "bytes": 14003,
+      "sha256": "f18822b8cfce2773c5d70687dc59eb7a3ae88c804c5809524cd88d82a52c91c0"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_controls.py",
+      "bytes": 11662,
+      "sha256": "77415825cbe9f062d79c25a5348d128c249123f223fe99038812b70fc6596e86"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_low_valuations_0.25_buyer_responsive.csv.gz",
+      "bytes": 444378,
+      "sha256": "42cd2252dffa8364fe436f7d50ab6c8566114781d2e1950e56e69fd249dacf9e"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_low_valuations_0.25_time_concession.csv.gz",
+      "bytes": 452306,
+      "sha256": "1afcd66b3ab2ab8e5e4a72309b2965e01ea3806e6e31c5a19c7c639d63aa4048"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_low_valuations_0.5_buyer_responsive.csv.gz",
+      "bytes": 444856,
+      "sha256": "b470e3c76bd161d00d05ed8d985c0ad4b8d1a8e0899da5b228738533ed7b8201"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_low_valuations_0.5_time_concession.csv.gz",
+      "bytes": 450809,
+      "sha256": "1d9ae926038e191d209be2f99532775a6660f5b9a112f5456d29f11cbc93e2fc"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_low_valuations_0_buyer_responsive.csv.gz",
+      "bytes": 444139,
+      "sha256": "d6b216d68e48faa2d3cd106247c6bf1ee07927ca2d5d9ab841b9a3ebe2561a38"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_low_valuations_0_time_concession.csv.gz",
+      "bytes": 452517,
+      "sha256": "cc26648ed2c87931daebb032a1486740e9813ee01f0ace7c4977201152768f09"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_low_valuations_1_buyer_responsive.csv.gz",
+      "bytes": 446664,
+      "sha256": "f5b50b49d0c77d5cb96cb6c74b1c5fad039a9059b75b9a2786112f3b84778d3c"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_low_valuations_1_time_concession.csv.gz",
+      "bytes": 445654,
+      "sha256": "2eab725d9b1455e59949f8003bb54a6e3084bb340c20c0dd23a1b7c4485b2cc7"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_reference_0.25_buyer_responsive.csv.gz",
+      "bytes": 565458,
+      "sha256": "672cd0af7b17b63c142fda13470bd861fe54f9748a47a3987c30d10a7d16a5f1"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_reference_0.25_time_concession.csv.gz",
+      "bytes": 545395,
+      "sha256": "8bdda150097b3043224a081499841d28fb2a3ed7ba396d0e8815d46de1754a48"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_reference_0.5_buyer_responsive.csv.gz",
+      "bytes": 565768,
+      "sha256": "a5220d178e8a1a92a9693e7659262396ffa04aa3083740c8b70ea2fda24d36f4"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_reference_0.5_time_concession.csv.gz",
+      "bytes": 523512,
+      "sha256": "740182c4ba587d070aa20099daa58ba4187b9a043e160fa0f6f6bb53e29602d9"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_reference_0_buyer_responsive.csv.gz",
+      "bytes": 555415,
+      "sha256": "493d099979c2e6477d9638c6d020a019bc9b7247cd9900d665d2a0981e906adc"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_reference_0_time_concession.csv.gz",
+      "bytes": 559109,
+      "sha256": "aa5e83fc13a076f9d07e9f94bd1847fe4935ac6e34fb5984456ec4c1f2d37df3"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_reference_1_buyer_responsive.csv.gz",
+      "bytes": 553383,
+      "sha256": "61ca626d71beee098dfcfb04b08e41fdf6a0fe62664f799368ef124abe4d0243"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_reference_1_time_concession.csv.gz",
+      "bytes": 495880,
+      "sha256": "485f38e928019b6e0bdecc8f62a053f81c9398f48a8d3eb6a762b90f04897cb1"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_stubborn_offers_0.25_buyer_responsive.csv.gz",
+      "bytes": 439569,
+      "sha256": "dd8409de75bb1a757b9d30b3c99acc0e29385aad8bca40de31b67e617f87dd94"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_stubborn_offers_0.25_time_concession.csv.gz",
+      "bytes": 418759,
+      "sha256": "2252a78470a0e93ce78ef41154c81f3e26336461e864539f783623e8b618dc69"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_stubborn_offers_0.5_buyer_responsive.csv.gz",
+      "bytes": 496284,
+      "sha256": "4f66459406c4eac967c0010e52c7081c805b259757fc72d35fe89bde3630bedb"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_stubborn_offers_0.5_time_concession.csv.gz",
+      "bytes": 439686,
+      "sha256": "1699bb760772d8f8879be234687ce9d9ac9f0653c9e7db6ff56d7cbd8eaef4eb"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_stubborn_offers_0_buyer_responsive.csv.gz",
+      "bytes": 399424,
+      "sha256": "be438ccc2467465353561f1bb423f59ccdb794aaa967b144e5ba955661a4810d"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_stubborn_offers_0_time_concession.csv.gz",
+      "bytes": 405486,
+      "sha256": "fd2cc277d5fc920940fc7ee0d548ceb08e53571352103d03d67dabdeb47f1c24"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_stubborn_offers_1_buyer_responsive.csv.gz",
+      "bytes": 568491,
+      "sha256": "6864498e77d6b968d8bbabc798d807984b7794adc97feda675a8cd7b38abea63"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/base_stubborn_offers_1_time_concession.csv.gz",
+      "bytes": 474869,
+      "sha256": "6fdf25a359c4de50aeb21e48cf2f8940d2acfadb4e5f56304a737ae45abe4ac0"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/randoms_low_valuations.npz",
+      "bytes": 931998,
+      "sha256": "729643e929abe56ceb0585c5cfb55fae1268c870a84ada167851e4cf976b38ae"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/randoms_reference.npz",
+      "bytes": 931998,
+      "sha256": "729643e929abe56ceb0585c5cfb55fae1268c870a84ada167851e4cf976b38ae"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/randoms_stubborn_offers.npz",
+      "bytes": 931998,
+      "sha256": "729643e929abe56ceb0585c5cfb55fae1268c870a84ada167851e4cf976b38ae"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/scenarios_low_valuations.csv.gz",
+      "bytes": 367459,
+      "sha256": "fe07c988b412a6b2540c822da8088015967424adb75c37ee4137c6baebd8833e"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/scenarios_reference.csv.gz",
+      "bytes": 333364,
+      "sha256": "2d400b4ec488c3623f7fdeecb37765348e3c49ec86ad1f04104aa1435aef7060"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/scenarios_stubborn_offers.csv.gz",
+      "bytes": 333370,
+      "sha256": "0fc4cd6a299b35521a73eb9a4a833eb2ce1d271ee978a5470010ca071e60cd1d"
+    },
+    {
+      "path": "bargaining_strengthening_20260926/platform_results/summary.csv",
+      "bytes": 3993776,
+      "sha256": "a742cae33a01742910df9846239750328b668a5b6ab3dccefc8dfdd9f4b51815"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/channel_analysis.py",
+      "bytes": 22987,
+      "sha256": "c75571096aa272e20acf8b2377134853a227172edcda61f08325f493dd72127b"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/protocol.json",
+      "bytes": 7002,
+      "sha256": "bb99e437eff994a2c536c8ba3f502a456bfd3a43bae16c459ca203c3663eff85"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/accounting_tests.json",
+      "bytes": 925,
+      "sha256": "620f626ae41555d23fed12b03c7d17951f51599c64a024678a205f7e796aa1bb"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/analysis_verification.json",
+      "bytes": 1448,
+      "sha256": "c926c096bd79242c571115a79c485b30800dcb7307437cdb2fcc2fe4ef2a1334"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/composition_thresholds.csv",
+      "bytes": 19835,
+      "sha256": "406d0af93769936a5f73e55302ff3f4fabb28eb9f8df6eddd281197bb12a7bca"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/descriptive_hindsight_loss.csv",
+      "bytes": 771846,
+      "sha256": "c6dfbd5b4d2131e6f7617e1afd3c89e9da5ee144666df929cf0162cfaa84d004"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/descriptive_rankings.csv",
+      "bytes": 9269,
+      "sha256": "aa1d0eb2f5f674e218015068c926e4f6b25b4b4ae38eba15e516f3d108f40840"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/finite_condition_summary.csv",
+      "bytes": 28561,
+      "sha256": "8c6279204bd2f5ec223b5fcf6513519cc022ed7539046a6949f00e0148e4f37d"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/grid_point_estimates.csv",
+      "bytes": 619153,
+      "sha256": "32d18934de51dad0697e9117ee265d8d288e0673a818588fcf345c99e74d2557"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/paired_policy_contrasts.csv",
+      "bytes": 43886,
+      "sha256": "f8d2b101ffa470e330cc94847f934acd0ca26795359bcef9c7b92bdb18e9cb53"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/policy_cost_crossings.csv",
+      "bytes": 31477,
+      "sha256": "f09ad7ffc453321e1c54c9d4ef8ce4e88e565e1d4a87ca224422c1cf43484280"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/primary_intervals.csv",
+      "bytes": 123600,
+      "sha256": "77804c69a52658134eea8d28b2bf65d551ec66e5c0f578273bc72057a9970fc8"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/product_coefficients.csv.gz",
+      "bytes": 1218743,
+      "sha256": "752bd92b155038473c3ec488d3e3b05f0462ec4cdc286d96168b51cda86b1571"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/ranking_mechanisms.csv",
+      "bytes": 27267,
+      "sha256": "5a57e4ccd26fa6c6346042176f80efb804b91d3638f5ccf834e0826b2c2c8a58"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/summary.json",
+      "bytes": 154398,
+      "sha256": "fa9b188616bf6f4501bd9de1d10965fcc3261ae21c665ddfdb579c4d54df8208"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/results/thresholds.csv",
+      "bytes": 241624,
+      "sha256": "98dd4d6f8dd84495ea139aa897c574b8526e165dbe6b7cfb7f72bbf395260128"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/schema.json",
+      "bytes": 6519,
+      "sha256": "09dc9a7194ce5d959e73936cfe89c588004551baa509956a382e3236a8af397e"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/test_channel_analysis.py",
+      "bytes": 8383,
+      "sha256": "3699d05290166a0e8df37671cb957653b73a728c17fe522c06880bba2c2aeb4a"
+    },
+    {
+      "path": "focused_bargaining_20261002/analysis/verify_analysis.py",
+      "bytes": 4350,
+      "sha256": "c1f30d057561478db50e21747e3cb72133cf906b3f1c8f8e1bd3b70c6dee2d55"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/Fig1.eps",
+      "bytes": 98923,
+      "sha256": "7e2e0635af17dc440db80198c4f11e95bc1b6f7a672a1776a80b3a843c5e2da6"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/Fig1.png",
+      "bytes": 1232671,
+      "sha256": "c2620f87bef3d0266edb5d57317ce07735f26506cec0c70f72bff004581a05aa"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/Fig1.svg",
+      "bytes": 13592,
+      "sha256": "f6a399bf142024c7f0ee75ad397d3022e0e7e8e7c51a9ed5e90417887b82de7f"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/Fig2.eps",
+      "bytes": 101842,
+      "sha256": "e2fbf9ca1beef822be9306180ae4d9607d145e9b9b1cd232a4f1b50980f86380"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/Fig2.png",
+      "bytes": 799046,
+      "sha256": "8b0989c02eba2457d90f2d6d838e29929498e672a6bec969f4a26145d919fce8"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/Fig2.svg",
+      "bytes": 49045,
+      "sha256": "164e540b4831eb212a3de1fd6d8b21dc32dc208e208fce856be1b671a870333c"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/Fig3.eps",
+      "bytes": 82119,
+      "sha256": "4a6c1c3eb181f52142af04ad843c71907421ed633b08c43141b1d9239c00dc42"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/Fig3.png",
+      "bytes": 756525,
+      "sha256": "cbad6027d91c088b29a4074c559bb7f003d43b0d23067238c7404fea29b6b16f"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/Fig3.svg",
+      "bytes": 38709,
+      "sha256": "1de2f00193f2187fbc4d11b8534e4b95c248583d340442cadb6b93b75b23eb43"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/Fig4.eps",
+      "bytes": 75076,
+      "sha256": "e70190767e1a33a0593c3dbab357b83c53a855a3059433fd1791bb8486a3d18b"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/Fig4.png",
+      "bytes": 1032873,
+      "sha256": "27f721402f610a0a17b8ff1a93cadf622b647502519fe02ba8c9f81666af4d57"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/Fig4.svg",
+      "bytes": 28267,
+      "sha256": "d79ad921d3cde33f1ac3cabfc4f48b32c7648c8ef0e258189f6259e7e522400c"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/build_figures.py",
+      "bytes": 14476,
+      "sha256": "a61ca3ee89338c189d5386779d06c53063618216cac6d46a87febc175634d20b"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/figure_verification.json",
+      "bytes": 3696,
+      "sha256": "db942555918067ef125fecf58ace5455f63ea96decd8cc28a4050b671fb26d46"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/numeric_plot_data.csv",
+      "bytes": 24059,
+      "sha256": "379c5d73eb479f5d790dcda6e6302e4e2069473bad1598710cc45a6c1ce5a5f3"
+    },
+    {
+      "path": "focused_bargaining_20261002/figures/visual_inspection.json",
+      "bytes": 1106,
+      "sha256": "03e95b104f0275b33537b48efaa9057b7d05bd05e9b1f34334423c0d05c0a750"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/compare_reproduction.py",
+      "bytes": 2465,
+      "sha256": "fe1a3f082465a2abec64f8068faf8d2d45ee954ca79015e90b6f16a68775a857"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/generate_trajectories.py",
+      "bytes": 13971,
+      "sha256": "8d129b77fadffeac4c6b76c3082e26ba9b207764d01987cd1d88f75582407f25"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/protocol.json",
+      "bytes": 6650,
+      "sha256": "3acf504bbf0956d5f281c1401d1d01ab9ae7777e19ff7cf3299abd4b0c1c9fcd"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a0.25_fqi_clock.csv.gz",
+      "bytes": 1023126,
+      "sha256": "156d44dcb26fce37cfb22fc8e453107536ac864d394d65e04703186f5aac7601"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a0.25_fqi_full.csv.gz",
+      "bytes": 957566,
+      "sha256": "162057850c563ad4b2b5d6ad6f303ad1e41e07546ea0e4553405e2ff7720c9b4"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a0.25_responsive.csv.gz",
+      "bytes": 471934,
+      "sha256": "94397ee07ffea7427bc1f6d2850306061e72ad44c13caaa30f00279851ea8f70"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a0.25_time.csv.gz",
+      "bytes": 482739,
+      "sha256": "5c62bf7fab0b59cae26ef36ec4ab84d7ab58f5b2e912621e9ad635091d100e92"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a0.5_fqi_clock.csv.gz",
+      "bytes": 1029930,
+      "sha256": "a1eb522de1e145292df2b39ba21608003b0e92a6f7a67e377f59182a847ab537"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a0.5_fqi_full.csv.gz",
+      "bytes": 965761,
+      "sha256": "7141fe8fc8ecfb740c153867e0d87179119a1332689a65057ec45a6d17917228"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a0.5_responsive.csv.gz",
+      "bytes": 472352,
+      "sha256": "39baf946014ef1f988237cead05fab74b353b5a58100c9c20499857962a2f79d"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a0.5_time.csv.gz",
+      "bytes": 481086,
+      "sha256": "a933762e834db2744447d6323f8e59db1758b20fe8d4a9f085d3492b1f82eb2b"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a0_fqi_clock.csv.gz",
+      "bytes": 1007529,
+      "sha256": "23fe537bbeed1e627dae102c1829ab7115ba8eb7f311a01711232d2df194396c"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a0_fqi_full.csv.gz",
+      "bytes": 944532,
+      "sha256": "2ea479625aca4cc8bf80c597700143728ca22508db5341d9204788d7448a9d09"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a0_responsive.csv.gz",
+      "bytes": 471404,
+      "sha256": "0482e396a09ff79c55bfa9a669146beb9d6c2bd045ee77815289476a468bfd66"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a0_time.csv.gz",
+      "bytes": 482670,
+      "sha256": "323eaa23b4468aa20f873de099928d479fc8fab91f4a5d9e84720e6ec7f04407"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a1_fqi_clock.csv.gz",
+      "bytes": 1036483,
+      "sha256": "219fda4b78bc4b122a76a91d59d18dd0eb436b7fa25c9c0ff6555830e6301821"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a1_fqi_full.csv.gz",
+      "bytes": 978852,
+      "sha256": "9cf1bfd287dbc67490244a91454d515225170fa96d26ddadbc8b5b4075d7f634"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a1_responsive.csv.gz",
+      "bytes": 474599,
+      "sha256": "7c673146331e21d36520af43d74608fd6b2b30be136f79a5b6d30bc2723a613d"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_low_valuations_a1_time.csv.gz",
+      "bytes": 476080,
+      "sha256": "40747b857458c46bae7cf4f9cff6454d97989045eb158172c1bf95ad1bfc3386"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a0.25_fqi_clock.csv.gz",
+      "bytes": 1359352,
+      "sha256": "9b6a9710ae17b6cc19e8127926775ac0c2069f3ab02a989f58c349c1c0bedcd1"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a0.25_fqi_full.csv.gz",
+      "bytes": 1320092,
+      "sha256": "bb7e96beec715e4ccc72016be8765c7a3e5a9e89deae35f78b4ec3535e0affcb"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a0.25_responsive.csv.gz",
+      "bytes": 651013,
+      "sha256": "6dd4af88a1636bb579dec0f80dc9f59aece510c3581c3e0cc37298b301cca543"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a0.25_time.csv.gz",
+      "bytes": 632295,
+      "sha256": "13054b5085bbdba824811885ad35ca1f0af0b57038fa4eadb06eafc27e08d98a"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a0.5_fqi_clock.csv.gz",
+      "bytes": 1367643,
+      "sha256": "7cadcf262c300c4e550c6cb19ff81f3848457d62a75a536b70123224868f9bfd"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a0.5_fqi_full.csv.gz",
+      "bytes": 1352538,
+      "sha256": "8b242c9366321b6ba9ab8695f6fbcb185bf11f1e051e938270e84b846810715b"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a0.5_responsive.csv.gz",
+      "bytes": 654054,
+      "sha256": "2997ff415d4fd89c0895c5c9e828a98af58ab5ffa79bf4d1a65fa2116d0e5d93"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a0.5_time.csv.gz",
+      "bytes": 612052,
+      "sha256": "b2e8413d205275d9fafa397270c5ae6c629b9940f297313de541d20de9c7aca5"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a0_fqi_clock.csv.gz",
+      "bytes": 1273310,
+      "sha256": "017f78e797bcf37cbdc2f665d7ec11b6fbd18bfdc5754925c9d0f334c0798fe5"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a0_fqi_full.csv.gz",
+      "bytes": 1249412,
+      "sha256": "7465ef940d914e973edee54a3571132788b5df565ddcf991cd92fa1905d7adce"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a0_responsive.csv.gz",
+      "bytes": 639729,
+      "sha256": "b98c8fd5aab99b6bdfebb2d605b2563f1e8483abffe18be4ced90e66df97e6f5"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a0_time.csv.gz",
+      "bytes": 644896,
+      "sha256": "c40dbca5706b52bec69d3f24311a73bb56a1747d8b601acb58aebf6a2284d5db"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a1_fqi_clock.csv.gz",
+      "bytes": 1298243,
+      "sha256": "074adaed3856a428d5de802aae064ca2befee09edd529822dc60521ad58f103d"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a1_fqi_full.csv.gz",
+      "bytes": 1265436,
+      "sha256": "1441f38f583bf37d43999c024b96582cfb432164882290168ade4c3d1686c7f7"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a1_responsive.csv.gz",
+      "bytes": 645857,
+      "sha256": "41b11fdb3676970401a09049044dbf29000d902e1042a9dbf847280129df89bf"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_reference_a1_time.csv.gz",
+      "bytes": 588705,
+      "sha256": "9ea1b9479930d9fde167f438eebbc4a80cae663b8d711e73aaa7b71095741b34"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a0.25_fqi_clock.csv.gz",
+      "bytes": 1018581,
+      "sha256": "0fdbb53ae30c2e2f3d516da8493653d1a2c4d8e51fe9667d40b00916b15901b9"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a0.25_fqi_full.csv.gz",
+      "bytes": 974418,
+      "sha256": "2efbecead44128830f60dee59b55e3cf5100d75dbe6dea25bcda8c1da446761e"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a0.25_responsive.csv.gz",
+      "bytes": 484398,
+      "sha256": "6a3757fbe44f07b5d0cbd8ab1f5674c8aa4997e125f62e922ff6549dda00233e"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a0.25_time.csv.gz",
+      "bytes": 461888,
+      "sha256": "0bbd2ee2b668c0c7bbf9b9743a6bbfda6a5e73a6ea717d949a32a7f797fdf694"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a0.5_fqi_clock.csv.gz",
+      "bytes": 1148944,
+      "sha256": "57767db17847c4d93736c76cc07d39a59c0d7b7d745b62627c2f049557e13d5c"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a0.5_fqi_full.csv.gz",
+      "bytes": 1083697,
+      "sha256": "2304b1ca832723435458dd00108dbdd182355b093c24a5e938edbb4463386ffb"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a0.5_responsive.csv.gz",
+      "bytes": 562875,
+      "sha256": "2d3fc0d792f493404382d09e4f12d41715cc0646b6136ec6c9a4c88731748c29"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a0.5_time.csv.gz",
+      "bytes": 498851,
+      "sha256": "60bc1e36ed466b300e4b357c56af09e6d9d6684adaca56f0b975217ac67c7674"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a0_fqi_clock.csv.gz",
+      "bytes": 836589,
+      "sha256": "1f8184bc4048e7110e850df88fa725b8c6a8592c7b82015d05bf252ff97be000"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a0_fqi_full.csv.gz",
+      "bytes": 807426,
+      "sha256": "bf9993165e6cde676cc37391b5f8e87fdf41a538105239b674f462115b9b3ec9"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a0_responsive.csv.gz",
+      "bytes": 428852,
+      "sha256": "ce9ffa8b5e7225ec8b9af9d38750a0390d2bbb6f9f573c2af8c87eba5c638aac"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a0_time.csv.gz",
+      "bytes": 437092,
+      "sha256": "d37e01f102bb987ed157914023242a5d3027eaa6599657b0372e3b4d1ab27b9e"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a1_fqi_clock.csv.gz",
+      "bytes": 1267792,
+      "sha256": "8a35c101bf93de9ba09f6e8243a1f10f64cd52401d3e56527be05146d7f2a7db"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a1_fqi_full.csv.gz",
+      "bytes": 1165617,
+      "sha256": "7f96eb0400995d17f5a8e9eb52e1df8adcd5793a398c358bd53ac7867a1873f5"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a1_responsive.csv.gz",
+      "bytes": 668075,
+      "sha256": "e4f7b049cc4f2168c4080703bf1d8667ff668ffe91f62b01accda22310032c8e"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/base_stubborn_offers_a1_time.csv.gz",
+      "bytes": 567537,
+      "sha256": "02ef43f3e9224df50b1bf484648d4eee8ae084f38f465819ca70f0be35cf0b92"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/grid_verification.json",
+      "bytes": 491,
+      "sha256": "0a618c56e5ae31e139860885fae2272d874ea6751767e7c23ea222fbe47faa18"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/integration_summary.json",
+      "bytes": 4462,
+      "sha256": "589aff11e46e1bb613c20a83ddaad8832a2a8f87dd3ae455891b4e58df86e3cd"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/product_negotiation_outcomes.csv",
+      "bytes": 1600995,
+      "sha256": "7a1aec4874b36f4477287f6ab7f5cfc7d7ba32db3e852dfb805c87009befb3f2"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/randoms_low_valuations.npz",
+      "bytes": 931998,
+      "sha256": "729643e929abe56ceb0585c5cfb55fae1268c870a84ada167851e4cf976b38ae"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/randoms_reference.npz",
+      "bytes": 931998,
+      "sha256": "729643e929abe56ceb0585c5cfb55fae1268c870a84ada167851e4cf976b38ae"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/randoms_stubborn_offers.npz",
+      "bytes": 931998,
+      "sha256": "729643e929abe56ceb0585c5cfb55fae1268c870a84ada167851e4cf976b38ae"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/reproduction_verification.json",
+      "bytes": 346,
+      "sha256": "d70583f80530b491a182d81c15ce97635e9f78aa6fb87324d175b0a5207f669d"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/scenarios_low_valuations.csv.gz",
+      "bytes": 367459,
+      "sha256": "62b9effe82c0d7a0c270a801f88161c507d160cd965eb202d3ede3129b40c05a"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/scenarios_reference.csv.gz",
+      "bytes": 333364,
+      "sha256": "d70ec378543f82d5ecee6d539778f782ab8ac192cd5cc43b3b66aac0743adf1c"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/scenarios_stubborn_offers.csv.gz",
+      "bytes": 333370,
+      "sha256": "d46f4a7494d571d8dec78bdabd9b2cbec3b7d0e6e4b573451ad232b4dddff634"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/seed_negotiation_outcomes.csv",
+      "bytes": 19765,
+      "sha256": "5565d281e11abba39ff197da95a06c012b86b45004d3726a28946b1fccb5de30"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/test_verification.json",
+      "bytes": 670,
+      "sha256": "2abc1054d2b3ce7ba106556d5b3b96fb76b3c2fe809cb227628104c76d6d9168"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/results/trajectory_manifest.csv",
+      "bytes": 9690,
+      "sha256": "5a3f44a3ea497769a9668b464f8ed881bae0836326e255f4e8e36f0e39946c97"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/schema.json",
+      "bytes": 4406,
+      "sha256": "0999f509fab9059802afbc42d1ee93625fd5b9af02ff454c5b6017ea1603e4e9"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/test_integration.py",
+      "bytes": 5507,
+      "sha256": "7fe4fefebbe28fb22f37ad3a04b46f82bf4d27f6b61f0ddeef1d81e1d25602cb"
+    },
+    {
+      "path": "focused_bargaining_20261002/integration/verify_grid.py",
+      "bytes": 2897,
+      "sha256": "ea4d09d257bd74ed1a036376b8e9979af63524dc4fbcef0ef19fdd538810300d"
+    },
+    {
+      "path": "focused_bargaining_20261002/packaging/DATA_AND_RIGHTS.txt",
+      "bytes": 3272,
+      "sha256": "c75f95ce4e517542d5368cd04c349fe24d8c80a4a0aa644a7ffd1398d47e6ad2"
+    },
+    {
+      "path": "focused_bargaining_20261002/packaging/README.txt",
+      "bytes": 7429,
+      "sha256": "f8d6ef4d1510e477b077419f150c852817cc24a491decdd0af568c699490ff3a"
+    },
+    {
+      "path": "focused_bargaining_20261002/packaging/package_reproduction.py",
+      "bytes": 8479,
+      "sha256": "c93c9e0d9513762e0f34d6424f94ce706472795c4f845f98efb2e993ca5a87ed"
+    },
+    {
+      "path": "focused_bargaining_20261002/packaging/portability_verification.json",
+      "bytes": 4881,
+      "sha256": "5ad98a6f5e8abf443c915cf42d1e37703b45a63a470434278ca2ef1c05f89f1f"
+    },
+    {
+      "path": "focused_bargaining_20261002/packaging/record_portability.py",
+      "bytes": 2561,
+      "sha256": "804e09ced5590178584b08ce74bb1455eacf86a1b52215e51a6d9be88281aade"
+    },
+    {
+      "path": "focused_bargaining_20261002/packaging/replay.py",
+      "bytes": 3388,
+      "sha256": "ffb4827c18241a7aa33cf2e399bab95ffc4dfd228334ec061e44bd99e3b77d4a"
+    },
+    {
+      "path": "focused_bargaining_20261002/packaging/requirements.txt",
+      "bytes": 195,
+      "sha256": "3c3b534f96ee223548cdacb8f521ff33d70562d5747b82bbdc55be726f4dc3fb"
+    },
+    {
+      "path": "focused_bargaining_20261002/packaging/technical_audit.txt",
+      "bytes": 4042,
+      "sha256": "0245fd6906c6f10dcfde77ce172418b9d00897c181acd093a6e0c8de45ee8ece"
+    },
+    {
+      "path": "focused_bargaining_20261002/packaging/verify_manifest.py",
+      "bytes": 1040,
+      "sha256": "29922533ba9fa899e4bb49629229d516a933e77aa4e460e03180327f51c0a8cc"
+    },
+    {
+      "path": "hssc_submission_20261005/build_figures.py",
+      "bytes": 6960,
+      "sha256": "95868b8d529b536c113a1c3c5c1c10c7181aa585d518e9b885f342c2be2d384a"
+    },
+    {
+      "path": "hssc_submission_20261005/protocol.json",
+      "bytes": 2815,
+      "sha256": "12ec1ecb96cc003f09b7ceff38ffa1b93790dd08385c1502ecfdc76c824476a5"
+    },
+    {
+      "path": "hssc_submission_20261005/results/cost_boundaries.csv",
+      "bytes": 348190,
+      "sha256": "1c791b0c6617b8f006402d8beb11ebfd1b2049221ab5b7ad1ce9d416bf03cc95"
+    },
+    {
+      "path": "hssc_submission_20261005/results/leave_category_out.csv",
+      "bytes": 22903,
+      "sha256": "4d29d9d71f39e2607e7fdd6af44a87fcfcbd7795466409c192a2e6700e5c7192"
+    },
+    {
+      "path": "hssc_submission_20261005/results/primary_intervals.csv",
+      "bytes": 5574,
+      "sha256": "fcf8171f43ab359203a8fcfac28748525569e1f6ccb65201fe2b475f3ee129ce"
+    },
+    {
+      "path": "hssc_submission_20261005/results/product_distribution.csv",
+      "bytes": 2286,
+      "sha256": "1d59f96edab592e230ef7101384a5180273b5b8b7720d4847e8d0c4be5327232"
+    },
+    {
+      "path": "hssc_submission_20261005/results/product_outcomes.csv",
+      "bytes": 605723,
+      "sha256": "638244140105f328bd1e499d9f41b6088ccfd345ccacc556f8da3000f3ee0014"
+    },
+    {
+      "path": "hssc_submission_20261005/results/revision_verification.json",
+      "bytes": 465,
+      "sha256": "a9d05b3cac50436aed3cd1a303db3582d854b6a18879432616476ad565aa1598"
+    },
+    {
+      "path": "hssc_submission_20261005/results/seed_means.csv",
+      "bytes": 3635,
+      "sha256": "2ceec1e3690a117ef6f59bee5c636c1d3935103e348fd79826eb2db0673c3e34"
+    },
+    {
+      "path": "hssc_submission_20261005/results/structural_intervals.csv",
+      "bytes": 14826,
+      "sha256": "32b8b18c59090c11f6537169c6e0b0cc547edfa706f42b4f99de2237407c7de1"
+    },
+    {
+      "path": "hssc_submission_20261005/results/structural_manifest.csv",
+      "bytes": 4289,
+      "sha256": "5272d5e560b864bacf0317c1e8b0df17a53639d6c85c06a9d74a528418dbfe4e"
+    },
+    {
+      "path": "hssc_submission_20261005/results/structural_product_outcomes.csv",
+      "bytes": 1590423,
+      "sha256": "8e436eb0c3a6b9150432cfd88eb8c50ea02c26d5a3997b88f110c57a6177e83c"
+    },
+    {
+      "path": "hssc_submission_20261005/results/structural_verification.json",
+      "bytes": 2057,
+      "sha256": "c8c7aafa781105183cf55a58a12a3ce80b07c6bdeea107dd739ce5f1750f36e5"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_floor_fqi_clock.csv.gz",
+      "bytes": 1083479,
+      "sha256": "2ed4f74284c80eadf53460e1f718720ee8e9eeef40f3043231b841e005c3a30d"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_floor_fqi_full.csv.gz",
+      "bytes": 1051999,
+      "sha256": "38956a34cc6894ed9b81b1f430eee73b5c254d03717797f6fa279e9e98906d95"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_floor_lower_values_fqi_clock.csv.gz",
+      "bytes": 1003020,
+      "sha256": "6cf17625917767daa9bb4fdb760b0d0d672a20853bf1e5cb6a75da978c1bde82"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_floor_lower_values_fqi_full.csv.gz",
+      "bytes": 965601,
+      "sha256": "146c7cba1016e32b9d3c8fd6939857ffae351b6110166c8e2b2595cd918f3eec"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_floor_lower_values_responsive.csv.gz",
+      "bytes": 522422,
+      "sha256": "ba717149bd5cb48af94ebcc71b8c7b71f0cdc3603a1cdf00ef194f7e12f9f911"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_floor_lower_values_time.csv.gz",
+      "bytes": 514666,
+      "sha256": "21fbfc1bc9c348ab075e755e08fe2bd4eeec90e14e4d871ddb4e073efe6df7eb"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_floor_responsive.csv.gz",
+      "bytes": 574526,
+      "sha256": "88329a6b0f95be19dce16bb5d4def1f639a8d57c949b02b9297334da0c3df84f"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_floor_time.csv.gz",
+      "bytes": 558608,
+      "sha256": "320fe5e3896c59b30b9ecb022417542298e352fb0a96c51bcde98b9f686c0767"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_skew_fqi_clock.csv.gz",
+      "bytes": 1512364,
+      "sha256": "f0a5702a06e3258100609a263f49df3314198c5666b9287fa27b816f40e6fb49"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_skew_fqi_full.csv.gz",
+      "bytes": 1487759,
+      "sha256": "55861fcbdad2d152af24dad24c3cefb068007d7a50c2c84456e282c9789a1736"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_skew_responsive.csv.gz",
+      "bytes": 753057,
+      "sha256": "25f05cec70421b4a1b3fc521141a4b8e5f6139968592becc43f610b28c31379a"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_skew_time.csv.gz",
+      "bytes": 703799,
+      "sha256": "f34363b3ced1eea1be419d821cf284ffaaf2921649bb68ab4bfaae43f657e980"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_values_fqi_clock.csv.gz",
+      "bytes": 1436978,
+      "sha256": "44954c96afb6f154e0eb2526011b379741ed87cb2078d6e5aeec04739d3a8335"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_values_fqi_full.csv.gz",
+      "bytes": 1401453,
+      "sha256": "d1e82de9505bea41e2a3f8a1f825d079c528ab5651b78c5e325e3be79006f164"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_values_responsive.csv.gz",
+      "bytes": 704576,
+      "sha256": "eff1e1a87819d464cd6792e856a576af4230bf241e0cee5e010717a33fba22b7"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/higher_values_time.csv.gz",
+      "bytes": 664574,
+      "sha256": "b8be31345314d3fe30bcaa91297f13bf4010fa1930005ec3b13d8c8b0c4a1890"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/lower_floor_fqi_clock.csv.gz",
+      "bytes": 1600839,
+      "sha256": "688c028253f052e777778c540e38f416ce3b345e27227bf478b05cf5a7644a11"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/lower_floor_fqi_full.csv.gz",
+      "bytes": 1560079,
+      "sha256": "739810dd550171c7b9843a9000bdc51b43b627819f78bba738edb3d78327e6c3"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/lower_floor_responsive.csv.gz",
+      "bytes": 715316,
+      "sha256": "40e5d4b2879cd7e9aa5534aff05c5eff118d58bd741e0eb8dffdbe11b9634f03"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/lower_floor_time.csv.gz",
+      "bytes": 698661,
+      "sha256": "4be620be9bb87252b0d3b46c545ee145f19d11428a3b3119fe8ea3925da5d639"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/lower_skew_fqi_clock.csv.gz",
+      "bytes": 1163320,
+      "sha256": "66a9c8454537c04d2ffa97aebc1072484a600c42ee07b95894dd7dcffe43dfff"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/lower_skew_fqi_full.csv.gz",
+      "bytes": 1113059,
+      "sha256": "f11e9bae6324a4aa244778e304f68c461bb6f81f381c513b6a944c30c49cf6d7"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/lower_skew_responsive.csv.gz",
+      "bytes": 530025,
+      "sha256": "13992571aec5ec5c7009fd94d91cb2089e10a4caa391fc34c1fcaa9d3733ebb3"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/lower_skew_time.csv.gz",
+      "bytes": 538438,
+      "sha256": "ed95124c7dae5e9b52e93c3a9b1536522406729c01c949df1125eed70a4d9dc5"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/lower_values_fqi_clock.csv.gz",
+      "bytes": 1246365,
+      "sha256": "a411ed73a66ed0c0d86103a2b3939eb6cc2ef44928d20fab86e5b96c49e7e301"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/lower_values_fqi_full.csv.gz",
+      "bytes": 1205389,
+      "sha256": "5e36f0084e891af691c754e53b6ef774b8163780be5e309126d04648996117eb"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/lower_values_responsive.csv.gz",
+      "bytes": 589006,
+      "sha256": "7d471297c336cbf673d35a5e9f83694bfa48453f8ce9fbe43c83a925b18d0110"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/lower_values_time.csv.gz",
+      "bytes": 585686,
+      "sha256": "183f2088cff55067f3531d43af696be307ab3be760d8b846847fce136bf392b1"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/reference_replay_fqi_clock.csv.gz",
+      "bytes": 1361111,
+      "sha256": "ce9fd60fab4e4dd06aa9b47663610dcda085e252eb5b18d24411f1e83a5a06a1"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/reference_replay_fqi_full.csv.gz",
+      "bytes": 1320503,
+      "sha256": "2a0536e2c894c8466a01ca1d57533a71af54b972e6dc21871bf516f2dfaeb0d2"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/reference_replay_responsive.csv.gz",
+      "bytes": 653319,
+      "sha256": "826e7d7e598cf7671228b9b6406a4ea751b994a4863764c634ce3eee43368ebd"
+    },
+    {
+      "path": "hssc_submission_20261005/results/trajectories/reference_replay_time.csv.gz",
+      "bytes": 633765,
+      "sha256": "2d7ee0e93496f043e5a0ba0535ec3a87b86a1c075e2d6bef520afe6296f45fa2"
+    },
+    {
+      "path": "hssc_submission_20261005/strengthen.py",
+      "bytes": 9979,
+      "sha256": "0fd9aacde635b7c97124e84fc26c02bc9ffda54187f3fdedbf1fd889f1121d9c"
+    },
+    {
+      "path": "hssc_submission_20261005/verify_revision.py",
+      "bytes": 4836,
+      "sha256": "990976c66f778a5e5874de68abf2b14048df3bc26c3127dbaf127cc3aab3f9e5"
+    },
+    {
+      "path": "multidataset_bargaining/analyze.py",
+      "bytes": 9075,
+      "sha256": "88a81a8411ec9c36c996c08473b1fdfa0560d10ab93cbb7dd653b5497c054e57"
+    },
+    {
+      "path": "multidataset_bargaining/data/processed/amazon_audit.json",
+      "bytes": 104,
+      "sha256": "1b04b16ef6a091b7059480108e2ab1c31d0b01ce82072c3107ca427a685357a3"
+    },
+    {
+      "path": "multidataset_bargaining/data/processed/amazon_products.csv",
+      "bytes": 108814,
+      "sha256": "83d05184dbefce0524ebc9d50b5dcf72742c82f3e4e88086c972206d2855ff52"
+    },
+    {
+      "path": "multidataset_bargaining/data/processed/casino_audit.json",
+      "bytes": 88,
+      "sha256": "adffd032e6168869ec068b44bf0f969782c2b38ad84e0d122fef7f0e510358c5"
+    },
+    {
+      "path": "multidataset_bargaining/data/processed/casino_dialogues.csv",
+      "bytes": 120777,
+      "sha256": "07150ae8f95f8f12f9c7788ac1d20c56d908e36c35300a88bc444890da422cab"
+    },
+    {
+      "path": "multidataset_bargaining/data/processed/casino_participants.csv",
+      "bytes": 203891,
+      "sha256": "b2fc5298b2a4a4dbc2712b88da2950ac24a00825ea5a3e307f36a70bbffaeef9"
+    },
+    {
+      "path": "multidataset_bargaining/data/processed/craigslist_audit.json",
+      "bytes": 873,
+      "sha256": "1a5d6954c05022b639ff0a7f0f7ef054c6d102ba68427406ceaacbc877bd346b"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/acquisition.json",
+      "bytes": 11147,
+      "sha256": "dfc6d6a8da7f0cf594615a0402ac9d3bbb02177dffcf685406c2607f12000951"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/README.md",
+      "bytes": 2771,
+      "sha256": "b833ab8f8c947dac920cfffc9c239b57114ac68d713a402eeb3d53f9918c1517"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/automotive.json",
+      "bytes": 13960,
+      "sha256": "cd822866bda89fd1eed8b3a8b4668801510102829d555d2ba90086c1c1063fba"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/baby-products.json",
+      "bytes": 34749,
+      "sha256": "b2b1b79a3659673708e1511a2afad1d6c197afef205df221f300f72321b00b94"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/beauty.json",
+      "bytes": 13799,
+      "sha256": "5ca11efe5d0beee7689968b2894f4b164bdd88834b31b57a6c9cced397f7599e"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/books.json",
+      "bytes": 21512,
+      "sha256": "a7ebb82a74129323660843c5fc9bcb868ca8216162246e57bf2cc1c8b3554325"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/electronics.json",
+      "bytes": 774110,
+      "sha256": "7995bace94537ce27fa4ac4c658d2fee27811071ab43ea682f48a92594b7518e"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/health-personal-care.json",
+      "bytes": 2694,
+      "sha256": "2bcd86e1a10a8fa4bc69bb75ddc888556ca39aba152e473ce417b9de59f0a1c3"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/home-kitchen.json",
+      "bytes": 56926,
+      "sha256": "8324c1c67b533bd0d2700edce852cc8ab3417c6cc1043e660a20b817bc8c910b"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/industrial-scientific.json",
+      "bytes": 4470,
+      "sha256": "d8d7073a67e72444e9bf5067ad9a334fd3e05885287e565981f689433ae13c11"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/movies-tv.json",
+      "bytes": 114852,
+      "sha256": "a66b7454b4f69e3b3b1e00362f55d67aba5e5893bbaa5b77b49fbe162e25d00e"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/music.json",
+      "bytes": 6846,
+      "sha256": "686c339a4b2c241bec08a8e0f5ab378dd4d9dc1d50966c987d0df9248ab4c18a"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/other.json",
+      "bytes": 791587,
+      "sha256": "6868df944d0aec2dd2f06c7ad8304c9f41097eb4dc375d80dd2fc12812cfa1bd"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/patio-lawn-garden.json",
+      "bytes": 33552,
+      "sha256": "edaf0cbba240d7d17f34cfe261fae3dd2987409bf77ffe721d5855fd4dae3ba8"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/pet-supplies.json",
+      "bytes": 12039,
+      "sha256": "f975907be39e23440ef3ca54960d3453ec36f798a2e232d5016a47a74376d31b"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/software.json",
+      "bytes": 11739,
+      "sha256": "ebdeacf7a4d9217df13cd32041124621cef24f11c73da2f4fd5b85801073293b"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/sports-outdoors.json",
+      "bytes": 27354,
+      "sha256": "806f73f100356da2ea199cf8d7c7d77afe8caa93a14880bb442a7d7276b85c96"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/tools-home-improvement.json",
+      "bytes": 394693,
+      "sha256": "f8f75239091c71d58df4108f8246a21a6a831ebc40e3a4ccc018efcac8589397"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/toys-games.json",
+      "bytes": 58777,
+      "sha256": "18c4ddf974468b896c3877a147ad00b1d86f22964ceabd936848a9fd310cb91f"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/amazon/video-games.json",
+      "bytes": 14967,
+      "sha256": "2f92b9efa2d106b4baaf837c8c41d3a5e4cbcecb28bb96b9ed434e82c430dd66"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/casino/LICENSE",
+      "bytes": 18658,
+      "sha256": "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/casino/README.md",
+      "bytes": 1590,
+      "sha256": "2cc2a0bfe22e3285ddb4a04a1675dfe68b2609ec561ae0595ebcdd5504344001"
+    },
+    {
+      "path": "multidataset_bargaining/data/raw/casino/casino.json",
+      "bytes": 4300019,
+      "sha256": "4f2c4560a0070906ed018c3f0766e35f8f8f31b36274ebf35b608621915744ab"
+    },
+    {
+      "path": "multidataset_bargaining/download_pinned.py",
+      "bytes": 713,
+      "sha256": "d83d2eb7db303f3593ced17f3f3a25ebec1cf9ccf191e15b4d9204e48ab595ce"
+    },
+    {
+      "path": "multidataset_bargaining/platform_adapter.py",
+      "bytes": 2198,
+      "sha256": "2b2121beaf3833e8a3b50e60f843b4cd44654c7f0fa4033a96f09410c310a258"
+    },
+    {
+      "path": "multidataset_bargaining/prepare_data.py",
+      "bytes": 8769,
+      "sha256": "c032cdc835d0f48779fbd38fad1b5545205966aebc3237a367d5e902d45cf7e6"
+    },
+    {
+      "path": "multidataset_bargaining/results/amazon_category_summary.csv",
+      "bytes": 714,
+      "sha256": "23ba03e11f667a8e351381d1a9e353a9597e1292fd8b59888c150c88a0b38baf"
+    },
+    {
+      "path": "multidataset_bargaining/results/analysis_environment.json",
+      "bytes": 169,
+      "sha256": "5bb676537dccc2f3a47ef753ac0c643451860669e0d7c1b747f41430d8c43b34"
+    },
+    {
+      "path": "multidataset_bargaining/results/casino_associations.json",
+      "bytes": 944,
+      "sha256": "3229248710e46ed5f142809215e11e805524d06c3d5c182bc7f0232b7163d848"
+    },
+    {
+      "path": "multidataset_bargaining/results/craigslist_category_summary.csv",
+      "bytes": 470,
+      "sha256": "aabb803b656202c49e7cc470be02fdd07342ba708ce7e506fc0b5fa7a5ffa12d"
+    },
+    {
+      "path": "multidataset_bargaining/results/descriptive.json",
+      "bytes": 3601,
+      "sha256": "a821caae2e70b70bb3017621d6f62115b263d9895561005302e2f8f58ff0e954"
+    },
+    {
+      "path": "multidataset_bargaining/simulate.py",
+      "bytes": 9102,
+      "sha256": "843eab5b63ebc1618259daaa1b5d08afd031ebeec75909b97f4b07d74e981811"
+    },
+    {
+      "path": "multidataset_bargaining/test_platform.py",
+      "bytes": 1774,
+      "sha256": "c12b78d72a4c9d432812a6c00ac74c26c2317126ac8c09404a951bbbfc6a2bba"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig1.eps",
+      "bytes": 99053,
+      "sha256": "05219131d9842e98330d2c9c22284f9fb1125700ba919ffc7e27f5e480e2435b"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig1.png",
+      "bytes": 565013,
+      "sha256": "4c75e4b590de3a12f3b5be1a1fca5d2474061083d758b183fa25d8f4d45857a9"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig1.svg",
+      "bytes": 13707,
+      "sha256": "fbc5fef078b26b2afc6cf56ae8c353fc63610c6b5584fea473f4e349fbeab59c"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig2.eps",
+      "bytes": 114196,
+      "sha256": "4eac69511a8ccd71894c03b50038b301e8790d8c961b45ea282ef0f9ed8a0bff"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig2.png",
+      "bytes": 365029,
+      "sha256": "0c8001716b8a28f71ba54e909ac5d3beb739b6edfa22c0717024a25aadeed11a"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig2.svg",
+      "bytes": 49525,
+      "sha256": "43901aa9bfa91cd00722bf219cfca91bec2ba547b3eb245fb69387388c72701c"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig3.eps",
+      "bytes": 92468,
+      "sha256": "640e5438280679323d8f8e6190e5763e3f45407acb927f5e81f3b5c227e67fcb"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig3.png",
+      "bytes": 340944,
+      "sha256": "b4683b4918699e3a36dc72003e52db01e36bd6d91c2a2753c7fae8fa43b1520d"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig3.svg",
+      "bytes": 38572,
+      "sha256": "7c9e0f1beca7d70696afd79e02d50f5a4d533b619a5ec118479fee6458b0b630"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig4.eps",
+      "bytes": 85810,
+      "sha256": "eca703f9e956a4724da66174c4e4e5456edf71d4083ef5980c01fef48908d57a"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig4.png",
+      "bytes": 487617,
+      "sha256": "ff9900e8b1a544f031f56776dfb5efb32f566d1178e460431dd87e8cfc03f79b"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig4.svg",
+      "bytes": 28539,
+      "sha256": "9941eb3a1e466a887f4803c7db35ccf787e85e5cceacd68b4965b97766fe9679"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig5.eps",
+      "bytes": 94862,
+      "sha256": "681b34ca8a8db7b4f116d92177500afda8077337884ddab9b8a0f1f7b0e02578"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig5.png",
+      "bytes": 357535,
+      "sha256": "5c960a68fe5c7ab3df0620b4b48a3a23d926890bd49c7b59eb21cae42d040863"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig5.svg",
+      "bytes": 41478,
+      "sha256": "7f689fbdb86eeb18c31435e02755a2ea380f92326a76267f9d34667b657dfc40"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig5_data.csv",
+      "bytes": 561,
+      "sha256": "b5b2fdaf2b86f8774d7ac052a5c514515701fff90e97157a7d3f881abcb0ec3f"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig6.eps",
+      "bytes": 236612,
+      "sha256": "f148fe2e15f7b60f0b9312c986f525be12c15d11dbd15762698218efe34b4c0e"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig6.png",
+      "bytes": 584249,
+      "sha256": "d4351e5ca1b82658df9f7fa1fb9c2fa31fb3f9230bd9203b88af38b2d8078576"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig6.svg",
+      "bytes": 186739,
+      "sha256": "5a44786729cd36b79f23d9a88f280aee6df6223e9115a56efd5dd0bc92f5a11e"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/Fig6_data.csv",
+      "bytes": 352628,
+      "sha256": "5792fed583dea3d7739d00175504a082e74219cd0adeb81a97a00d2b12edfe17"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/figure_verification.json",
+      "bytes": 3780,
+      "sha256": "58f80c646bddb4e53f62c8cf911a48698925896a3d1329a0c32b10e8e1e02af4"
+    },
+    {
+      "path": "output/hssc_submission_20261005/Figures/numeric_plot_data.csv",
+      "bytes": 24059,
+      "sha256": "379c5d73eb479f5d790dcda6e6302e4e2069473bad1598710cc45a6c1ce5a5f3"
+    },
+    {
+      "path": "review_support/REVIEW_GUIDE.txt",
+      "bytes": 11717,
+      "sha256": "ff759be53c1b90c1762cd12ddce30ce0d288ce5fc31f52302ecafeb66ca1bfdd"
+    },
+    {
+      "path": "review_support/SOURCE_ACCESS_AUDIT.json",
+      "bytes": 19000,
+      "sha256": "bb978e170ad29863241cadcbd9671c0811c71640cf86088a99154e43dbd76155"
+    },
+    {
+      "path": "review_support/SOURCE_REGISTER.json",
+      "bytes": 11888,
+      "sha256": "606e950be27cf897e901f7a2bfea55357b046a5f4e50feeb91dd9f3f93199ddb"
+    },
+    {
+      "path": "review_support/SOURCE_VARIABLES.txt",
+      "bytes": 6224,
+      "sha256": "60a26a6c4497a08f1e00384a2ec6c01c7f66209458e3eef5f15f9725f77a81db"
+    },
+    {
+      "path": "review_support/reconstruct_sources.py",
+      "bytes": 1844,
+      "sha256": "57c522d48a91814f92c08d9ef4b5d448d16cfe85faac7fa119f93abcd62fd4e3"
+    },
+    {
+      "path": "review_support/verify_files.py",
+      "bytes": 639,
+      "sha256": "6315d040e2161863649aa6ded7fecf9832f1cb16c9157110d5d59b166fb05f37"
+    },
+    {
+      "path": "review_support/fetch_craigslist_sources.py",
+      "bytes": 5739,
+      "sha256": "dea182bccd41269d473a1a7eab6efbc91c5db8230a24437c5ae457265f90c71d"
+    },
+    {
+      "path": "review_support/reconstruct_craigslist_derivatives.py",
+      "bytes": 6117,
+      "sha256": "a82fb476643808465cc2af1a12b7b7dbaffebc7ae9d0a853c7d1e72cfadbcc9d"
+    },
+    {
+      "path": "review_support/CRAIGSLIST_DERIVATIVE_SHA256.json",
+      "bytes": 4221,
+      "sha256": "78b593d2ecce1f0b59f4b78dd495827376fc0dbc05d07aa1c035160ae0637f39"
+    },
+    {
+      "path": "review_support/CRAIGSLIST_RECONSTRUCTION_CHECK.json",
+      "bytes": 5405,
+      "sha256": "387ad6f29ebb50a056186919421929175b29d9cbedc0bc186c5de4af7b48fcea"
+    }
+  ],
+  "excludes_itself": true,
+  "complete_source_access": "CraigslistBargain via checksum-verified retrieval from the original CodaLab endpoints; not redistributed",
+  "updated": "2026-10-15"
+}

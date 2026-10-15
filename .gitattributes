@@ -1,0 +1,2 @@
+# Keep every file byte-for-byte as committed so SHA-256 checks pass on all platforms.
+* -text

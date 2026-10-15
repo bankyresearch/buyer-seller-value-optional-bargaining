@@ -1,0 +1,58 @@
+INDEPENDENT IMPLEMENTATION REVIEW WITHIN THE SAME AI-ASSISTED TEAM
+Scope: October focused manuscript technical prose, integration implementation,
+channel_analysis.py and test_channel_analysis.py. This is not external peer
+review, human annotation, or independent researcher replication.
+
+No error identified in route accounting, original-opportunity denominator,
+seed-within-product averaging, matched-product resampling, seller decomposition,
+buyer costs, receipt cancellation, ratio-of-means cost/fallback algebra, or
+constant-uptake ranking invariant. The ranking-mechanism decomposition correctly
+separates a constant-uptake gross difference, selection composition, fallback,
+and interaction-time cost. Frozen policies were not selected on these outcomes.
+
+Technical manuscript precision recommendations sent to lead authoring agent:
+1. Executable normalized floor = ceil(100 L clip(.8 minimum/current,.2,.95))
+   /(100 L), subject to numerical tolerance, not direct cent-rounding of a ratio.
+2. Training-dialogue first recognized bid ratios clip to [.30,.85], then
+   synthetic opening is capped at .9 times simulated value. Recognized amount
+   is not an independently annotated semantic opening offer.
+3. State encodes (t+1)/H and H/8. Full nine-state, clock four-state inputs omit
+   private value, type and deadline. H is a public platform horizon.
+4. Both designated policies use min_samples_leaf=40, 24 trees, depth12 and
+   eight fitted iterations. Candidate fractions 0,.125,...,1 plus the feasible
+   state-dependent linear quote. Exact quote containment does not mean the
+   float32 fractional features are bit-identical to double-precision execution.
+5. Reference deadlines are sampled uniformly from {3,5,8}; reference value is
+   U[.60,1.15], low valuation U[.50,.85]. Four styles are balanced deterministically
+   by repetition index, not independently sampled types. Abandonment .05 is
+   applied after unresolved rounds, and each attempted round incurs its cost.
+6. Prior selected rules: time terminal=1, exponent=1; responsive same time
+   component, weight=.25, markup=.20. No new test-selected rules.
+7. Gross negotiation surplus includes zero failures; conditional_gross_seller
+   means conditional on entering the negotiation route, not on a completed sale.
+
+UNCERTAINTY CAVEAT
+In the first complete analysis outputs, 13 of 144 pairwise cost-crossing ratio
+diagnostics had more than 2.5% of bootstrap duration contrasts in each sign.
+Ratios near a zero denominator can have unstable/disconnected uncertainty;
+ordinary percentile endpoints do not establish a reliable switching boundary.
+Two point crossings in the evaluated [0,.02] cost range were especially weak:
+- Stubborn, acceptance .25, exogenous, responsive versus full FQI: c*=.002313,
+  positive duration-denominator fraction .0465, negative .9530, undefined .0005.
+- Stubborn, acceptance .50, value-dependent, responsive versus clock FQI:
+  c*=.016674, positive fraction .8070, negative .1930.
+These estimates must be retained as unstable diagnostics, not used as a
+deployment prescription. The other sign flags and infeasible/undefined values
+also remain visible. Cost ceilings use positive exposure H and are unaffected
+by this signed policy-duration denominator issue. The analysis owner was asked
+to make this reporting distinction explicit without deleting unfavorable cells.
+Resolution: the final analysis now includes denominator_sign_instability and
+describes it in analysis/schema.json; a sixteenth fixture test checks the flag.
+Canonical and separate-directory tables were regenerated and verified by the
+analysis owner. No computed point estimate was removed or selected afterward.
+
+The 193 products, not 2,223,360 simulated policy trajectories, are bootstrap
+clusters. Intervals condition on fixed seeds and stipulated customer/route
+mechanisms. No adjustment for simulation structural uncertainty or measured
+real-customer demand is implied. New trajectories do not restore an untouched
+holdout after prior evaluation outcomes were inspected.

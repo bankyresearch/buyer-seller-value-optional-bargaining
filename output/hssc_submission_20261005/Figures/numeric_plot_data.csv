@@ -1,0 +1,133 @@
+figure,regime,policy,metric,acceptance_coefficient,source_mean,source_lo,source_hi,plotted_value,plotted_lo,plotted_hi,units,sign,primary_source
+2,Reference,Full-state FQI,seller_increment,0.25,0.0144121912155899,0.0102054852579237,0.0189260110906049,1.44121912155899,1.02054852579237,1.8926011090604902,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Reference,Clock-only FQI,seller_increment,0.25,0.0114286595040566,0.0073122265779763,0.0157506281488627,1.14286595040566,0.7312226577976301,1.57506281488627,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Reference,Time concession,seller_increment,0.25,0.009787011525537,0.0059831067052746,0.0138519041117122,0.9787011525536999,0.59831067052746,1.38519041117122,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Reference,Buyer responsive,seller_increment,0.25,0.0080809742426516,0.0043721272719947,0.0120408369929738,0.80809742426516,0.43721272719947,1.20408369929738,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Reference,Full-state FQI,buyer_increment,0.25,0.0038899403348073,0.0021087836243803,0.0057485274816418,0.38899403348073003,0.21087836243803,0.57485274816418,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Reference,Clock-only FQI,buyer_increment,0.25,0.0074985097418373,0.0051740134011879,0.0099133074339697,0.74985097418373,0.5174013401187899,0.99133074339697,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Reference,Time concession,buyer_increment,0.25,0.0049258236503596,0.0037701443448635,0.0061108877442871,0.49258236503596,0.37701443448635,0.6110887744287099,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Reference,Buyer responsive,buyer_increment,0.25,0.0059626659089075,0.0048728880036785,0.0071071491652809,0.5962665908907501,0.48728880036785,0.71071491652809,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Stubborn offers,Full-state FQI,seller_increment,0.25,-0.0174627116333653,-0.0205108749416223,-0.0139821698702483,-1.74627116333653,-2.05108749416223,-1.39821698702483,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Stubborn offers,Clock-only FQI,seller_increment,0.25,-0.014994178655287,-0.0183202369488387,-0.0112095543909588,-1.4994178655287,-1.83202369488387,-1.12095543909588,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Stubborn offers,Time concession,seller_increment,0.25,-0.0176434459480547,-0.0199793724653076,-0.014969091486449,-1.7643445948054701,-1.99793724653076,-1.4969091486449,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Stubborn offers,Buyer responsive,seller_increment,0.25,-0.0174193240822329,-0.0197011636052003,-0.0147794703460376,-1.74193240822329,-1.97011636052003,-1.47794703460376,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Stubborn offers,Full-state FQI,buyer_increment,0.25,0.0012026746356668,-0.0017740343789339,0.0043450549271724,0.12026746356668,-0.17740343789339,0.43450549271724,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Stubborn offers,Clock-only FQI,buyer_increment,0.25,0.0102886907349471,0.0062798752869279,0.0142675111648655,1.02886907349471,0.62798752869279,1.42675111648655,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Stubborn offers,Time concession,buyer_increment,0.25,0.0036302396198695,0.0013883016383438,0.0058290266721532,0.36302396198695,0.13883016383438,0.5829026672153199,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Stubborn offers,Buyer responsive,buyer_increment,0.25,0.0036569666581445,0.0015550741347341,0.0057387988476836,0.36569666581445,0.15550741347341,0.57387988476836,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Low valuations,Full-state FQI,seller_increment,0.25,0.0073000267323922,0.0026308134590492,0.0124437570561982,0.73000267323922,0.26308134590492,1.2443757056198201,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Low valuations,Clock-only FQI,seller_increment,0.25,0.0085365372230964,0.0034313686982716,0.0140440413251927,0.8536537223096399,0.34313686982716,1.40440413251927,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Low valuations,Time concession,seller_increment,0.25,0.0028856805363325,-0.0008762515592855,0.0069445027703525,0.28856805363325,-0.08762515592855,0.69445027703525,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Low valuations,Buyer responsive,seller_increment,0.25,0.0020387037273794,-0.0015255753338926,0.0059395413045517,0.20387037273794,-0.15255753338925998,0.59395413045517,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Low valuations,Full-state FQI,buyer_increment,0.25,-0.0086080313336108,-0.0093953777584248,-0.0077550928936373,-0.86080313336108,-0.93953777584248,-0.77550928936373,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Low valuations,Clock-only FQI,buyer_increment,0.25,-0.0072313093104003,-0.0083355836830732,-0.0060597073606611,-0.72313093104003,-0.8335583683073199,-0.60597073606611,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Low valuations,Time concession,buyer_increment,0.25,-0.0099787851489753,-0.0103747701602114,-0.0095644124597453,-0.99787851489753,-1.03747701602114,-0.9564412459745301,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+2,Low valuations,Buyer responsive,buyer_increment,0.25,-0.0101918546290015,-0.0105621355038367,-0.0098032576160342,-1.01918546290015,-1.05621355038367,-0.98032576160342,percent_listing_price_per_original_opportunity,1,primary_intervals.csv
+3,Reference,Full-state FQI,new_margin,0.25,0.0336890055898518,,,3.36890055898518,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Reference,Full-state FQI,discount_cannibalization,0.25,0.0078032256471493,,,-0.78032256471493,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Reference,Full-state FQI,lost_checkout_margin,0.25,0.0020558749965425,,,-0.20558749965425,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Reference,Full-state FQI,seller_interaction_cost,0.25,0.0094177137305699,,,-0.9417713730569899,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Reference,Full-state FQI,seller_increment,0.25,0.0144121912155899,,,1.44121912155899,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Reference,Clock-only FQI,new_margin,0.25,0.0319536166368902,,,3.19536166368902,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Reference,Clock-only FQI,discount_cannibalization,0.25,0.009559122820937,,,-0.9559122820937,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Reference,Clock-only FQI,lost_checkout_margin,0.25,0.00176130063314,,,-0.176130063314,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Reference,Clock-only FQI,seller_interaction_cost,0.25,0.0092045336787564,,,-0.9204533678756399,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Reference,Clock-only FQI,seller_increment,0.25,0.0114286595040566,,,1.14286595040566,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Reference,Time concession,new_margin,0.25,0.0301744456054337,,,3.01744456054337,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Reference,Time concession,discount_cannibalization,0.25,0.0091072653269711,,,-0.9107265326971099,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Reference,Time concession,lost_checkout_margin,0.25,0.0018284200482622,,,-0.18284200482622,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Reference,Time concession,seller_interaction_cost,0.25,0.0094517487046632,,,-0.9451748704663201,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Reference,Time concession,seller_increment,0.25,0.009787011525537,,,0.9787011525536999,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Reference,Buyer responsive,new_margin,0.25,0.0294732321394946,,,2.94732321394946,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Reference,Buyer responsive,discount_cannibalization,0.25,0.0101739443799507,,,-1.01739443799507,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Reference,Buyer responsive,lost_checkout_margin,0.25,0.0017816231023844,,,-0.17816231023844,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Reference,Buyer responsive,seller_interaction_cost,0.25,0.0094366904145077,,,-0.94366904145077,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Reference,Buyer responsive,seller_increment,0.25,0.0080809742426516,,,0.80809742426516,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Stubborn offers,Full-state FQI,new_margin,0.25,0.0132574151916734,,,1.3257415191673398,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Stubborn offers,Full-state FQI,discount_cannibalization,0.25,0.0077449694632611,,,-0.77449694632611,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Stubborn offers,Full-state FQI,lost_checkout_margin,0.25,0.0123262583980471,,,-1.23262583980471,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Stubborn offers,Full-state FQI,seller_interaction_cost,0.25,0.0106488989637305,,,-1.06488989637305,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Stubborn offers,Full-state FQI,seller_increment,0.25,-0.0174627116333653,,,-1.74627116333653,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Stubborn offers,Clock-only FQI,new_margin,0.25,0.0160146119544655,,,1.60146119544655,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Stubborn offers,Clock-only FQI,discount_cannibalization,0.25,0.0116207981151227,,,-1.16207981151227,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Stubborn offers,Clock-only FQI,lost_checkout_margin,0.25,0.0091835559661323,,,-0.9183555966132301,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Stubborn offers,Clock-only FQI,seller_interaction_cost,0.25,0.0102044365284974,,,-1.02044365284974,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Stubborn offers,Clock-only FQI,seller_increment,0.25,-0.014994178655287,,,-1.4994178655287,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Stubborn offers,Time concession,new_margin,0.25,0.0121981047966111,,,1.21981047966111,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Stubborn offers,Time concession,discount_cannibalization,0.25,0.0092619021103722,,,-0.92619021103722,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Stubborn offers,Time concession,lost_checkout_margin,0.25,0.0099692211731538,,,-0.99692211731538,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Stubborn offers,Time concession,seller_interaction_cost,0.25,0.0106104274611398,,,-1.06104274611398,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Stubborn offers,Time concession,seller_increment,0.25,-0.0176434459480547,,,-1.7643445948054701,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Stubborn offers,Buyer responsive,new_margin,0.25,0.0120583001848862,,,1.20583001848862,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Stubborn offers,Buyer responsive,discount_cannibalization,0.25,0.0094836664441699,,,-0.94836664441699,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Stubborn offers,Buyer responsive,lost_checkout_margin,0.25,0.0094257907245036,,,-0.94257907245036,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Stubborn offers,Buyer responsive,seller_interaction_cost,0.25,0.0105681670984455,,,-1.05681670984455,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Stubborn offers,Buyer responsive,seller_increment,0.25,-0.0174193240822329,,,-1.74193240822329,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Low valuations,Full-state FQI,new_margin,0.25,0.0182427728463818,,,1.8242772846381798,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Low valuations,Full-state FQI,discount_cannibalization,0.25,0.0,,,-0.0,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Low valuations,Full-state FQI,lost_checkout_margin,0.25,0.0,,,-0.0,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Low valuations,Full-state FQI,seller_interaction_cost,0.25,0.0109427461139896,,,-1.09427461139896,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Low valuations,Full-state FQI,seller_increment,0.25,0.0073000267323922,,,0.73000267323922,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Low valuations,Clock-only FQI,new_margin,0.25,0.0192792185702466,,,1.9279218570246601,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Low valuations,Clock-only FQI,discount_cannibalization,0.25,0.0,,,-0.0,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Low valuations,Clock-only FQI,lost_checkout_margin,0.25,0.0,,,-0.0,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Low valuations,Clock-only FQI,seller_interaction_cost,0.25,0.0107426813471502,,,-1.07426813471502,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Low valuations,Clock-only FQI,seller_increment,0.25,0.0085365372230964,,,0.8536537223096399,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Low valuations,Time concession,new_margin,0.25,0.0141894370130164,,,1.41894370130164,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Low valuations,Time concession,discount_cannibalization,0.25,0.0,,,-0.0,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Low valuations,Time concession,lost_checkout_margin,0.25,0.0,,,-0.0,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Low valuations,Time concession,seller_interaction_cost,0.25,0.0113037564766839,,,-1.1303756476683902,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Low valuations,Time concession,seller_increment,0.25,0.0028856805363325,,,0.28856805363325,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Low valuations,Buyer responsive,new_margin,0.25,0.0134125703076903,,,1.3412570307690301,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+3,Low valuations,Buyer responsive,discount_cannibalization,0.25,0.0,,,-0.0,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Low valuations,Buyer responsive,lost_checkout_margin,0.25,0.0,,,-0.0,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Low valuations,Buyer responsive,seller_interaction_cost,0.25,0.0113738665803108,,,-1.1373866580310799,,,percent_listing_price_per_original_opportunity,-1,grid_point_estimates.csv
+3,Low valuations,Buyer responsive,seller_increment,0.25,0.0020387037273794,,,0.20387037273794,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Full-state FQI,seller_increment,0.0,0.0151656335791271,,,1.51656335791271,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Full-state FQI,seller_increment,0.25,0.0144121912155899,,,1.44121912155899,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Full-state FQI,seller_increment,0.5,0.0152990126425137,,,1.5299012642513699,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Full-state FQI,seller_increment,1.0,0.0259985804669465,,,2.5998580466946497,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Clock-only FQI,seller_increment,0.0,0.0132611142043473,,,1.32611142043473,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Clock-only FQI,seller_increment,0.25,0.0114286595040566,,,1.14286595040566,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Clock-only FQI,seller_increment,0.5,0.0124564756600881,,,1.24564756600881,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Clock-only FQI,seller_increment,1.0,0.0228736040365568,,,2.28736040365568,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Time concession,seller_increment,0.0,0.0115861422006413,,,1.1586142200641298,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Time concession,seller_increment,0.25,0.009787011525537,,,0.9787011525536999,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Time concession,seller_increment,0.5,0.0114877606048468,,,1.1487760604846802,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Time concession,seller_increment,1.0,0.0229946271379449,,,2.29946271379449,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Buyer responsive,seller_increment,0.0,0.0110366901507381,,,1.10366901507381,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Buyer responsive,seller_increment,0.25,0.0080809742426516,,,0.80809742426516,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Buyer responsive,seller_increment,0.5,0.0087708570128935,,,0.87708570128935,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Reference,Buyer responsive,seller_increment,1.0,0.0149371604217416,,,1.49371604217416,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Full-state FQI,seller_increment,0.0,-0.0191564899824298,,,-1.9156489982429799,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Full-state FQI,seller_increment,0.25,-0.0174627116333653,,,-1.74627116333653,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Full-state FQI,seller_increment,0.5,-0.0125425367306798,,,-1.2542536730679799,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Full-state FQI,seller_increment,1.0,0.0146169434687809,,,1.46169434687809,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Clock-only FQI,seller_increment,0.0,-0.0164441123659679,,,-1.6444112365967898,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Clock-only FQI,seller_increment,0.25,-0.014994178655287,,,-1.4994178655287,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Clock-only FQI,seller_increment,0.5,-0.0083670441025566,,,-0.8367044102556599,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Clock-only FQI,seller_increment,1.0,0.0192686188779137,,,1.9268618877913701,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Time concession,seller_increment,0.0,-0.0214474684879384,,,-2.1447468487938397,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Time concession,seller_increment,0.25,-0.0176434459480547,,,-1.7643445948054701,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Time concession,seller_increment,0.5,-0.0079351164927059,,,-0.7935116492705899,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Time concession,seller_increment,1.0,0.0221116262206159,,,2.21116262206159,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Buyer responsive,seller_increment,0.0,-0.0220077689812106,,,-2.20077689812106,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Buyer responsive,seller_increment,0.25,-0.0174193240822329,,,-1.74193240822329,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Buyer responsive,seller_increment,0.5,-0.0067585800589492,,,-0.67585800589492,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Stubborn offers,Buyer responsive,seller_increment,1.0,0.0169614035649747,,,1.69614035649747,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Full-state FQI,seller_increment,0.0,0.0073151838744101,,,0.73151838744101,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Full-state FQI,seller_increment,0.25,0.0073000267323922,,,0.73000267323922,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Full-state FQI,seller_increment,0.5,0.0073720489373285,,,0.73720489373285,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Full-state FQI,seller_increment,1.0,0.0078206163747622,,,0.7820616374762199,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Clock-only FQI,seller_increment,0.0,0.0086236863423965,,,0.86236863423965,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Clock-only FQI,seller_increment,0.25,0.0085365372230964,,,0.8536537223096399,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Clock-only FQI,seller_increment,0.5,0.0086168642411345,,,0.86168642411345,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Clock-only FQI,seller_increment,1.0,0.0093454162281557,,,0.93454162281557,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Time concession,seller_increment,0.0,0.0029091554267051,,,0.29091554267051,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Time concession,seller_increment,0.25,0.0028856805363325,,,0.28856805363325,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Time concession,seller_increment,0.5,0.0029920055414472,,,0.29920055414471997,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Time concession,seller_increment,1.0,0.0037745968597263,,,0.37745968597263,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Buyer responsive,seller_increment,0.0,0.0020988472987384,,,0.20988472987384,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Buyer responsive,seller_increment,0.25,0.0020387037273794,,,0.20387037273794,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Buyer responsive,seller_increment,0.5,0.0021755574693271,,,0.21755574693271001,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv
+4,Low valuations,Buyer responsive,seller_increment,1.0,0.0033344300635354,,,0.33344300635353996,,,percent_listing_price_per_original_opportunity,1,grid_point_estimates.csv

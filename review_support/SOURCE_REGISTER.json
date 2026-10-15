@@ -1,0 +1,245 @@
+[
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/automotive.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/automotive.json",
+  "sha256": "cd822866bda89fd1eed8b3a8b4668801510102829d555d2ba90086c1c1063fba",
+  "bytes": 13960,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/baby-products.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/baby-products.json",
+  "sha256": "b2b1b79a3659673708e1511a2afad1d6c197afef205df221f300f72321b00b94",
+  "bytes": 34749,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/beauty.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/beauty.json",
+  "sha256": "5ca11efe5d0beee7689968b2894f4b164bdd88834b31b57a6c9cced397f7599e",
+  "bytes": 13799,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/books.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/books.json",
+  "sha256": "a7ebb82a74129323660843c5fc9bcb868ca8216162246e57bf2cc1c8b3554325",
+  "bytes": 21512,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/electronics.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/electronics.json",
+  "sha256": "7995bace94537ce27fa4ac4c658d2fee27811071ab43ea682f48a92594b7518e",
+  "bytes": 774110,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/health-personal-care.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/health-personal-care.json",
+  "sha256": "2bcd86e1a10a8fa4bc69bb75ddc888556ca39aba152e473ce417b9de59f0a1c3",
+  "bytes": 2694,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/home-kitchen.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/home-kitchen.json",
+  "sha256": "8324c1c67b533bd0d2700edce852cc8ab3417c6cc1043e660a20b817bc8c910b",
+  "bytes": 56926,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/industrial-scientific.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/industrial-scientific.json",
+  "sha256": "d8d7073a67e72444e9bf5067ad9a334fd3e05885287e565981f689433ae13c11",
+  "bytes": 4470,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/movies-tv.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/movies-tv.json",
+  "sha256": "a66b7454b4f69e3b3b1e00362f55d67aba5e5893bbaa5b77b49fbe162e25d00e",
+  "bytes": 114852,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/music.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/music.json",
+  "sha256": "686c339a4b2c241bec08a8e0f5ab378dd4d9dc1d50966c987d0df9248ab4c18a",
+  "bytes": 6846,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/other.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/other.json",
+  "sha256": "6868df944d0aec2dd2f06c7ad8304c9f41097eb4dc375d80dd2fc12812cfa1bd",
+  "bytes": 791587,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/patio-lawn-garden.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/patio-lawn-garden.json",
+  "sha256": "edaf0cbba240d7d17f34cfe261fae3dd2987409bf77ffe721d5855fd4dae3ba8",
+  "bytes": 33552,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/pet-supplies.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/pet-supplies.json",
+  "sha256": "f975907be39e23440ef3ca54960d3453ec36f798a2e232d5016a47a74376d31b",
+  "bytes": 12039,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/software.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/software.json",
+  "sha256": "ebdeacf7a4d9217df13cd32041124621cef24f11c73da2f4fd5b85801073293b",
+  "bytes": 11739,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/sports-outdoors.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/sports-outdoors.json",
+  "sha256": "806f73f100356da2ea199cf8d7c7d77afe8caa93a14880bb442a7d7276b85c96",
+  "bytes": 27354,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/tools-home-improvement.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/tools-home-improvement.json",
+  "sha256": "f8f75239091c71d58df4108f8246a21a6a831ebc40e3a4ccc018efcac8589397",
+  "bytes": 394693,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/toys-games.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/toys-games.json",
+  "sha256": "18c4ddf974468b896c3877a147ad00b1d86f22964ceabd936848a9fd310cb91f",
+  "bytes": 58777,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/video-games.json",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/data/AmazonHistoryPrice/video-games.json",
+  "sha256": "2f92b9efa2d106b4baaf837c8c41d3a5e4cbcecb28bb96b9ed434e82c430dd66",
+  "bytes": 14967,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/README.md",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/README.md",
+  "sha256": "b833ab8f8c947dac920cfffc9c239b57114ac68d713a402eeb3d53f9918c1517",
+  "bytes": 2771,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "amazon",
+  "path": "multidataset_bargaining/data/raw/amazon/LICENSE",
+  "url": "https://raw.githubusercontent.com/TianXiaSJTU/AmazonPriceHistory/834ad9066d0627f0332504d5fa6d236706f2402b/LICENSE",
+  "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "bytes": 11357,
+  "revision": "834ad9066d0627f0332504d5fa6d236706f2402b",
+  "provided": true
+ },
+ {
+  "dataset": "casino",
+  "path": "multidataset_bargaining/data/raw/casino/README.md",
+  "url": "https://raw.githubusercontent.com/kushalchawla/CaSiNo/2f6ed4a6a55110152a7699fbaa8150d6036314be/data/README.md",
+  "sha256": "2cc2a0bfe22e3285ddb4a04a1675dfe68b2609ec561ae0595ebcdd5504344001",
+  "bytes": 1590,
+  "revision": "2f6ed4a6a55110152a7699fbaa8150d6036314be",
+  "provided": true
+ },
+ {
+  "dataset": "casino",
+  "path": "multidataset_bargaining/data/raw/casino/casino.json",
+  "url": "https://raw.githubusercontent.com/kushalchawla/CaSiNo/2f6ed4a6a55110152a7699fbaa8150d6036314be/data/casino.json",
+  "sha256": "4f2c4560a0070906ed018c3f0766e35f8f8f31b36274ebf35b608621915744ab",
+  "bytes": 4300019,
+  "revision": "2f6ed4a6a55110152a7699fbaa8150d6036314be",
+  "provided": true
+ },
+ {
+  "dataset": "casino",
+  "path": "multidataset_bargaining/data/raw/casino/LICENSE",
+  "url": "https://raw.githubusercontent.com/kushalchawla/CaSiNo/2f6ed4a6a55110152a7699fbaa8150d6036314be/LICENSE",
+  "sha256": "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f",
+  "bytes": 18658,
+  "revision": "2f6ed4a6a55110152a7699fbaa8150d6036314be",
+  "provided": true
+ },
+ {
+  "dataset": "craigslist",
+  "filename": "train.json",
+  "sha256": "34033ff87565b9fc9eb0efe867e9d3e32456dbe1528cd1683f94a84b09f66ace",
+  "bytes": 20148723,
+  "rows": 5247,
+  "url": "https://worksheets.codalab.org/rest/bundles/0xd34bbbc5fb3b4fccbd19e10756ca8dd7/contents/blob/parsed.json",
+  "provided": false,
+  "reason": "Not redistributed: the corpus maintainers state no data licence.",
+  "access_route": "Original CodaLab endpoint (url). TLS certificate expired 7 October 2026; integrity is established by the sha256 above via review_support/fetch_craigslist_sources.py.",
+  "access_verified_utc": "2026-10-15"
+ },
+ {
+  "dataset": "craigslist",
+  "filename": "dev.json",
+  "sha256": "03b35dc18bd90d87dac46893ac4db8ab3eed51786d192975be68d3bab38e306e",
+  "bytes": 2287054,
+  "rows": 597,
+  "url": "https://worksheets.codalab.org/rest/bundles/0x15c4160b43d44ee3a8386cca98da138c/contents/blob/parsed.json",
+  "provided": false,
+  "reason": "Not redistributed: the corpus maintainers state no data licence.",
+  "access_route": "Original CodaLab endpoint (url). TLS certificate expired 7 October 2026; integrity is established by the sha256 above via review_support/fetch_craigslist_sources.py.",
+  "access_verified_utc": "2026-10-15"
+ },
+ {
+  "dataset": "craigslist",
+  "filename": "test.json",
+  "sha256": "c802f15f80ea3066d429375393319d7234daacbd6a26a6ad5afd0ad78a2f7736",
+  "bytes": 2937841,
+  "rows": 838,
+  "url": "https://worksheets.codalab.org/rest/bundles/0x54d325bbcfb2463583995725ed8ca42b/contents/blob/",
+  "provided": false,
+  "reason": "Not redistributed: the corpus maintainers state no data licence.",
+  "access_route": "Original CodaLab endpoint (url). TLS certificate expired 7 October 2026; integrity is established by the sha256 above via review_support/fetch_craigslist_sources.py.",
+  "access_verified_utc": "2026-10-15"
+ }
+]

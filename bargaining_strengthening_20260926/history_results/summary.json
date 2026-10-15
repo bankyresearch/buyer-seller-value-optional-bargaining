@@ -1,0 +1,197 @@
+{
+  "protocol_sha256": "7450ee4c310d81a007bf7e15ff7cc4ac868eb4d22322e71ec131df94fb8a5b9b",
+  "rows": {
+    "train": 4482,
+    "dev": 479,
+    "test": 546
+  },
+  "test_scenarios": 371,
+  "source_sha256": {
+    "multidataset_bargaining\\data\\processed\\craigslist_price_events.csv": "2f0462077db0b113ab05dbc5308d96a7ee40b51b333ede3e1a5d08c93512a1ef",
+    "bargaining_framework_revision\\results\\structured_offer_events.csv": "e92029b60d17bf700162a64641a8e881e8cdf17b0dbfbc9202e6684d80dd62b4"
+  },
+  "model_selection": {
+    "Mixed history|Ridge": {
+      "parameter": 0.1,
+      "development_mae": 0.08176398194618702,
+      "features": [
+        "log_listing",
+        "last_own",
+        "last_other",
+        "last_public",
+        "min_public",
+        "max_public",
+        "own_seen",
+        "other_seen",
+        "log_own_count",
+        "log_other_count",
+        "log_event",
+        "is_buyer",
+        "category"
+      ]
+    },
+    "Mixed history|Gradient boosting": {
+      "parameter": 31,
+      "development_mae": 0.05569240822922563,
+      "features": [
+        "log_listing",
+        "last_own",
+        "last_other",
+        "last_public",
+        "min_public",
+        "max_public",
+        "own_seen",
+        "other_seen",
+        "log_own_count",
+        "log_other_count",
+        "log_event",
+        "is_buyer",
+        "category"
+      ]
+    },
+    "Native-only history|Ridge": {
+      "parameter": 100.0,
+      "development_mae": 0.10666706975558755,
+      "features": [
+        "log_listing",
+        "last_own",
+        "last_other",
+        "last_public",
+        "min_public",
+        "max_public",
+        "own_seen",
+        "other_seen",
+        "log_own_count",
+        "log_other_count",
+        "log_event",
+        "is_buyer",
+        "category"
+      ]
+    },
+    "Native-only history|Gradient boosting": {
+      "parameter": 7,
+      "development_mae": 0.1020444497858555,
+      "features": [
+        "log_listing",
+        "last_own",
+        "last_other",
+        "last_public",
+        "min_public",
+        "max_public",
+        "own_seen",
+        "other_seen",
+        "log_own_count",
+        "log_other_count",
+        "log_event",
+        "is_buyer",
+        "category"
+      ]
+    },
+    "No-price-history context|Ridge": {
+      "parameter": 100.0,
+      "development_mae": 0.10726333539058361,
+      "features": [
+        "log_listing",
+        "log_event",
+        "is_buyer",
+        "category"
+      ]
+    },
+    "No-price-history context|Gradient boosting": {
+      "parameter": 7,
+      "development_mae": 0.10260031537296499,
+      "features": [
+        "log_listing",
+        "log_event",
+        "is_buyer",
+        "category"
+      ]
+    }
+  },
+  "metrics": {
+    "Mixed history|Ridge": {
+      "mean": 0.07636628073772045,
+      "lo": 0.06965322425180732,
+      "hi": 0.08308379459703345,
+      "clusters": 371
+    },
+    "Mixed history|Gradient boosting": {
+      "mean": 0.052973932914244216,
+      "lo": 0.04500975171214517,
+      "hi": 0.06128838086992702,
+      "clusters": 371
+    },
+    "Native-only history|Ridge": {
+      "mean": 0.10316545603479135,
+      "lo": 0.09493953842716678,
+      "hi": 0.11151578385305044,
+      "clusters": 371
+    },
+    "Native-only history|Gradient boosting": {
+      "mean": 0.10398760425192112,
+      "lo": 0.09475914588616084,
+      "hi": 0.11350000132602354,
+      "clusters": 371
+    },
+    "No-price-history context|Ridge": {
+      "mean": 0.10425197086938837,
+      "lo": 0.09600167662071853,
+      "hi": 0.11271960961560928,
+      "clusters": 371
+    },
+    "No-price-history context|Gradient boosting": {
+      "mean": 0.1039889884955324,
+      "lo": 0.09479423014264671,
+      "hi": 0.11341938250064625,
+      "clusters": 371
+    },
+    "Training median": {
+      "mean": 0.10357276314739926,
+      "lo": 0.09454685198647492,
+      "hi": 0.11251440228680831,
+      "clusters": 371
+    }
+  },
+  "paired_contrasts": {
+    "Ridge|Mixed history minus Native-only history": {
+      "mean": -0.026799175297070883,
+      "lo": -0.032317572541347414,
+      "hi": -0.021168225411877892,
+      "clusters": 371
+    },
+    "Ridge|Mixed history minus No-price-history context": {
+      "mean": -0.027885690131667893,
+      "lo": -0.03340155477786752,
+      "hi": -0.022344936836371166,
+      "clusters": 371
+    },
+    "Gradient boosting|Mixed history minus Native-only history": {
+      "mean": -0.05101367133767691,
+      "lo": -0.05903296723902235,
+      "hi": -0.04255907497554871,
+      "clusters": 371
+    },
+    "Gradient boosting|Mixed history minus No-price-history context": {
+      "mean": -0.051015055581288195,
+      "lo": -0.05901949693602194,
+      "hi": -0.0424646806461721,
+      "clusters": 371
+    }
+  },
+  "interval": "2000 paired scenario percentile bootstrap; mean within dialogue then scenario",
+  "interpretation": "Matched targets and splits isolate the predictive contribution of history representation. Not parser accuracy or causal evidence.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1"
+  },
+  "checks": {
+    "unique_targets": true,
+    "exact_target_alignment": true,
+    "context_alignment": true,
+    "scenario_disjoint": true,
+    "identical_training_development_test_rows": true,
+    "identical_hyperparameter_protocol": true
+  }
+}

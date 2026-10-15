@@ -1,0 +1,97 @@
+regime,acceptance_coefficient,selection,policy,conditional_gross_seller,primary_seller_increment,gross_rank,channel_rank
+Low valuations,0.0,Exogenous,Time concession,0.02847763727828076,0.002909155426705147,3,3
+Low valuations,0.0,Exogenous,Buyer responsive,0.027012785271052088,0.0020988472987384806,4,4
+Low valuations,0.0,Exogenous,Full-state FQI,0.03656365790426071,0.007315183874410148,2,2
+Low valuations,0.0,Exogenous,Clock-only FQI,0.03882191931691747,0.008623686342396556,1,1
+Low valuations,0.0,Value-dependent odds,Time concession,0.02847763727828076,0.0038788739022735286,3,3
+Low valuations,0.0,Value-dependent odds,Buyer responsive,0.027012785271052088,0.0027984630649846402,4,4
+Low valuations,0.0,Value-dependent odds,Full-state FQI,0.03656365790426071,0.00975357849921353,2,2
+Low valuations,0.0,Value-dependent odds,Clock-only FQI,0.03882191931691747,0.011498248456528741,1,1
+Low valuations,0.25,Exogenous,Time concession,0.02837887402603298,0.002885680536332552,3,3
+Low valuations,0.25,Exogenous,Buyer responsive,0.026825140615380706,0.0020387037273794715,4,4
+Low valuations,0.25,Exogenous,Full-state FQI,0.036485545692763674,0.0073000267323922,2,2
+Low valuations,0.25,Exogenous,Clock-only FQI,0.03855843714049335,0.008536537223096413,1,1
+Low valuations,0.25,Value-dependent odds,Time concession,0.02837887402603298,0.003847574048443402,3,3
+Low valuations,0.25,Value-dependent odds,Buyer responsive,0.026825140615380706,0.0027182716365059625,4,4
+Low valuations,0.25,Value-dependent odds,Full-state FQI,0.036485545692763674,0.009733368976522933,2,2
+Low valuations,0.25,Value-dependent odds,Clock-only FQI,0.03855843714049335,0.01138204963079522,1,1
+Low valuations,0.5,Exogenous,Time concession,0.028527081031081005,0.002992005541447238,3,3
+Low valuations,0.5,Exogenous,Buyer responsive,0.02702112789202208,0.002175557469327105,4,4
+Low valuations,0.5,Exogenous,Full-state FQI,0.03658192170885404,0.007372048937328578,2,2
+Low valuations,0.5,Exogenous,Clock-only FQI,0.03862356008848673,0.008616864241134559,1,1
+Low valuations,0.5,Value-dependent odds,Time concession,0.028527081031081005,0.003989340721929651,3,3
+Low valuations,0.5,Value-dependent odds,Buyer responsive,0.02702112789202208,0.00290074329243614,4,4
+Low valuations,0.5,Value-dependent odds,Full-state FQI,0.03658192170885404,0.00982939858310477,2,2
+Low valuations,0.5,Value-dependent odds,Clock-only FQI,0.03862356008848673,0.011489152321512746,1,1
+Low valuations,1.0,Exogenous,Time concession,0.029881771439659893,0.003774596859726319,3,3
+Low valuations,1.0,Exogenous,Buyer responsive,0.028969702095982746,0.0033344300635354145,4,4
+Low valuations,1.0,Exogenous,Full-state FQI,0.03733404363035344,0.007820616374762213,2,2
+Low valuations,1.0,Exogenous,Clock-only FQI,0.03984387649776233,0.009345416228155778,1,1
+Low valuations,1.0,Value-dependent odds,Time concession,0.029881771439659893,0.005032795812968424,3,3
+Low valuations,1.0,Value-dependent odds,Buyer responsive,0.028969702095982746,0.004445906751380553,4,4
+Low valuations,1.0,Value-dependent odds,Full-state FQI,0.03733404363035344,0.01042748849968295,2,2
+Low valuations,1.0,Value-dependent odds,Clock-only FQI,0.03984387649776233,0.01246055497087437,1,1
+Reference,0.0,Exogenous,Time concession,0.1214030630985613,0.011586142200641301,3,3
+Reference,0.0,Exogenous,Buyer responsive,0.1204638557042794,0.011036690150738104,4,4
+Reference,0.0,Exogenous,Full-state FQI,0.12812076039983233,0.015165633579127116,1,1
+Reference,0.0,Exogenous,Clock-only FQI,0.12443878874282457,0.013261114204347313,2,2
+Reference,0.0,Value-dependent odds,Time concession,0.1214030630985613,0.023045110610059556,3,3
+Reference,0.0,Value-dependent odds,Buyer responsive,0.1204638557042794,0.022292501968907637,4,4
+Reference,0.0,Value-dependent odds,Full-state FQI,0.12812076039983233,0.027776306080469167,1,1
+Reference,0.0,Value-dependent odds,Clock-only FQI,0.12443878874282457,0.025539575651463666,2,2
+Reference,0.25,Exogenous,Time concession,0.11788216606433462,0.009787011525537077,3,3
+Reference,0.25,Exogenous,Buyer responsive,0.11453356881000833,0.008080974242651622,4,4
+Reference,0.25,Exogenous,Full-state FQI,0.12660954559969329,0.014412191215589967,1,1
+Reference,0.25,Exogenous,Clock-only FQI,0.12080527079980467,0.01142865950405665,2,2
+Reference,0.25,Value-dependent odds,Time concession,0.11788216606433462,0.021617223579541843,3,3
+Reference,0.25,Value-dependent odds,Buyer responsive,0.11453356881000833,0.019966945014695103,4,4
+Reference,0.25,Value-dependent odds,Full-state FQI,0.12660954559969329,0.02717046540051907,1,1
+Reference,0.25,Value-dependent odds,Clock-only FQI,0.12080527079980467,0.024075813627643352,2,2
+Reference,0.5,Exogenous,Time concession,0.12139627549311525,0.011487760604846853,3,3
+Reference,0.5,Exogenous,Buyer responsive,0.11619483744521139,0.008770857012893572,4,4
+Reference,0.5,Exogenous,Full-state FQI,0.12847375868201868,0.015299012642513769,1,1
+Reference,0.5,Exogenous,Clock-only FQI,0.12291613378442279,0.012456475660088192,2,2
+Reference,0.5,Value-dependent odds,Time concession,0.12139627549311525,0.02305376415274193,3,3
+Reference,0.5,Value-dependent odds,Buyer responsive,0.11619483744521139,0.020696544387918632,4,4
+Reference,0.5,Value-dependent odds,Full-state FQI,0.12847375868201868,0.02786339545809281,1,1
+Reference,0.5,Value-dependent odds,Clock-only FQI,0.12291613378442279,0.024896110187138953,2,2
+Reference,1.0,Exogenous,Time concession,0.1436838358312707,0.022994627137944954,2,2
+Reference,1.0,Exogenous,Buyer responsive,0.12677421327969318,0.014937160421741683,4,4
+Reference,1.0,Exogenous,Full-state FQI,0.150246211401191,0.025998580466946548,1,1
+Reference,1.0,Exogenous,Clock-only FQI,0.14318997615699192,0.022873604036556854,3,3
+Reference,1.0,Value-dependent odds,Time concession,0.1436838358312707,0.03455980207656637,2,3
+Reference,1.0,Value-dependent odds,Buyer responsive,0.12677421327969318,0.028206269838016464,4,4
+Reference,1.0,Value-dependent odds,Full-state FQI,0.150246211401191,0.036323123254477466,1,1
+Reference,1.0,Value-dependent odds,Clock-only FQI,0.14318997615699192,0.03483105625690694,3,2
+Stubborn offers,0.0,Exogenous,Time concession,0.034340427005947305,-0.021447468487938423,3,3
+Stubborn offers,0.0,Exogenous,Buyer responsive,0.03268434570887345,-0.022007768981210648,4,4
+Stubborn offers,0.0,Exogenous,Full-state FQI,0.03699562525222129,-0.01915648998242989,2,2
+Stubborn offers,0.0,Exogenous,Clock-only FQI,0.04745412497933366,-0.016444112365967985,1,1
+Stubborn offers,0.0,Value-dependent odds,Time concession,0.034340427005947305,-0.01310455938092571,3,3
+Stubborn offers,0.0,Value-dependent odds,Buyer responsive,0.03268434570887345,-0.013912173588299949,4,4
+Stubborn offers,0.0,Value-dependent odds,Full-state FQI,0.03699562525222129,-0.0100697524572383,2,2
+Stubborn offers,0.0,Value-dependent odds,Clock-only FQI,0.04745412497933366,-0.006287764838678918,1,1
+Stubborn offers,0.25,Exogenous,Time concession,0.04905700638032115,-0.01764344594805476,3,4
+Stubborn offers,0.25,Exogenous,Buyer responsive,0.050507590283876434,-0.017419324082232988,2,2
+Stubborn offers,0.25,Exogenous,Full-state FQI,0.04478134356509467,-0.017462711633365373,4,3
+Stubborn offers,0.25,Exogenous,Clock-only FQI,0.05511488951461449,-0.014994178655287033,1,1
+Stubborn offers,0.25,Value-dependent odds,Time concession,0.04905700638032115,-0.008996052132050458,3,4
+Stubborn offers,0.25,Value-dependent odds,Buyer responsive,0.050507590283876434,-0.008960026294258794,2,3
+Stubborn offers,0.25,Value-dependent odds,Full-state FQI,0.04478134356509467,-0.008088159631248834,4,2
+Stubborn offers,0.25,Value-dependent odds,Clock-only FQI,0.05511488951461449,-0.004430807852361128,1,1
+Stubborn offers,0.5,Exogenous,Time concession,0.07632502743196767,-0.007935116492705964,2,2
+Stubborn offers,0.5,Exogenous,Buyer responsive,0.08192516682983594,-0.006758580058949283,1,1
+Stubborn offers,0.5,Exogenous,Full-state FQI,0.06013260195221677,-0.012542536730679857,4,4
+Stubborn offers,0.5,Exogenous,Clock-only FQI,0.07502435198870297,-0.008367044102556615,3,3
+Stubborn offers,0.5,Value-dependent odds,Time concession,0.07632502743196767,0.0002909771274578358,2,3
+Stubborn offers,0.5,Value-dependent odds,Buyer responsive,0.08192516682983594,0.0018337014453533697,1,1
+Stubborn offers,0.5,Value-dependent odds,Full-state FQI,0.06013260195221677,-0.0032683834511371018,4,4
+Stubborn offers,0.5,Value-dependent odds,Clock-only FQI,0.07502435198870297,0.0016597438621836634,3,2
+Stubborn offers,1.0,Exogenous,Time concession,0.14191783399661265,0.022111626220615927,1,1
+Stubborn offers,1.0,Exogenous,Buyer responsive,0.1304098109651231,0.016961403564974782,3,3
+Stubborn offers,1.0,Exogenous,Full-state FQI,0.1278706317053779,0.014616943468780928,4,4
+Stubborn offers,1.0,Exogenous,Clock-only FQI,0.13598000583970563,0.01926861887791371,2,2
+Stubborn offers,1.0,Value-dependent odds,Time concession,0.14191783399661265,0.03338246752012766,1,1
+Stubborn offers,1.0,Value-dependent odds,Buyer responsive,0.1304098109651231,0.030905260695660606,3,2
+Stubborn offers,1.0,Value-dependent odds,Full-state FQI,0.1278706317053779,0.021147607256923308,4,4
+Stubborn offers,1.0,Value-dependent odds,Clock-only FQI,0.13598000583970563,0.03002440937871608,2,3

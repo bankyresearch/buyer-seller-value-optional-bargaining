@@ -1,0 +1,32 @@
+{
+  "own_points_with_satisfaction": {
+    "rho": 0.29518530161721007,
+    "lo": 0.25116088058985797,
+    "hi": 0.3361250786803646,
+    "dialogue_clusters": 1030,
+    "participant_records": 2060
+  },
+  "other_points_with_satisfaction": {
+    "rho": -0.058811930219465965,
+    "lo": -0.10690653771831464,
+    "hi": -0.008985213935345005,
+    "dialogue_clusters": 1030,
+    "participant_records": 2060
+  },
+  "liking_with_satisfaction": {
+    "rho": 0.6863579228805504,
+    "lo": 0.6569099524295522,
+    "hi": 0.7144740492652724,
+    "dialogue_clusters": 1030,
+    "participant_records": 2060
+  },
+  "messages_with_satisfaction": {
+    "rho": -0.1726474269296678,
+    "lo": -0.21975859926452362,
+    "hi": -0.12660333396023324,
+    "dialogue_clusters": 1030,
+    "participant_records": 2060
+  },
+  "dialogue_mean_points_satisfaction_rho": 0.26930476811383797,
+  "within_dialogue_difference_rho": 0.3272005585885449
+}

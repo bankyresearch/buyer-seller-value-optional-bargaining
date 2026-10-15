@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "fixtures": "Two evaluation products, 12 synthetic opportunities each, and explicit impossible-overlap unit fixtures; not an additional empirical sample.",
+  "tests": [
+    "test_acceptance_endpoints_preserve_sequential_monotonicity",
+    "test_channel_zero_optin_equals_checkout",
+    "test_clock_candidate_and_features_exclude_buyer_fields",
+    "test_no_overlap_infeasibility_keeps_failed_attempts",
+    "test_probability_accounting_scalar_oracle",
+    "test_protocol_and_full_denominator",
+    "test_quarter_coefficient_matches_frozen_learning_rollout"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-05",
+  "status": "Exploratory extension specified before these new runs; earlier evaluation outcomes already inspected; not a preregistration",
+  "target": "Humanities and Social Sciences Communications",
+  "unchanged": ["193 held-out product contexts", "80 opportunities per product", "five frozen learner seeds", "four policy families", "no retraining or policy selection"],
+  "primary_accounting": {"opt_in": 0.5, "fallback": 0.5, "seller_cost": 0.005, "buyer_cost": 0.005, "acceptance": 0.25},
+  "existing_trajectory_analyses": ["product-level gain distributions", "seed-specific means and positive-count summaries", "leave-one-category-out means", "separate participant cost boundaries across fallback probabilities"],
+  "structural_settings": [
+    {"name": "Reference replay", "floor_factor": 0.8, "distribution": "uniform", "low": 0.6, "high": 1.15},
+    {"name": "Lower floor", "floor_factor": 0.65, "distribution": "uniform", "low": 0.6, "high": 1.15},
+    {"name": "Higher floor", "floor_factor": 0.95, "distribution": "uniform", "low": 0.6, "high": 1.15},
+    {"name": "Lower values", "floor_factor": 0.8, "distribution": "uniform", "low": 0.5, "high": 1.05},
+    {"name": "Higher values", "floor_factor": 0.8, "distribution": "uniform", "low": 0.7, "high": 1.25},
+    {"name": "Lower skew", "floor_factor": 0.8, "distribution": "beta", "alpha": 2, "beta": 5, "low": 0.6, "high": 1.15},
+    {"name": "Higher skew", "floor_factor": 0.8, "distribution": "beta", "alpha": 5, "beta": 2, "low": 0.6, "high": 1.15},
+    {"name": "Higher floor lower values", "floor_factor": 0.95, "distribution": "uniform", "low": 0.5, "high": 1.05}
+  ],
+  "structural_design": "Regenerate offers and complete trajectories at each setting. Use the original random stream, retaining value quantile ranks, empirical opening draws before the valuation cap, deadlines, types and abandonment draws. Beta shapes use inverse CDF of the same uniform ranks. No structural setting is dropped based on results.",
+  "uncertainty": "2000 paired product-bootstrap resamples with original seed 20261002; average learned seeds within product. Marginal pointwise 95% intervals, not simultaneous coverage, empirical demand estimates or a distribution of independent human effects.",
+  "checks": ["Reference trajectories equal canonical values to 1e-12", "receipt-based independent route oracle", "failure retention and original-opportunity denominator", "matched scenarios across policies", "input and checkpoint hashes unchanged"],
+  "ethics": "No documented institutional determination supplied. Do not claim verified policy exemption. Secondary public data and synthetic simulations; no new recruitment.",
+  "delivery": "New version only; separate editorial-only related manuscripts; no external upload or submission"
+}

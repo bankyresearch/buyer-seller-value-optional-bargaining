@@ -1,0 +1,30 @@
+{
+  "format": "UTF-8 comma-separated tables compressed with gzip; numeric values are not formatted as display strings.",
+  "base_key": ["regime", "acceptance_coefficient", "policy", "product", "rep", "training_seed"],
+  "base_columns": {
+    "product": {"type": "string", "meaning": "Retained public product identifier, not a person identifier."},
+    "rep": {"type": "integer", "range": [0, 79], "meaning": "Paired synthetic opportunity index within product; held constant across policies and seller training seeds."},
+    "category": {"type": "string", "meaning": "Recorded source product category."},
+    "listing": {"type": "number", "units": "Recorded source price magnitude; denominator for normalized economic values. Not a current marketplace quote."},
+    "floor": {"type": "number", "units": "Listing-price units", "meaning": "Assumed merchant floor proxy after cent rounding; not measured marginal cost."},
+    "value": {"type": "number", "units": "Listing-price units", "meaning": "Private simulated buyer value. Used only by the environment and counterfactual channel accounting, not the seller policy."},
+    "opening": {"type": "number", "units": "Listing-price units", "meaning": "Synthetic opening amount drawn using the pre-existing training-corpus distribution and valuation bound."},
+    "deadline": {"type": "integer", "meaning": "Private simulated buyer deadline; not a seller feature."},
+    "kind": {"type": "integer", "range": [0, 3], "meaning": "Synthetic buyer-style index. Original rule: linear, late concession, early concession, reciprocal. Regime overrides remain in force. Not a seller feature."},
+    "deal": {"type": "integer", "range": [0, 1], "meaning": "Potential sequential negotiation agreement before any optional-channel probability mixture."},
+    "rounds": {"type": "integer", "meaning": "All attempted negotiation rounds, including failed episodes; input for interaction costs."},
+    "price_ratio": {"type": "number or missing", "units": "Listing-price units", "meaning": "Transaction price on agreement; missing on failure. Failure prices must not be imputed as observed zero-price sales."},
+    "seller_surplus": {"type": "number", "units": "Listing-price units per original opportunity", "meaning": "Transaction price minus floor on agreement; explicitly zero gross negotiation surplus on failure."},
+    "buyer_surplus": {"type": "number", "units": "Listing-price units per original opportunity", "meaning": "Private value minus transaction price on agreement; explicitly zero gross negotiation surplus on failure."},
+    "total_surplus": {"type": "number", "units": "Listing-price units per original opportunity", "meaning": "Seller plus buyer gross negotiation surplus before separate interaction costs."},
+    "policy": {"type": "string", "values": ["Time concession", "Buyer responsive", "Full-state FQI", "Clock-only FQI"]},
+    "training_seed": {"type": "integer", "meaning": "271, 811, 1601, 2027 or 4093 for learned sellers; -1 explicitly denotes a deterministic rule, not a missing customer or an extra replicate."},
+    "regime": {"type": "string", "values": ["Reference", "Stubborn offers", "Low valuations"]},
+    "acceptance_coefficient": {"type": "number", "values": [0, 0.25, 0.5, 1], "meaning": "Synthetic buyer quote-acceptance sensitivity; not an estimated human preference."}
+  },
+  "ordering": "Each base file is sorted product, rep, training_seed. Manifest lists only complete files.",
+  "file_rows": {"deterministic_rule": 15440, "learned_policy_family": 77200},
+  "aggregation_contract": "Compute per-opportunity channel outcomes without excluding failures. Average repetitions and the five fixed learned-seller seeds inside each product. Compare policy families on paired product clusters; never treat seeds as additional customers or let five learned replicas give a family fivefold weight.",
+  "scenario_files": "scenarios_<regime>.csv.gz contains unrounded floor input and latent customer draws; base files contain the cent-rounded executable floor. randoms_<regime>.npz contains the shared 15440 by 8 abandonment draws.",
+  "results_roles": "Base files are potential negotiation trajectories. product_negotiation_outcomes.csv and seed_negotiation_outcomes.csv are gross-negotiation diagnostics, not final net optional-channel outcomes. The separate analysis directory owns channel accounting, thresholds and paired intervals."
+}

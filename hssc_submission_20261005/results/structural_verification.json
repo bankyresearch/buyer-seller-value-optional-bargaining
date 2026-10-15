@@ -1,0 +1,22 @@
+{
+  "settings": 8,
+  "files": 32,
+  "executions": 1482240,
+  "reference_replay": "passed to 1e-12 for all policies and seeds",
+  "route_oracle": "passed every row",
+  "bounds": "passed every row",
+  "checkpoint_hashes": {
+    "bargaining_strengthening_20260926\\learning_results\\fqi_mixed_enriched_128_40_271.joblib": "fef02fdea1167369a95d2277ce5f35c2c4b4ad5eab7741e82e7720c4599d37ff",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_mixed_enriched_128_40_811.joblib": "0ef85ff7a25e0111771185d2b8450ec5c5e43706e32dbb88cc175b4677d23b8f",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_mixed_enriched_128_40_1601.joblib": "0a0b512838b15c616fb28c7023689f78567676efe10577d3b3a297aa88e9466d",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_mixed_enriched_128_40_2027.joblib": "a11653422c12c2b8a0c286396c0c1e4e480f84899ae37ea5b6c9f125159c1948",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_mixed_enriched_128_40_4093.joblib": "b3072e7a47a194968be234c1d233526bff128a857513849f04ce25237f5de545",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_clock_mixed_enriched_128_40_271.joblib": "948d9429486c414be45ae881302d0db46713b8c0d029469e5da844150a10ac84",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_clock_mixed_enriched_128_40_811.joblib": "1075ba5b4a000dda4a5688bb86d434df21525d6d51b17261567f6501d08a9541",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_clock_mixed_enriched_128_40_1601.joblib": "c0083d2f13fd5a78ebec5469437409fa4c3e91e2c5da57e3b9b5203a6f8dea62",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_clock_mixed_enriched_128_40_2027.joblib": "23060714919e1e5f69cf2beee0cd3a77e311fc37b4c9990faed52a7fa935e8ab",
+    "bargaining_strengthening_20260926\\learning_results\\fqi_clock_mixed_enriched_128_40_4093.joblib": "cd101ed340de620808f8a5be652107966b25689a00c9f9ccb8091b04787b9ed5"
+  },
+  "checkpoint_immutability": true,
+  "protocol_sha256": "12ec1ecb96cc003f09b7ceff38ffa1b93790dd08385c1502ecfdc76c824476a5"
+}

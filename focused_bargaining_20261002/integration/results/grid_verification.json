@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "complete_base_rows": 2223360,
+  "adjacent_acceptance_monotonicity_pairs": 1667520,
+  "checks": [
+    "All potential trajectories use exactly the corresponding recorded latent scenario",
+    "No duplicate episode key or discarded product",
+    "Higher acceptance coefficient cannot reduce agreement or increase attempted rounds under identical paths until first acceptance",
+    "Executable merchant floor is exactly the cent-rounded scenario proxy"
+  ]
+}

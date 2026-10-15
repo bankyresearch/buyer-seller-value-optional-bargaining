@@ -1,0 +1,6 @@
+# Reviewer outputs and downloaded inputs
+craigslist_inputs/
+reviewer_*/
+.venv/
+__pycache__/
+*.pyc

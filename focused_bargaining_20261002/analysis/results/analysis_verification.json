@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "tolerance_absolute": 1e-12,
+  "replay_tables": [
+    {
+      "file": "composition_thresholds.csv",
+      "rows": 96
+    },
+    {
+      "file": "descriptive_hindsight_loss.csv",
+      "rows": 3240
+    },
+    {
+      "file": "descriptive_rankings.csv",
+      "rows": 96
+    },
+    {
+      "file": "finite_condition_summary.csv",
+      "rows": 270
+    },
+    {
+      "file": "grid_point_estimates.csv",
+      "rows": 2592
+    },
+    {
+      "file": "paired_policy_contrasts.csv",
+      "rows": 288
+    },
+    {
+      "file": "policy_cost_crossings.csv",
+      "rows": 144
+    },
+    {
+      "file": "primary_intervals.csv",
+      "rows": 960
+    },
+    {
+      "file": "product_coefficients.csv.gz",
+      "rows": 9264
+    },
+    {
+      "file": "ranking_mechanisms.csv",
+      "rows": 144
+    },
+    {
+      "file": "thresholds.csv",
+      "rows": 1344
+    }
+  ],
+  "replay_table_count": 11,
+  "replay_table_rows": 18438,
+  "summary_json_equal": true,
+  "original_rule_point_estimates_verified": 9072,
+  "opportunity_accounting_designs": 2592,
+  "ranking_mechanism_contrasts": 144,
+  "hindsight_contexts": 648,
+  "route_oracle_trajectory_selection_pairs": 4446720,
+  "negative_control_policy_pairs": 72,
+  "statement": "Independent accounting implementation within the same team and an exact same-environment analysis rerun; not external researcher replication."
+}

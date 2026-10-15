@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "verified_on": "2026-10-02",
+  "scope": "Local archive extraction in a different repository root with installed dependencies; not independent external scientific replication.",
+  "tested_manifest_sha256": "449f2105c272ff4f9db40401e3702aebdd4c2ed841a6958908d5f9aec8f356b9",
+  "same_scientific_sources": {
+    "bargaining_framework_revision/data_validation.py": "ca91f8ca821366029c0fb6f162ef87b467d5824f6284dcb5312501193b4a651e",
+    "bargaining_framework_revision/experiment.py": "6ea9334695403d83d7f01cfccc8f12e977c8d75c8e69ca320e1a032def78979c",
+    "bargaining_strengthening_20260926/history_controls.py": "6a2a7c1d4129ce8bee1b1eb05cc2771cbb4b68d968c8808bbc001f80f982fa7a",
+    "bargaining_strengthening_20260926/history_verify.py": "1e4a46dee7c75b30cd42f880162c6a197320e9c01254bcb8232402cbc70bf419",
+    "bargaining_strengthening_20260926/learning_controls.py": "175134e89b1906e909e30661637c1317ab8af6fa021513849b9341fc180a4222",
+    "bargaining_strengthening_20260926/platform_controls.py": "77415825cbe9f062d79c25a5348d128c249123f223fe99038812b70fc6596e86",
+    "focused_bargaining_20261002/analysis/channel_analysis.py": "c75571096aa272e20acf8b2377134853a227172edcda61f08325f493dd72127b",
+    "focused_bargaining_20261002/analysis/test_channel_analysis.py": "3699d05290166a0e8df37671cb957653b73a728c17fe522c06880bba2c2aeb4a",
+    "focused_bargaining_20261002/analysis/verify_analysis.py": "c1f30d057561478db50e21747e3cb72133cf906b3f1c8f8e1bd3b70c6dee2d55",
+    "focused_bargaining_20261002/integration/compare_reproduction.py": "fe1a3f082465a2abec64f8068faf8d2d45ee954ca79015e90b6f16a68775a857",
+    "focused_bargaining_20261002/integration/generate_trajectories.py": "8d129b77fadffeac4c6b76c3082e26ba9b207764d01987cd1d88f75582407f25",
+    "focused_bargaining_20261002/integration/test_integration.py": "7fe4fefebbe28fb22f37ad3a04b46f82bf4d27f6b61f0ddeef1d81e1d25602cb",
+    "focused_bargaining_20261002/integration/verify_grid.py": "ea4d09d257bd74ed1a036376b8e9979af63524dc4fbcef0ef19fdd538810300d",
+    "multidataset_bargaining/analyze.py": "88a81a8411ec9c36c996c08473b1fdfa0560d10ab93cbb7dd653b5497c054e57",
+    "multidataset_bargaining/download_pinned.py": "d83d2eb7db303f3593ced17f3f3a25ebec1cf9ccf191e15b4d9204e48ab595ce",
+    "multidataset_bargaining/prepare_data.py": "c032cdc835d0f48779fbd38fad1b5545205966aebc3237a367d5e902d45cf7e6",
+    "multidataset_bargaining/simulate.py": "843eab5b63ebc1618259daaa1b5d08afd031ebeec75909b97f4b07d74e981811"
+  },
+  "trajectory_comparison": {
+    "status": "passed",
+    "rows_compared": 2223360,
+    "files_compared": 48,
+    "tolerance_absolute": 1e-12,
+    "maximum_numeric_difference": 0.0,
+    "random_draw_arrays": "exact",
+    "scope": "Full same-environment alternate-directory trajectory replay, not external researcher replication.",
+    "excluded": "Elapsed time and gzip metadata"
+  },
+  "analysis_comparison": {
+    "status": "passed",
+    "tolerance_absolute": 1e-12,
+    "replay_tables": [
+      {
+        "file": "composition_thresholds.csv",
+        "rows": 96
+      },
+      {
+        "file": "descriptive_hindsight_loss.csv",
+        "rows": 3240
+      },
+      {
+        "file": "descriptive_rankings.csv",
+        "rows": 96
+      },
+      {
+        "file": "finite_condition_summary.csv",
+        "rows": 270
+      },
+      {
+        "file": "grid_point_estimates.csv",
+        "rows": 2592
+      },
+      {
+        "file": "paired_policy_contrasts.csv",
+        "rows": 288
+      },
+      {
+        "file": "policy_cost_crossings.csv",
+        "rows": 144
+      },
+      {
+        "file": "primary_intervals.csv",
+        "rows": 960
+      },
+      {
+        "file": "product_coefficients.csv.gz",
+        "rows": 9264
+      },
+      {
+        "file": "ranking_mechanisms.csv",
+        "rows": 144
+      },
+      {
+        "file": "thresholds.csv",
+        "rows": 1344
+      }
+    ],
+    "replay_table_count": 11,
+    "replay_table_rows": 18438,
+    "summary_json_equal": true,
+    "original_rule_point_estimates_verified": 9072,
+    "opportunity_accounting_designs": 2592,
+    "ranking_mechanism_contrasts": 144,
+    "hindsight_contexts": 648,
+    "route_oracle_trajectory_selection_pairs": 4446720,
+    "negative_control_policy_pairs": 72,
+    "statement": "Independent accounting implementation within the same team and an exact same-environment analysis rerun; not external researcher replication."
+  },
+  "accounting_fixture_tests": 16,
+  "integration_fixture_tests": 7,
+  "casino_association_replay": "Exact JSON agreement for all four associations and two within/dialogue-level diagnostics",
+  "command_count": 8,
+  "elapsed_seconds": 320.4202013000031,
+  "excluded": "Duplicate extracted/replay directories and absolute local paths are not included in the delivery ZIP."
+}

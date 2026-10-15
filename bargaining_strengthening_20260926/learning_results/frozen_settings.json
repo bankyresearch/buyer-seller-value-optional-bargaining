@@ -1,0 +1,67 @@
+{
+  "specifications": {
+    "uniform_grid_32": {
+      "exploration": "uniform",
+      "actions": "grid",
+      "reps": 32,
+      "mode": "full"
+    },
+    "mixed_grid_32": {
+      "exploration": "mixed",
+      "actions": "grid",
+      "reps": 32,
+      "mode": "full"
+    },
+    "uniform_enriched_32": {
+      "exploration": "uniform",
+      "actions": "enriched",
+      "reps": 32,
+      "mode": "full"
+    },
+    "mixed_enriched_32": {
+      "exploration": "mixed",
+      "actions": "enriched",
+      "reps": 32,
+      "mode": "full"
+    },
+    "mixed_enriched_128": {
+      "exploration": "mixed",
+      "actions": "enriched",
+      "reps": 128,
+      "mode": "full"
+    },
+    "clock_mixed_enriched_128": {
+      "exploration": "mixed",
+      "actions": "enriched",
+      "reps": 128,
+      "mode": "clock"
+    }
+  },
+  "selected_leaf": {
+    "uniform_grid_32": 160,
+    "mixed_grid_32": 40,
+    "uniform_enriched_32": 160,
+    "mixed_enriched_32": 40,
+    "mixed_enriched_128": 40,
+    "clock_mixed_enriched_128": 40
+  },
+  "seeds": [
+    271,
+    811,
+    1601,
+    2027,
+    4093
+  ],
+  "trees": 24,
+  "depth": 12,
+  "iterations": 8,
+  "development_reps": 40,
+  "evaluation_reps": 80,
+  "training_stream": "revision-v1:training-SEED",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "pandas": "3.0.1",
+  "sklearn": "1.9.1",
+  "protocol_sha256": "0fca3c4bdb2fffa4da256d2827e22151d9d2403718c1c18961a73e4bd3ee33ee",
+  "implementation_sha256": "175134e89b1906e909e30661637c1317ab8af6fa021513849b9341fc180a4222"
+}

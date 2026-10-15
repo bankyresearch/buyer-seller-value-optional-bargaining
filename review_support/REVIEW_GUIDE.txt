@@ -1,0 +1,180 @@
+REVIEW MATERIALS FOR OPTIONAL AUTOMATED BARGAINING
+Prepared 14 October 2026; CraigslistBargain access route added 15 October 2026
+Submission c73be852-b7fe-4e49-87db-5871eb59c1f8
+Public repository: https://github.com/bankyresearch/buyer-seller-value-optional-bargaining
+
+SCOPE AND CURRENT ACCESS LIMIT
+These files support Buyer and seller value from optional automated bargaining
+in electronic commerce. They preserve the submitted numerical results. This is
+a technical-access revision, not a new experiment or independent replication.
+
+Extract all three Review_Materials ZIP files into ONE new empty directory. Each
+ZIP is independently readable; they are not binary split-volume archives. Keep
+the internal paths. Run commands from that common directory. Read this guide
+before any historical README. Supplementary_Data_1.zip is the unchanged compact
+numerical supplement and can be inspected independently.
+
+The package includes original AmazonHistoryPrice and CaSiNo JSON source files,
+their notices, cleaned numerical tables, analysis code, ten frozen FQI models,
+saved simulation outcomes, summary results and six figure sources. Source files
+are byte-checked against the original acquisition manifest. Author-generated
+simulations are not observations of customers or field transactions.
+
+CraigslistBargain raw JSON and the 15 derived files listed in SOURCE_OMISSIONS.json
+are not redistributed, because the corpus maintainers have not stated a data
+licence. Reviewers obtain the exact inputs directly from the maintainers' original
+CodaLab endpoints instead:
+  python review_support/fetch_craigslist_sources.py --output craigslist_inputs --allow-unverified-tls
+The CodaLab TLS certificate expired on 7 October 2026, so integrity is established
+by SHA-256, not by the certificate: the script keeps a file only if its checksum
+equals the study record in SOURCE_REGISTER.json, and deletes it otherwise. Without
+the flag it stops at the certificate error. On 15 October 2026 all three files
+downloaded this way matched the recorded checksums (CRAIGSLIST_RECONSTRUCTION_CHECK.json).
+The Hugging Face loader is not an alternative copy: it points to the same CodaLab
+URLs and transforms the records. Do not substitute another dataset version.
+
+WHAT CAN BE VERIFIED NOW
+1. Read all CSV/JSON result files without loading models or running code.
+2. Check archive integrity and provenance with the standard-library verifier.
+3. Recompute original channel accounting from the supplied synthetic trajectories.
+4. Recompute product, seed, category-deletion and cost-boundary summaries.
+5. Check structural-setting accounting from the supplied sensitivity trajectories.
+6. Recreate six figures from the supplied numerical results.
+7. Inspect source processing, model training and rollout algorithms. Reconstruct
+   Amazon and CaSiNo transformations from supplied raw files.
+8. Retrieve the exact CraigslistBargain inputs (checksum-verified) and regenerate
+   all 15 withheld Craigslist-derived files, including the history benchmark.
+
+ENVIRONMENT AND SECURITY
+CPython 3.12.14 was used. Exact numerical package versions are recorded in
+focused_bargaining_20261002/packaging/requirements.txt. Install them in an isolated
+environment; no runtime binaries, dependencies, paid APIs or credentials are
+included. Optional Word-document authoring is not needed to verify the results.
+Joblib files use pickle and can execute code. Verify hashes and inspect code
+before loading trusted author-supplied models. CSV inspection requires no model
+loading. Use fresh output directories; never replace the canonical results.
+
+REPLAY COMMANDS
+python review_support/verify_files.py
+python focused_bargaining_20261002/analysis/channel_analysis.py --inputs focused_bargaining_20261002/integration/results --output reviewer_analysis
+python focused_bargaining_20261002/analysis/test_channel_analysis.py --output reviewer_analysis
+python focused_bargaining_20261002/analysis/verify_analysis.py --current reviewer_analysis --replay focused_bargaining_20261002/analysis/results
+python hssc_submission_20261005/strengthen.py --stage existing --output reviewer_robustness
+python hssc_submission_20261005/verify_revision.py --results reviewer_robustness --existing-only
+python hssc_submission_20261005/build_figures.py --output reviewer_figures
+
+The structural verifier recomputes participant increments from transaction
+receipts in all 32 saved sensitivity trajectory files. To avoid rewriting the
+canonical verification report, copy hssc_submission_20261005/results into a new
+directory, then run:
+python hssc_submission_20261005/verify_revision.py --results YOUR_COPIED_RESULTS
+
+Additional route-accounting fixtures are in test_channel_analysis.py. Replay
+from saved outcomes is not a test of whether the simulated behaviour describes
+real customers. Hardware and library differences can alter floating-point
+roundoff; the original comparisons use absolute tolerance 1e-12.
+
+RAW SOURCE RECONSTRUCTION
+Source files and checksums are indexed in review_support/SOURCE_REGISTER.json.
+To re-create the two distributable source tables in a new output folder:
+python review_support/reconstruct_sources.py --output reviewer_sources
+
+CRAIGSLISTBARGAIN RECONSTRUCTION (about one minute after download)
+python review_support/fetch_craigslist_sources.py --output craigslist_inputs --allow-unverified-tls
+python review_support/reconstruct_sources.py --output reviewer_all_sources --craigslist-dir craigslist_inputs
+python review_support/reconstruct_craigslist_derivatives.py --craigslist-dir craigslist_inputs --output reviewer_craigslist
+The first command downloads from the original CodaLab endpoints and rejects any
+checksum mismatch. The second rebuilds all five source tables. The third runs the
+unchanged study code in a new workspace to regenerate the 15 files in
+SOURCE_OMISSIONS.json and compares them with CRAIGSLIST_DERIVATIVE_SHA256.json.
+Verified on 15 October 2026 with the pinned environment (Python 3.12.10):
+8 files byte-identical; 4 .csv.gz files identical after decompression (gzip
+headers embed a write timestamp); 3 gradient-boosting checkpoints serialised to
+different bytes but give identical test predictions (predictions.csv.gz content
+identical); history-benchmark metrics identical to the packaged summary.json
+(maximum absolute difference 0.0). See CRAIGSLIST_RECONSTRUCTION_CHECK.json.
+Downloading for verification is not redistribution; these scripts do not grant
+any right to republish the corpus.
+
+FILE AND FINDING MAP
+Table 1: literature synthesis in the manuscript, not a numerical dataset.
+Table 2: source audits under multidataset_bargaining/data/processed, raw
+acquisition.json, and the source register.
+Table 3: bargaining_strengthening_20260926/LEARNING_PROTOCOL.md,
+learning_results/frozen_settings.json and candidate_scores.csv; rule selections
+in bargaining_framework_revision/results/selected_rules.json.
+Table 4: focused_bargaining_20261002/analysis/results/paired_policy_contrasts.csv.
+Table 5: the same analysis/results/thresholds.csv.
+Table 6: hssc_submission_20261005/results/seed_means.csv, leave_category_out.csv,
+product_distribution.csv and structural_intervals.csv.
+Figure 1: hssc_submission_20261005/build_figures.py plus the original figure
+functions in focused_bargaining_20261002/figures/build_figures.py.
+Figures 2 to 4: original analysis/results and figures/numeric_plot_data.csv.
+Figures 5 and 6: hssc_submission_20261005/results/cost_boundaries.csv and
+product_outcomes.csv; coordinates also in output/hssc_submission_20261005/Figures.
+Supplementary S1 to S5: protocol.json and results under hssc_submission_20261005;
+S2 machine-readable intervals are in Supplementary_Data_1.zip.
+Craigslist history benchmark: history_controls.py and history_verify.py under
+bargaining_strengthening_20260926. Results summary is supplied; source-derived
+row-level features and fitted history models are regenerated locally by
+reconstruct_craigslist_derivatives.py (see CRAIGSLISTBARGAIN RECONSTRUCTION).
+CaSiNo supporting associations: multidataset_bargaining/analyze.py function
+casino_relations and results/casino_associations.json.
+Non-production numeric quote adapter: multidataset_bargaining/platform_adapter.py
+and test_platform.py. Run python multidataset_bargaining/test_platform.py.
+These tests do not establish concurrent inventory control or payment integration.
+
+FORMULAS AND CODING
+See SOURCE_VARIABLES.txt for source fields and transformations. Detailed
+simulation and accounting schemas are in the integration/schema.json and
+analysis/schema.json files under focused_bargaining_20261002. The following
+notation is an executable accounting crosswalk, not a new model specification.
+
+All prices and values below are divided by each product listing price.
+v = simulated buyer value; f = assumed seller floor; x = agreed price;
+d = agreement indicator; h = attempted rounds; e = 1 if v >= 1, otherwise 0.
+q = stipulated opt-in probability; r = stipulated return-to-checkout probability;
+cs and cb = separate seller and buyer costs per bargaining round.
+Checkout-only seller value S0 = e*(1-f); buyer value B0 = e*(v-1).
+Negotiation value Ns = d*(x-f); Nb = d*(v-x), both zero on failure.
+Seller increment = q*(Ns-S0+(1-d)*r*S0-cs*h).
+Buyer increment = q*(Nb-B0+(1-d)*r*B0-cb*h).
+Conversion increment = q*(d-e+(1-d)*r*e).
+Joint increment is the sum of seller and buyer increments.
+For exogenous uptake q=p. Under value-dependent odds, q=2*p/(1+p) below
+listing value, and q=p/(2-p) for checkout-eligible opportunities.
+raw_coefficients, weighted and outcome in channel_analysis.py implement these
+expressions; route_oracle independently calculates route probabilities and
+receipts. Failed-price cells are missing, not zero-price sales.
+
+Average 80 opportunities and the five fixed learned-policy seeds WITHIN each
+product, then average the 193 product means. Deterministic rules have seed -1.
+The 2,000 product bootstrap resamples use seed 20261002. They are marginal,
+exploratory intervals conditional on frozen learners and simulator assumptions.
+Do not count millions of policy executions as independent empirical customers.
+Negative or above-one algebraic probability boundaries are retained and flagged,
+not clipped into feasible probabilities. Undefined ratios remain missing; the
+denominator stability flags in analysis/schema.json must accompany interpretation.
+
+ATTRIBUTION AND RIGHTS
+AmazonHistoryPrice: Xia et al. (2024), Findings of ACL, 3579-3602,
+https://doi.org/10.18653/v1/2024.findings-acl.213
+https://github.com/TianXiaSJTU/AmazonPriceHistory
+Revision 834ad9066d0627f0332504d5fa6d236706f2402b; Apache 2.0 notice retained.
+CaSiNo: Chawla et al. (2021), NAACL-HLT,
+https://aclanthology.org/2021.naacl-main.254/
+https://github.com/kushalchawla/CaSiNo
+Revision 2f6ed4a6a55110152a7699fbaa8150d6036314be; CC BY 4.0 notice retained.
+Original JSON bytes are unchanged. Numerical derivatives select, hash and recode
+fields as documented. No endorsement by the source authors is implied.
+CraigslistBargain: He et al. (2018), EMNLP,
+https://aclanthology.org/D18-1256/
+https://github.com/stanfordnlp/cocoa/tree/master/craigslistbargain
+The software licence is not asserted to cover the separately hosted corpus.
+The corpus is neither redistributed nor relicensed; reviewers download it from
+the original CodaLab endpoints as described above.
+Author code is released under the MIT licence (LICENSE) and author-generated
+results and simulations under CC BY 4.0 (LICENSE-DATA.md) in the public
+repository. Third-party files keep their own licences. No DOI is claimed.
+The raw CaSiNo source contains fields unused in this study;
+the cleaned analysis tables exclude its demographic and personality fields.

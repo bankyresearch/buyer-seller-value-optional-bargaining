@@ -1,0 +1,34 @@
+{
+  "source": [
+    {
+      "file": "train.json",
+      "sha256": "34033ff87565b9fc9eb0efe867e9d3e32456dbe1528cd1683f94a84b09f66ace",
+      "n_raw": 5247,
+      "bytes": 20148723
+    },
+    {
+      "file": "dev.json",
+      "sha256": "03b35dc18bd90d87dac46893ac4db8ab3eed51786d192975be68d3bab38e306e",
+      "n_raw": 597,
+      "bytes": 2287054
+    },
+    {
+      "file": "test.json",
+      "sha256": "c802f15f80ea3066d429375393319d7234daacbd6a26a6ad5afd0ad78a2f7736",
+      "n_raw": 838,
+      "bytes": 2937841
+    }
+  ],
+  "exclusions": {
+    "train_out_of_domain_price": 66,
+    "train_duplicate": 11,
+    "dev_scenario_overlap": 27,
+    "dev_duplicate": 4,
+    "dev_out_of_domain_price": 8,
+    "test_scenario_overlap": 188,
+    "test_duplicate": 3,
+    "test_out_of_domain_price": 14
+  },
+  "dialogues": 6449,
+  "price_events": 16059
+}

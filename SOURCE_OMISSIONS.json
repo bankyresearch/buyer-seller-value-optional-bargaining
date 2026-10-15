@@ -1,0 +1,22 @@
+{
+  "files": [
+    "bargaining_framework_revision/results/structured_offer_events.csv",
+    "bargaining_strengthening_20260926/history_results/Mixed_history__Gradient_boosting.joblib",
+    "bargaining_strengthening_20260926/history_results/Mixed_history__Ridge.joblib",
+    "bargaining_strengthening_20260926/history_results/Mixed_history_features.csv.gz",
+    "bargaining_strengthening_20260926/history_results/Native-only_history__Gradient_boosting.joblib",
+    "bargaining_strengthening_20260926/history_results/Native-only_history__Ridge.joblib",
+    "bargaining_strengthening_20260926/history_results/Native-only_history_features.csv.gz",
+    "bargaining_strengthening_20260926/history_results/No-price-history_context__Gradient_boosting.joblib",
+    "bargaining_strengthening_20260926/history_results/No-price-history_context__Ridge.joblib",
+    "bargaining_strengthening_20260926/history_results/No-price-history_context_features.csv.gz",
+    "bargaining_strengthening_20260926/history_results/development_selection.csv",
+    "bargaining_strengthening_20260926/history_results/predictions.csv.gz",
+    "bargaining_strengthening_20260926/history_results/scenario_errors.csv",
+    "multidataset_bargaining/data/processed/craigslist_dialogues.csv",
+    "multidataset_bargaining/data/processed/craigslist_price_events.csv"
+  ],
+  "reason": "CraigslistBargain raw JSON and these source-derived files are not redistributed because the corpus maintainers state no data licence; raw transcripts are absent throughout.",
+  "how_to_obtain": "python review_support/fetch_craigslist_sources.py --output craigslist_inputs --allow-unverified-tls; then python review_support/reconstruct_craigslist_derivatives.py --craigslist-dir craigslist_inputs --output reviewer_craigslist",
+  "reference_checksums": "review_support/CRAIGSLIST_DERIVATIVE_SHA256.json"
+}

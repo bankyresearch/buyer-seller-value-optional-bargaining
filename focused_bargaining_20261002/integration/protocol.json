@@ -1,0 +1,41 @@
+{
+  "title": "Frozen seller-policy integration into optional bargaining channel accounting",
+  "specified_on": "2026-10-02",
+  "status": "Locally specified before these integration outcomes; not registered and not independent external validation. Existing evaluation products and previous outcomes have already been inspected. Every result remains exploratory.",
+  "question": "When does an optional bargaining route add net seller and buyer value over posted-price checkout, conditional on declared behavioral and channel assumptions?",
+  "scope": "Generate potential sequential negotiation trajectories for the same channel-choice model using frozen learned sellers and rule comparators. Do not retrain, retune, select a best test seed, optimize test configurations, recruit humans, or claim end-to-end UI/HCI validity.",
+  "products": {"partition": "Existing AmazonHistoryPrice test partition", "count": 193, "order": "product ascending", "opportunities_per_product": 80, "filters": "No new filtering, winsorization, missing-outcome exclusion or post-result product selection."},
+  "scenario_stream": "platform-controls-20260926",
+  "scenario_generator": "Unchanged bargaining_framework_revision.experiment.scenarios, using original Craigslist-derived training opening distribution and product price-floor proxy.",
+  "regimes": ["Reference", "Stubborn offers", "Low valuations"],
+  "acceptance_coefficients": [0, 0.25, 0.5, 1],
+  "execution_order": "Reference coefficient .25 first to enable independent downstream accounting; then the entire fixed Cartesian grid.",
+  "acceptance_rule": "Seller accepts bid >= current quote; otherwise buyer accepts if quote <= bid + a * max(value - bid, 0) and quote <= value. This a is a behavioral assumption, not an empirically identified bargaining preference.",
+  "policy_families": [
+    {"label": "Time concession", "key": "time", "parameters": "Previously development-selected, unchanged from bargaining_framework_revision/results/selected_rules.json", "training_seeds": [-1]},
+    {"label": "Buyer responsive", "key": "responsive", "parameters": "Previously development-selected, unchanged from bargaining_framework_revision/results/selected_rules.json", "training_seeds": [-1]},
+    {"label": "Full-state FQI", "key": "fqi_full", "specification": "mixed_enriched_128", "leaf": 40, "training_seeds": [271, 811, 1601, 2027, 4093]},
+    {"label": "Clock-only FQI", "key": "fqi_clock", "specification": "clock_mixed_enriched_128", "leaf": 40, "training_seeds": [271, 811, 1601, 2027, 4093]}
+  ],
+  "learned_state_and_actions": "Use the exact frozen public-state encoder, state-dependent enriched action candidates, Q-value clipping, index tie break and quote execution from learning_controls.py. Full state has nine observable summaries; clock-only retains round fraction, horizon, floor and previous quote. Private value, deadline, synthetic customer kind and future random draws are environment-only variables, not seller features.",
+  "normalization": "Value, floor, offer, price_ratio and surplus are expressed in listing-price units. Listing is retained in its recorded currency magnitude. Quote floor uses merchant-proxy rounding up to cents; actual bids and quotes retain original cent-rounding rules. The proxy is not observed merchant cost; surplus is not realized profit.",
+  "failure_and_denominator": "Preserve every original product-opportunity-policy-seed episode, including non-agreements. Negotiation failure has zero gross seller and buyer negotiation surplus but retains all attempted rounds for cost accounting. price_ratio is missing only on failures. Do not condition main outcomes on agreement.",
+  "channel_contract": {
+    "modes": ["Checkout only", "Forced negotiation", "Choice enabled"],
+    "primary_configuration": {"acceptance_coefficient": 0.25, "selection": "Exogenous", "base_opt_in": 0.5, "fallback": 0.5, "seller_cost_per_round": 0.005, "buyer_cost_per_round": 0.005},
+    "base_opt_in_grid": [0.25, 0.5, 0.75],
+    "fallback_grid": [0, 0.5, 1],
+    "participant_cost_grid": [0, 0.005, 0.02],
+    "selection_mechanisms": ["Exogenous", "Value-dependent odds"],
+    "value_dependent_odds": "Multiply base probability odds by 2 below listing value and .5 at/above listing value. This is synthetic customer self-selection, not seller access to private value.",
+    "fallback": "An aggregate re-engagement probability among failed negotiations whose value permits full-price checkout, including deadline and abandonment exits. It is not a guaranteed immediate post-deadline purchase.",
+    "costs": "Seller and buyer costs are distinct burdens per attempted negotiation round, including failure; joint net subtracts both. Existing grid uses equal illustrative rates. Costs are charged in accounting and do not alter acceptance or opt-in behavior; not an endogenous equilibrium.",
+    "probability_integration": "Integrate mutually exclusive non-opt-in checkout, successful negotiation and failed-negotiation fallback routes analytically; do not count probability-grid rows as new customer observations. Keep original opportunity denominator.",
+    "accounting_owner": "Separate independent analysis module computes channel outcomes, thresholds and paired contrasts from these sufficient per-opportunity trajectories; continuous/asymmetric cost thresholds may be derived analytically without generating new trajectories."
+  },
+  "aggregation": "For learned policy families, first preserve each fixed training seed, then average opportunities and seeds within product. Rules are not duplicated five times to inflate the denominator. Product is the inference cluster. Uncertainty remains conditional on five fixed training seeds and simulator assumptions.",
+  "expected_base_files": 48,
+  "expected_potential_trajectories": 2223360,
+  "verification": ["Disjoint training/development/evaluation product identifiers", "No changes to frozen checkpoints or source inputs", "Exact scenario and rule outcome equivalence to prior platform-control outputs", "Learned rollout equivalence to frozen learning_controls at coefficient .25", "Quote bounds and cent rounding", "Surplus identity and no negative realized gross surplus", "All opportunities and failure rounds retained", "Same latent customer draws across policies and seeds", "Clock-feature exclusion", "Full clean alternate-directory replay with numerical comparison"],
+  "claim_limits": ["Not a new learning algorithm", "Not human-agent validation", "Not deployed e-commerce evidence", "Not a demand or profit forecast", "Not a causal identification of real opt-in or fallback behavior", "No guaranteed publication outcome"]
+}

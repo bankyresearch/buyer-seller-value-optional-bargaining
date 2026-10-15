@@ -1,0 +1,42 @@
+{
+  "scope": "Scientific numerical intermediates for checkout-relative channel accounting. These are not new observations of human choices.",
+  "units": {
+    "seller_increment": "Difference in seller surplus proxy, normalized by each product listing price, per original opportunity, after seller interaction cost",
+    "buyer_increment": "Difference in buyer surplus proxy in listing units per original opportunity after buyer interaction cost",
+    "joint_increment": "Sum of the two participant increments; internal payments cancel but both participants' costs remain",
+    "conversion_increment": "Expected purchase probability difference versus eligible full-price checkout, not conditional bargaining agreement",
+    "negotiation_rounds": "Expected bargaining rounds per original opportunity, including nonparticipants as zero",
+    "effective_opt_in": "Average stipulated participation probability; differs from base_opt_in under value-dependent odds",
+    "cost": "Listing-price units per bargaining round, charged separately to each participant",
+    "monetary_interpretation": "Values are normalized proxy-surplus levels, not currency profit or percentage increases over baseline"
+  },
+  "bootstrap": "2000 product-paired resamples over 193 products. Each product first averages 80 opportunities and equally averages five fixed learned-policy seeds. Intervals are conditional on simulated behavior and the fixed seed ensemble; they do not represent field or adoption uncertainty. No multiple-comparison adjustment is made, so sensitivity intervals are exploratory.",
+  "threshold_columns": {
+    "value": "Unclipped algebraic boundary from a ratio of average coefficients. A negative or above-one probability boundary is retained and classified, not treated as an admissible probability.",
+    "maximum_cost": "At the stated fallback and fixed p=.5; negative values mean no nonnegative cost gives nonnegative average increment. Exogenous boundaries are invariant to any constant p>0.",
+    "both_average_participants": "Minimum of seller and buyer equal-cost ceilings. This means both average increments are nonnegative, not individual Pareto improvement.",
+    "joint_equal_cost": "Boundary for their summed increment under equal separate costs; does not require either individual average increment to be nonnegative.",
+    "minimum_fallback": "Algebraic fallback boundary at c=.005. no_fallback_required means the feasible minimum is zero even when the recorded boundary is negative. A boundary above one is infeasible. Null with fallback_irrelevant status means the coefficient is zero, not missing input data.",
+    "composition_crossing": "Boundary under the stipulated odds rule only. Root may be outside [0,1], and ratio intervals can be unstable when the denominator crosses zero. Not an inferred adoption threshold.",
+    "denominator_positive_fraction": "Fraction of product-bootstrap denominator means above1e-12",
+    "denominator_negative_fraction": "Fraction below minus1e-12",
+    "denominator_sign_instability": "True when more than2.5% of bootstrap denominator means are positive and more than2.5% are negative. Ratio intervals are unstable across zero; retain all estimates, but do not present the point root as a reliable switching threshold.",
+    "undefined_bootstrap_fraction": "Fraction with denominator absolute value at most1e-12; omitted from finite ratio quantiles but explicitly retained here"
+  },
+  "files": {
+    "product_coefficients.csv.gz": "48 policy-condition cohorts by193 products; low_ and high_ values are unconditional opportunity-weighted group contributions, not subgroup conditional means. low means value below listing; high means full-price checkout eligible. a_s/a_b are gross negotiation minus checkout, u_s/u_b are failed-deal checkout recovery, h is rounds, gross_s/gross_b are negotiation surplus, baseline_s/baseline_b are checkout surplus, mass is group opportunity share.",
+    "grid_point_estimates.csv": "2592 policy-condition-design rows covering 3 regimes by4 acceptance coefficients by4 policies by2 selection rules by3 base probabilities by3 fallback probabilities by3 costs",
+    "primary_intervals.csv": "960 policy-condition-selection-metric rows at p=.5,r=.5,c=.005; acceptance=.25 is the main behavioral setting",
+    "paired_policy_contrasts.csv": "288 paired contrasts: Full-state FQI minus each of three comparison policies, four metrics, twelve behavioral conditions and two selection mechanisms. Each interval is for the paired difference, not a subtraction of marginal interval endpoints.",
+    "thresholds.csv": "1344 cost and fallback boundaries with bootstrap ratio intervals",
+    "composition_thresholds.csv": "96 algebraic base-probability composition boundaries for seller and buyer; feasibility flags refer to point roots only",
+    "policy_cost_crossings.csv": "144 pairwise seller cost-crossing boundaries at p=.5,r=.5. A denominator near zero may make the ratio highly unstable; crossing flag alone is not evidence of a reliable reversal.",
+    "ranking_mechanisms.csv": "144 pairwise primary seller contrasts decomposed into .5 times conditional gross-surplus difference, composition adjustment, fallback adjustment and duration-cost adjustment. The common checkout baseline cancels in a comparison of policies under the same selection rule.",
+    "descriptive_rankings.csv": "96 rows comparing within-four-policy gross and primary seller ranks; ranks are descriptive and exclude checkout so negative channel winners must not be presented as better than checkout",
+    "descriptive_hindsight_loss.csv": "3240 rows: four policies plus checkout across648 contexts. Benchmark is the largest observed mean seller increment among that finite set. This is hindsight loss, not a regret guarantee or a validated selector.",
+    "finite_condition_summary.csv": "270 rows summarizing worst increment and maximum/mean hindsight loss across the twelve declared behavior settings for each fixed design and policy",
+    "summary.json": "Protocol/source/manifest hashes, all input hashes, primary records and checks. primary_results and main_thresholds subset acceptance=.25 but include all three regimes.",
+    "accounting_tests.json": "16 fixture tests including90 bounded parameter combinations, a denominator-sign instability check and a separately labeled analytical ranking reversal",
+    "analysis_verification.json": "Full same-environment separate-directory analysis replay, prior-rule continuity and accounting check counts"
+  }
+}

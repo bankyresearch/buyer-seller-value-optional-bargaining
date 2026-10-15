@@ -1,0 +1,289 @@
+regime,acceptance_coefficient,selection,left,right,metric,mean,lo,hi,clusters
+Low valuations,0.0,Exogenous,Full-state FQI,Time concession,seller_increment,0.004406028447705002,0.0031673687776572305,0.005682665051187129,193
+Low valuations,0.0,Exogenous,Full-state FQI,Time concession,buyer_increment,0.0014005317542685736,0.000973337235210604,0.001855783478130551,193
+Low valuations,0.0,Exogenous,Full-state FQI,Time concession,joint_increment,0.005806560201973575,0.004138813871336794,0.007542403474507776,193
+Low valuations,0.0,Exogenous,Full-state FQI,Time concession,conversion_increment,0.013413212435233161,0.006547603626943006,0.020485751295336783,193
+Low valuations,0.0,Exogenous,Full-state FQI,Clock-only FQI,seller_increment,-0.001308502467986407,-0.001929606789337874,-0.0008099421685061071,193
+Low valuations,0.0,Exogenous,Full-state FQI,Clock-only FQI,buyer_increment,-0.0012129700640112866,-0.001575233602806575,-0.0008773216758474651,193
+Low valuations,0.0,Exogenous,Full-state FQI,Clock-only FQI,joint_increment,-0.002521472531997693,-0.0034015024071720533,-0.0017708180846826372,193
+Low valuations,0.0,Exogenous,Full-state FQI,Clock-only FQI,conversion_increment,-0.02305051813471502,-0.027008095854922278,-0.019260038860103634,193
+Low valuations,0.0,Exogenous,Full-state FQI,Buyer responsive,seller_increment,0.005216336575671668,0.0037889794189588668,0.0066802216998496505,193
+Low valuations,0.0,Exogenous,Full-state FQI,Buyer responsive,buyer_increment,0.0016601360785680702,0.0011980569725053064,0.0021554347041865918,193
+Low valuations,0.0,Exogenous,Full-state FQI,Buyer responsive,joint_increment,0.0068764726542397386,0.00498723888191083,0.008839700428078705,193
+Low valuations,0.0,Exogenous,Full-state FQI,Buyer responsive,conversion_increment,0.022739637305699483,0.015264572538860101,0.03038374352331605,193
+Low valuations,0.0,Value-dependent odds,Full-state FQI,Time concession,seller_increment,0.0058747045969400015,0.004223158370209641,0.007576886734916172,193
+Low valuations,0.0,Value-dependent odds,Full-state FQI,Time concession,buyer_increment,0.0018673756723580977,0.0012977829802808057,0.0024743779708407345,193
+Low valuations,0.0,Value-dependent odds,Full-state FQI,Time concession,joint_increment,0.0077420802692981005,0.005518418495115728,0.010056537966010368,193
+Low valuations,0.0,Value-dependent odds,Full-state FQI,Time concession,conversion_increment,0.017884283246977547,0.008730138169257341,0.027314335060449044,193
+Low valuations,0.0,Value-dependent odds,Full-state FQI,Clock-only FQI,seller_increment,-0.0017446699573152094,-0.0025728090524505,-0.0010799228913414762,193
+Low valuations,0.0,Value-dependent odds,Full-state FQI,Clock-only FQI,buyer_increment,-0.001617293418681715,-0.0021003114704087676,-0.0011697622344632866,193
+Low valuations,0.0,Value-dependent odds,Full-state FQI,Clock-only FQI,joint_increment,-0.003361963375996925,-0.004535336542896073,-0.0023610907795768494,193
+Low valuations,0.0,Value-dependent odds,Full-state FQI,Clock-only FQI,conversion_increment,-0.03073402417962003,-0.036010794473229704,-0.025680051813471508,193
+Low valuations,0.0,Value-dependent odds,Full-state FQI,Buyer responsive,seller_increment,0.006955115434228891,0.005051972558611821,0.008906962266466197,193
+Low valuations,0.0,Value-dependent odds,Full-state FQI,Buyer responsive,buyer_increment,0.002213514771424093,0.0015974092966737415,0.0028739129389154555,193
+Low valuations,0.0,Value-dependent odds,Full-state FQI,Buyer responsive,joint_increment,0.009168630205652985,0.006649651842547773,0.01178626723743827,193
+Low valuations,0.0,Value-dependent odds,Full-state FQI,Buyer responsive,conversion_increment,0.03031951640759931,0.020352763385146806,0.04051165803108807,193
+Low valuations,0.25,Exogenous,Full-state FQI,Time concession,seller_increment,0.004414346196059648,0.003184826079819096,0.005703350577942123,193
+Low valuations,0.25,Exogenous,Full-state FQI,Time concession,buyer_increment,0.0013707538153644254,0.0009489350653908637,0.0018216243708218563,193
+Low valuations,0.25,Exogenous,Full-state FQI,Time concession,joint_increment,0.005785100011424073,0.004137914404694205,0.007514778160884958,193
+Low valuations,0.25,Exogenous,Full-state FQI,Time concession,conversion_increment,0.013367875647668394,0.0065736722797927446,0.02035670336787565,193
+Low valuations,0.25,Exogenous,Full-state FQI,Clock-only FQI,seller_increment,-0.0012365104907042146,-0.0018492120821172262,-0.0007493401550022884,193
+Low valuations,0.25,Exogenous,Full-state FQI,Clock-only FQI,buyer_increment,-0.0013767220232104934,-0.0017698416375140696,-0.0010232758183508902,193
+Low valuations,0.25,Exogenous,Full-state FQI,Clock-only FQI,joint_increment,-0.0026132325139147073,-0.0035174010286488774,-0.0018518851719688764,193
+Low valuations,0.25,Exogenous,Full-state FQI,Clock-only FQI,conversion_increment,-0.02333549222797927,-0.027331768134715027,-0.01951327720207255,193
+Low valuations,0.25,Exogenous,Full-state FQI,Buyer responsive,seller_increment,0.005261323005012729,0.003832373794090715,0.006751581119385485,193
+Low valuations,0.25,Exogenous,Full-state FQI,Buyer responsive,buyer_increment,0.001583823295390682,0.0011324517029604028,0.0020649255278242487,193
+Low valuations,0.25,Exogenous,Full-state FQI,Buyer responsive,joint_increment,0.00684514630040341,0.004968722390868574,0.008805606134603204,193
+Low valuations,0.25,Exogenous,Full-state FQI,Buyer responsive,conversion_increment,0.022694300518134713,0.015219559585492226,0.03042746113989637,193
+Low valuations,0.25,Value-dependent odds,Full-state FQI,Time concession,seller_increment,0.00588579492807953,0.004246434773092128,0.007604467437256163,193
+Low valuations,0.25,Value-dependent odds,Full-state FQI,Time concession,buyer_increment,0.0018276717538192341,0.0012652467538544847,0.0024288324944291414,193
+Low valuations,0.25,Value-dependent odds,Full-state FQI,Time concession,joint_increment,0.0077134666818987644,0.005517219206258938,0.010019704214513278,193
+Low valuations,0.25,Value-dependent odds,Full-state FQI,Time concession,conversion_increment,0.017823834196891188,0.008764896373056994,0.027142271157167525,193
+Low valuations,0.25,Value-dependent odds,Full-state FQI,Clock-only FQI,seller_increment,-0.0016486806542722863,-0.002465616109489636,-0.000999120206669718,193
+Low valuations,0.25,Value-dependent odds,Full-state FQI,Clock-only FQI,buyer_increment,-0.0018356293642806578,-0.00235978885001876,-0.0013643677578011868,193
+Low valuations,0.25,Value-dependent odds,Full-state FQI,Clock-only FQI,joint_increment,-0.0034843100185529443,-0.004689868038198502,-0.0024691802292918356,193
+Low valuations,0.25,Value-dependent odds,Full-state FQI,Clock-only FQI,conversion_increment,-0.0311139896373057,-0.03644235751295337,-0.026017702936096725,193
+Low valuations,0.25,Value-dependent odds,Full-state FQI,Buyer responsive,seller_increment,0.007015097340016971,0.005109831725454286,0.009002108159180644,193
+Low valuations,0.25,Value-dependent odds,Full-state FQI,Buyer responsive,buyer_increment,0.0021117643938542425,0.0015099356039472035,0.0027532340370989977,193
+Low valuations,0.25,Value-dependent odds,Full-state FQI,Buyer responsive,joint_increment,0.009126861733871212,0.006624963187824765,0.011740808179470938,193
+Low valuations,0.25,Value-dependent odds,Full-state FQI,Buyer responsive,conversion_increment,0.030259067357512954,0.02029274611398963,0.04056994818652849,193
+Low valuations,0.5,Exogenous,Full-state FQI,Time concession,seller_increment,0.004380043395881338,0.003143436776389071,0.005642352748409825,193
+Low valuations,0.5,Exogenous,Full-state FQI,Time concession,buyer_increment,0.0013454921857216783,0.0009227257346819266,0.0017935360268548032,193
+Low valuations,0.5,Exogenous,Full-state FQI,Time concession,joint_increment,0.005725535581603018,0.004108203123834972,0.007422250960401899,193
+Low valuations,0.5,Exogenous,Full-state FQI,Time concession,conversion_increment,0.013264248704663214,0.006502590673575132,0.020194462435233162,193
+Low valuations,0.5,Exogenous,Full-state FQI,Clock-only FQI,seller_increment,-0.0012448153038059815,-0.0018728163394000504,-0.0007423670584981847,193
+Low valuations,0.5,Exogenous,Full-state FQI,Clock-only FQI,buyer_increment,-0.0014497073029245057,-0.0018483791062335218,-0.0010882329447091839,193
+Low valuations,0.5,Exogenous,Full-state FQI,Clock-only FQI,joint_increment,-0.002694522606730487,-0.003602830280213299,-0.0019192051583237976,193
+Low valuations,0.5,Exogenous,Full-state FQI,Clock-only FQI,conversion_increment,-0.02362694300518135,-0.027694462435233158,-0.019714054404145084,193
+Low valuations,0.5,Exogenous,Full-state FQI,Buyer responsive,seller_increment,0.005196491468001473,0.003787745046891339,0.006645272599586775,193
+Low valuations,0.5,Exogenous,Full-state FQI,Buyer responsive,buyer_increment,0.0015502473670286367,0.0010986423141683694,0.0020262962614923906,193
+Low valuations,0.5,Exogenous,Full-state FQI,Buyer responsive,joint_increment,0.006746738835030109,0.0048814547134751725,0.008676022381384593,193
+Low valuations,0.5,Exogenous,Full-state FQI,Buyer responsive,conversion_increment,0.02242875647668394,0.015018944300518132,0.030013439119170978,193
+Low valuations,0.5,Value-dependent odds,Full-state FQI,Time concession,seller_increment,0.005840057861175118,0.0041912490351854285,0.007523136997879768,193
+Low valuations,0.5,Value-dependent odds,Full-state FQI,Time concession,buyer_increment,0.0017939895809622377,0.0012303009795759017,0.0023913813691397376,193
+Low valuations,0.5,Value-dependent odds,Full-state FQI,Time concession,joint_increment,0.007634047442137357,0.005477604165113297,0.009896334613869198,193
+Low valuations,0.5,Value-dependent odds,Full-state FQI,Time concession,conversion_increment,0.01768566493955095,0.008670120898100176,0.026925949913644217,193
+Low valuations,0.5,Value-dependent odds,Full-state FQI,Clock-only FQI,seller_increment,-0.0016597537384079753,-0.0024970884525334,-0.0009898227446642465,193
+Low valuations,0.5,Value-dependent odds,Full-state FQI,Clock-only FQI,buyer_increment,-0.0019329430705660074,-0.0024645054749780288,-0.0014509772596122453,193
+Low valuations,0.5,Value-dependent odds,Full-state FQI,Clock-only FQI,joint_increment,-0.003592696808973982,-0.0048037737069510636,-0.0025589402110983953,193
+Low valuations,0.5,Value-dependent odds,Full-state FQI,Clock-only FQI,conversion_increment,-0.03150259067357513,-0.03692594991364422,-0.026285405872193447,193
+Low valuations,0.5,Value-dependent odds,Full-state FQI,Buyer responsive,seller_increment,0.0069286552906686295,0.005050326729188451,0.008860363466115698,193
+Low valuations,0.5,Value-dependent odds,Full-state FQI,Buyer responsive,buyer_increment,0.0020669964893715153,0.001464856418891159,0.00270172834865652,193
+Low valuations,0.5,Value-dependent odds,Full-state FQI,Buyer responsive,joint_increment,0.008995651780040147,0.006508606284633565,0.011568029841846121,193
+Low valuations,0.5,Value-dependent odds,Full-state FQI,Buyer responsive,conversion_increment,0.029905008635578583,0.020025259067357512,0.04001791882556129,193
+Low valuations,1.0,Exogenous,Full-state FQI,Time concession,seller_increment,0.004046019515035895,0.0028829515950178288,0.005241381185455836,193
+Low valuations,1.0,Exogenous,Full-state FQI,Time concession,buyer_increment,0.0015489331391240217,0.0010947416079102842,0.002035759490173407,193
+Low valuations,1.0,Exogenous,Full-state FQI,Time concession,joint_increment,0.005594952654159916,0.004009244307264388,0.007261352250395561,193
+Low valuations,1.0,Exogenous,Full-state FQI,Time concession,conversion_increment,0.013251295336787565,0.0064941709844559565,0.02023397020725388,193
+Low valuations,1.0,Exogenous,Full-state FQI,Clock-only FQI,seller_increment,-0.0015247998533935636,-0.0022466369089705353,-0.0009318108658107611,193
+Low valuations,1.0,Exogenous,Full-state FQI,Clock-only FQI,buyer_increment,-0.0013078690626949314,-0.0016738107745735914,-0.0009800938417291825,193
+Low valuations,1.0,Exogenous,Full-state FQI,Clock-only FQI,joint_increment,-0.002832668916088495,-0.0037557355677534203,-0.0020274124501200234,193
+Low valuations,1.0,Exogenous,Full-state FQI,Clock-only FQI,conversion_increment,-0.023918393782383425,-0.02803772668393783,-0.019973769430051816,193
+Low valuations,1.0,Exogenous,Full-state FQI,Buyer responsive,seller_increment,0.004486186311226798,0.003232340886407642,0.005818810209073807,193
+Low valuations,1.0,Exogenous,Full-state FQI,Buyer responsive,buyer_increment,0.0017733031339788488,0.0012746397968491996,0.0023051907413077087,193
+Low valuations,1.0,Exogenous,Full-state FQI,Buyer responsive,joint_increment,0.006259489445205648,0.0045164113790056035,0.008127176318655442,193
+Low valuations,1.0,Exogenous,Full-state FQI,Buyer responsive,conversion_increment,0.021573834196891194,0.014370790155440414,0.029074805699481867,193
+Low valuations,1.0,Value-dependent odds,Full-state FQI,Time concession,seller_increment,0.005394692686714525,0.003843935460023771,0.0069885082472744475,193
+Low valuations,1.0,Value-dependent odds,Full-state FQI,Time concession,buyer_increment,0.0020652441854986953,0.0014596554772137124,0.002714345986897875,193
+Low valuations,1.0,Value-dependent odds,Full-state FQI,Time concession,joint_increment,0.007459936872213221,0.0053456590763525155,0.009681803000527412,193
+Low valuations,1.0,Value-dependent odds,Full-state FQI,Time concession,conversion_increment,0.01766839378238342,0.008658894645941276,0.026978626943005176,193
+Low valuations,1.0,Value-dependent odds,Full-state FQI,Clock-only FQI,seller_increment,-0.0020330664711914175,-0.00299551587862738,-0.0012424144877476813,193
+Low valuations,1.0,Value-dependent odds,Full-state FQI,Clock-only FQI,buyer_increment,-0.0017438254169265751,-0.0022317476994314542,-0.0013067917889722433,193
+Low valuations,1.0,Value-dependent odds,Full-state FQI,Clock-only FQI,joint_increment,-0.0037768918881179933,-0.005007647423671228,-0.0027032166001600307,193
+Low valuations,1.0,Value-dependent odds,Full-state FQI,Clock-only FQI,conversion_increment,-0.03189119170984456,-0.03738363557858377,-0.026631692573402418,193
+Low valuations,1.0,Value-dependent odds,Full-state FQI,Buyer responsive,seller_increment,0.005981581748302398,0.0043097878485435235,0.00775841361209841,193
+Low valuations,1.0,Value-dependent odds,Full-state FQI,Buyer responsive,buyer_increment,0.0023644041786384648,0.001699519729132266,0.003073587655076945,193
+Low valuations,1.0,Value-dependent odds,Full-state FQI,Buyer responsive,joint_increment,0.008345985926940861,0.006021881838674138,0.01083623509154059,193
+Low valuations,1.0,Value-dependent odds,Full-state FQI,Buyer responsive,conversion_increment,0.028765112262521583,0.01916105354058722,0.03876640759930914,193
+Reference,0.0,Exogenous,Full-state FQI,Time concession,seller_increment,0.0035794913784858162,0.0030138808514733224,0.0041264401885470455,193
+Reference,0.0,Exogenous,Full-state FQI,Time concession,buyer_increment,0.0008174214943911907,0.00012550857969824658,0.0015694610796044444,193
+Reference,0.0,Exogenous,Full-state FQI,Time concession,joint_increment,0.004396912872877007,0.003253079338599671,0.0056160840190548015,193
+Reference,0.0,Exogenous,Full-state FQI,Time concession,conversion_increment,0.013824481865284973,0.009669203367875644,0.01799902849740932,193
+Reference,0.0,Exogenous,Full-state FQI,Clock-only FQI,seller_increment,0.0019045193747798043,0.001598076510626288,0.0022204561490977025,193
+Reference,0.0,Exogenous,Full-state FQI,Clock-only FQI,buyer_increment,-0.0018559240265168609,-0.0025722806608259956,-0.0011901498269804198,193
+Reference,0.0,Exogenous,Full-state FQI,Clock-only FQI,joint_increment,4.859534826294354e-05,-0.0005179197365792291,0.0006071236173820633,193
+Reference,0.0,Exogenous,Full-state FQI,Clock-only FQI,conversion_increment,6.800518134714608e-05,-0.003364880181347155,0.0034588730569948146,193
+Reference,0.0,Exogenous,Full-state FQI,Buyer responsive,seller_increment,0.004128943428389013,0.003435327747137317,0.004819985146287236,193
+Reference,0.0,Exogenous,Full-state FQI,Buyer responsive,buyer_increment,0.001415857999318136,0.0006454902726027814,0.002241248971343793,193
+Reference,0.0,Exogenous,Full-state FQI,Buyer responsive,joint_increment,0.005544801427707148,0.004220019343020993,0.0069573732882077305,193
+Reference,0.0,Exogenous,Full-state FQI,Buyer responsive,conversion_increment,0.01966968911917098,0.015038617227979273,0.0242681347150259,193
+Reference,0.0,Value-dependent odds,Full-state FQI,Time concession,seller_increment,0.004731195470409611,0.00391455694682414,0.005538312573825371,193
+Reference,0.0,Value-dependent odds,Full-state FQI,Time concession,buyer_increment,0.0011682108916923515,0.00041518797013828895,0.0019986432762290856,193
+Reference,0.0,Value-dependent odds,Full-state FQI,Time concession,joint_increment,0.005899406362101963,0.00440668289746663,0.007455055758847974,193
+Reference,0.0,Value-dependent odds,Full-state FQI,Time concession,conversion_increment,0.01853411053540587,0.013049708549222794,0.024046955958549214,193
+Reference,0.0,Value-dependent odds,Full-state FQI,Clock-only FQI,seller_increment,0.002236730429005503,0.0019038590256946944,0.0025687576454666776,193
+Reference,0.0,Value-dependent odds,Full-state FQI,Clock-only FQI,buyer_increment,-0.002059225055464328,-0.0028085635720262597,-0.0013678375523238345,193
+Reference,0.0,Value-dependent odds,Full-state FQI,Clock-only FQI,joint_increment,0.00017750537354117453,-0.0005273837300962909,0.0008762516156941368,193
+Reference,0.0,Value-dependent odds,Full-state FQI,Clock-only FQI,conversion_increment,0.00022668393782383138,-0.004287834628670123,0.004715025906735745,193
+Reference,0.0,Value-dependent odds,Full-state FQI,Buyer responsive,seller_increment,0.005483804111561536,0.004462450074199322,0.006499592131688157,193
+Reference,0.0,Value-dependent odds,Full-state FQI,Buyer responsive,buyer_increment,0.0019045739401165036,0.0010864078278733811,0.002796636171797808,193
+Reference,0.0,Value-dependent odds,Full-state FQI,Buyer responsive,joint_increment,0.007388378051678039,0.0056583924110348615,0.009206438347558885,193
+Reference,0.0,Value-dependent odds,Full-state FQI,Buyer responsive,conversion_increment,0.026273747841105352,0.020204069516407595,0.03235756692573401,193
+Reference,0.25,Exogenous,Full-state FQI,Time concession,seller_increment,0.004625179690052888,0.004057686736607896,0.005193700147761046,193
+Reference,0.25,Exogenous,Full-state FQI,Time concession,buyer_increment,-0.0010358833155523588,-0.0017411999014525959,-0.0003021693699965512,193
+Reference,0.25,Exogenous,Full-state FQI,Time concession,joint_increment,0.0035892963745005296,0.002445022166895063,0.004789438467275667,193
+Reference,0.25,Exogenous,Full-state FQI,Time concession,conversion_increment,0.012603626943005182,0.008506476683937824,0.01670782059585492,193
+Reference,0.25,Exogenous,Full-state FQI,Clock-only FQI,seller_increment,0.002983531711533319,0.0026417016552010343,0.0033382601355466724,193
+Reference,0.25,Exogenous,Full-state FQI,Clock-only FQI,buyer_increment,-0.0036085694070300653,-0.004384878443238694,-0.002888884835997141,193
+Reference,0.25,Exogenous,Full-state FQI,Clock-only FQI,joint_increment,-0.000625037695496746,-0.0012140002772938292,-4.2240251275532115e-05,193
+Reference,0.25,Exogenous,Full-state FQI,Clock-only FQI,conversion_increment,-0.0010071243523316078,-0.004465916450777203,0.0024451101036269394,193
+Reference,0.25,Exogenous,Full-state FQI,Buyer responsive,seller_increment,0.006331216972938345,0.005647137395192728,0.007033434916125633,193
+Reference,0.25,Exogenous,Full-state FQI,Buyer responsive,buyer_increment,-0.002072725574100255,-0.0028410725034482324,-0.0012690255954230958,193
+Reference,0.25,Exogenous,Full-state FQI,Buyer responsive,joint_increment,0.004258491398838091,0.002952499015941755,0.0056366157438611135,193
+Reference,0.25,Exogenous,Full-state FQI,Buyer responsive,conversion_increment,0.01775259067357513,0.013199158031088084,0.022345045336787557,193
+Reference,0.25,Value-dependent odds,Full-state FQI,Time concession,seller_increment,0.005553241820977225,0.00471664669170799,0.006390719639817732,193
+Reference,0.25,Value-dependent odds,Full-state FQI,Time concession,buyer_increment,-0.0003552269532161828,-0.0011073020502966602,0.00043576185037179273,193
+Reference,0.25,Value-dependent odds,Full-state FQI,Time concession,joint_increment,0.005198014867761041,0.003726472907751267,0.006743912628639014,193
+Reference,0.25,Value-dependent odds,Full-state FQI,Time concession,conversion_increment,0.017422279792746114,0.011988234024179622,0.022889248704663207,193
+Reference,0.25,Value-dependent odds,Full-state FQI,Clock-only FQI,seller_increment,0.0030946517728757156,0.002728610793964877,0.0034689710531233286,193
+Reference,0.25,Value-dependent odds,Full-state FQI,Clock-only FQI,buyer_increment,-0.003509682563319373,-0.004338934712234884,-0.0027463760533434508,193
+Reference,0.25,Value-dependent odds,Full-state FQI,Clock-only FQI,joint_increment,-0.00041503079044365746,-0.0011486852048998265,0.0003069827517345239,193
+Reference,0.25,Value-dependent odds,Full-state FQI,Clock-only FQI,conversion_increment,-0.0008268566493955114,-0.005396319084628674,0.003724255181347147,193
+Reference,0.25,Value-dependent odds,Full-state FQI,Buyer responsive,seller_increment,0.007203520385823964,0.006187133745177742,0.008257788517752307,193
+Reference,0.25,Value-dependent odds,Full-state FQI,Buyer responsive,buyer_increment,-0.0009592797958835591,-0.0017925644203199578,-8.963568016162828e-05,193
+Reference,0.25,Value-dependent odds,Full-state FQI,Buyer responsive,joint_increment,0.006244240589940405,0.004540041654458704,0.008031196293986017,193
+Reference,0.25,Value-dependent odds,Full-state FQI,Buyer responsive,conversion_increment,0.02439550949913644,0.018341806994818653,0.030404306994818647,193
+Reference,0.5,Exogenous,Full-state FQI,Time concession,seller_increment,0.0038112520376669184,0.0032852965597452524,0.004329300332012798,193
+Reference,0.5,Exogenous,Full-state FQI,Time concession,buyer_increment,-0.0014197006618530863,-0.002157227128442747,-0.0006355940927734186,193
+Reference,0.5,Exogenous,Full-state FQI,Time concession,joint_increment,0.002391551375813832,0.0013436925416688502,0.003490042301577311,193
+Reference,0.5,Exogenous,Full-state FQI,Time concession,conversion_increment,0.010566709844559586,0.0064700453367875655,0.014786350388601035,193
+Reference,0.5,Exogenous,Full-state FQI,Clock-only FQI,seller_increment,0.0028425369824255785,0.0025312110093889902,0.003142764311483041,193
+Reference,0.5,Exogenous,Full-state FQI,Clock-only FQI,buyer_increment,-0.0042079845851482525,-0.004937946153168375,-0.003511041850191126,193
+Reference,0.5,Exogenous,Full-state FQI,Clock-only FQI,joint_increment,-0.0013654476027226742,-0.0019938092786949808,-0.0007410344924341482,193
+Reference,0.5,Exogenous,Full-state FQI,Clock-only FQI,conversion_increment,-0.002130829015544045,-0.005764977331606222,0.0014672117875647623,193
+Reference,0.5,Exogenous,Full-state FQI,Buyer responsive,seller_increment,0.006528155629620198,0.005951584733529246,0.00709917912862166,193
+Reference,0.5,Exogenous,Full-state FQI,Buyer responsive,buyer_increment,-0.004614071263751871,-0.005472893260927797,-0.003690028081337862,193
+Reference,0.5,Exogenous,Full-state FQI,Buyer responsive,joint_increment,0.0019140843658683282,0.0007117013974126635,0.0031691779332885498,193
+Reference,0.5,Exogenous,Full-state FQI,Buyer responsive,conversion_increment,0.014015544041450778,0.009478465025906734,0.018569219559585484,193
+Reference,0.5,Value-dependent odds,Full-state FQI,Time concession,seller_increment,0.00480963130535088,0.004053251687568248,0.005557288959643014,193
+Reference,0.5,Value-dependent odds,Full-state FQI,Time concession,buyer_increment,-0.0007759626701586506,-0.0015674923463950073,5.4527976458727286e-05,193
+Reference,0.5,Value-dependent odds,Full-state FQI,Time concession,joint_increment,0.004033668635192229,0.002646995177115971,0.005476633600307303,193
+Reference,0.5,Value-dependent odds,Full-state FQI,Time concession,conversion_increment,0.015213730569948188,0.009845800949913643,0.02079495898100172,193
+Reference,0.5,Value-dependent odds,Full-state FQI,Clock-only FQI,seller_increment,0.002967285270953859,0.002627293650909949,0.0033103181380817483,193
+Reference,0.5,Value-dependent odds,Full-state FQI,Clock-only FQI,buyer_increment,-0.004053000604662259,-0.004865383390622212,-0.0032969194182153752,193
+Reference,0.5,Value-dependent odds,Full-state FQI,Clock-only FQI,joint_increment,-0.0010857153337084007,-0.0018802181500737166,-0.0003141949225422619,193
+Reference,0.5,Value-dependent odds,Full-state FQI,Clock-only FQI,conversion_increment,-0.0019214162348877386,-0.0066992120034542295,0.0028198942141623444,193
+Reference,0.5,Value-dependent odds,Full-state FQI,Buyer responsive,seller_increment,0.007166851070174178,0.006302628713546322,0.008027107951716734,193
+Reference,0.5,Value-dependent odds,Full-state FQI,Buyer responsive,buyer_increment,-0.0030877414469669745,-0.003961569284461524,-0.0021320005412421585,193
+Reference,0.5,Value-dependent odds,Full-state FQI,Buyer responsive,joint_increment,0.004079109623207203,0.002487841828073783,0.0057391709769934445,193
+Reference,0.5,Value-dependent odds,Full-state FQI,Buyer responsive,conversion_increment,0.02072970639032815,0.014762467616580312,0.026700669257340236,193
+Reference,1.0,Exogenous,Full-state FQI,Time concession,seller_increment,0.0030039533290015913,0.0024139534493654185,0.0035798077771911213,193
+Reference,1.0,Exogenous,Full-state FQI,Time concession,buyer_increment,-0.0010679457505656988,-0.0015811690560463773,-0.0004572754089604787,193
+Reference,1.0,Exogenous,Full-state FQI,Time concession,joint_increment,0.001936007578435893,0.0010139315797831892,0.002912795377048922,193
+Reference,1.0,Exogenous,Full-state FQI,Time concession,conversion_increment,0.008639896373056994,0.004650259067357513,0.012629857512953365,193
+Reference,1.0,Exogenous,Full-state FQI,Clock-only FQI,seller_increment,0.0031249764303896894,0.0027266212863655695,0.0035246620307069717,193
+Reference,1.0,Exogenous,Full-state FQI,Clock-only FQI,buyer_increment,-0.004584734539746904,-0.005136495315397126,-0.004028893965119326,193
+Reference,1.0,Exogenous,Full-state FQI,Clock-only FQI,joint_increment,-0.0014597581093572145,-0.002044963514994205,-0.0008981040036720418,193
+Reference,1.0,Exogenous,Full-state FQI,Clock-only FQI,conversion_increment,-0.003439119170984454,-0.007059747409326423,4.5498704663213174e-05,193
+Reference,1.0,Exogenous,Full-state FQI,Buyer responsive,seller_increment,0.011061420045204865,0.010339485437306766,0.011752948285066176,193
+Reference,1.0,Exogenous,Full-state FQI,Buyer responsive,buyer_increment,-0.010188797592896627,-0.01086888677737402,-0.009429921738776008,193
+Reference,1.0,Exogenous,Full-state FQI,Buyer responsive,joint_increment,0.000872622452308238,-0.0002134829839897062,0.0020323370171417116,193
+Reference,1.0,Exogenous,Full-state FQI,Buyer responsive,conversion_increment,0.00889896373056995,0.00444931994818653,0.013432804404145078,193
+Reference,1.0,Value-dependent odds,Full-state FQI,Time concession,seller_increment,0.0017633211779110934,0.0010390974435761028,0.0024499815681502035,193
+Reference,1.0,Value-dependent odds,Full-state FQI,Time concession,buyer_increment,0.0008180222600034305,0.00014184155389828677,0.0015698935649243785,193
+Reference,1.0,Value-dependent odds,Full-state FQI,Time concession,joint_increment,0.002581343437914524,0.0013519087730442516,0.0038837271693985638,193
+Reference,1.0,Value-dependent odds,Full-state FQI,Time concession,conversion_increment,0.011519861830742656,0.00620034542314335,0.016839810017271157,193
+Reference,1.0,Value-dependent odds,Full-state FQI,Clock-only FQI,seller_increment,0.0014920669975705212,0.000993071257539802,0.0019811539467840247,193
+Reference,1.0,Value-dependent odds,Full-state FQI,Clock-only FQI,buyer_increment,-0.0034384111433801417,-0.003993261535143776,-0.00291231894890614,193
+Reference,1.0,Value-dependent odds,Full-state FQI,Clock-only FQI,joint_increment,-0.00194634414580962,-0.0027266180199922744,-0.0011974720048960558,193
+Reference,1.0,Value-dependent odds,Full-state FQI,Clock-only FQI,conversion_increment,-0.004585492227979271,-0.009412996545768564,6.066493955095244e-05,193
+Reference,1.0,Value-dependent odds,Full-state FQI,Buyer responsive,seller_increment,0.008116853416461,0.007234560414047029,0.008983101073547283,193
+Reference,1.0,Value-dependent odds,Full-state FQI,Buyer responsive,buyer_increment,-0.0069533568133833485,-0.007771393734664777,-0.006067982483737367,193
+Reference,1.0,Value-dependent odds,Full-state FQI,Buyer responsive,joint_increment,0.0011634966030776507,-0.000284643978652942,0.0027097826895222826,193
+Reference,1.0,Value-dependent odds,Full-state FQI,Buyer responsive,conversion_increment,0.011865284974093265,0.005932426597582036,0.017910405872193443,193
+Stubborn offers,0.0,Exogenous,Full-state FQI,Time concession,seller_increment,0.0022909785055085317,0.0011769868196496675,0.0034993975692835947,193
+Stubborn offers,0.0,Exogenous,Full-state FQI,Time concession,buyer_increment,-0.0006591809343822524,-0.001911326582097419,0.0006405357640647561,193
+Stubborn offers,0.0,Exogenous,Full-state FQI,Time concession,joint_increment,0.00163179757112628,-0.0006487821179518887,0.004086467154557527,193
+Stubborn offers,0.0,Exogenous,Full-state FQI,Time concession,conversion_increment,-0.0009876943005181341,-0.007315495466321245,0.005557075777202072,193
+Stubborn offers,0.0,Exogenous,Full-state FQI,Clock-only FQI,seller_increment,-0.0027123776164619034,-0.003327151762229651,-0.002117005725536937,193
+Stubborn offers,0.0,Exogenous,Full-state FQI,Clock-only FQI,buyer_increment,-0.0072130845761129575,-0.008257891163341902,-0.006263457961973758,193
+Stubborn offers,0.0,Exogenous,Full-state FQI,Clock-only FQI,joint_increment,-0.00992546219257486,-0.011493522804939309,-0.008448530747204572,193
+Stubborn offers,0.0,Exogenous,Full-state FQI,Clock-only FQI,conversion_increment,-0.030851683937823834,-0.03502347797927461,-0.026858484455958554,193
+Stubborn offers,0.0,Exogenous,Full-state FQI,Buyer responsive,seller_increment,0.002851278998780751,0.0016368398893117499,0.004184675456428043,193
+Stubborn offers,0.0,Exogenous,Full-state FQI,Buyer responsive,buyer_increment,0.0006198311575349319,-0.0006951778433493938,0.0019898806508979686,193
+Stubborn offers,0.0,Exogenous,Full-state FQI,Buyer responsive,joint_increment,0.003471110156315683,0.0010037552415434058,0.006063408905345209,193
+Stubborn offers,0.0,Exogenous,Full-state FQI,Buyer responsive,conversion_increment,0.005569948186528499,-0.0010072862694300497,0.012474498056994819,193
+Stubborn offers,0.0,Value-dependent odds,Full-state FQI,Time concession,seller_increment,0.0030348069236874084,0.0015510969688938198,0.004666630655607123,193
+Stubborn offers,0.0,Value-dependent odds,Full-state FQI,Time concession,buyer_increment,-7.974069385910984e-05,-0.0013836391834406068,0.0012850584654163979,193
+Stubborn offers,0.0,Value-dependent odds,Full-state FQI,Time concession,joint_increment,0.002955066229828298,0.0002531714363874882,0.005869619801523141,193
+Stubborn offers,0.0,Value-dependent odds,Full-state FQI,Time concession,conversion_increment,0.0013665803108808292,-0.0064998380829015545,0.009423629101899825,193
+Stubborn offers,0.0,Value-dependent odds,Full-state FQI,Clock-only FQI,seller_increment,-0.0037819876185593813,-0.004582912211711595,-0.003009088907936612,193
+Stubborn offers,0.0,Value-dependent odds,Full-state FQI,Clock-only FQI,buyer_increment,-0.006967473799629997,-0.00802381202953241,-0.006009963110133319,193
+Stubborn offers,0.0,Value-dependent odds,Full-state FQI,Clock-only FQI,joint_increment,-0.010749461418189379,-0.012516941294395886,-0.009049371965309786,193
+Stubborn offers,0.0,Value-dependent odds,Full-state FQI,Clock-only FQI,conversion_increment,-0.03567573402417962,-0.04065921848013817,-0.03082000215889465,193
+Stubborn offers,0.0,Value-dependent odds,Full-state FQI,Buyer responsive,seller_increment,0.0038424211310616454,0.002211281515986155,0.00561508308201657,193
+Stubborn offers,0.0,Value-dependent odds,Full-state FQI,Buyer responsive,buyer_increment,0.0012540641542787547,-0.00012732635670699758,0.0026941233399218503,193
+Stubborn offers,0.0,Value-dependent odds,Full-state FQI,Buyer responsive,joint_increment,0.0050964852853404,0.0021146963165648734,0.008199597899296838,193
+Stubborn offers,0.0,Value-dependent odds,Full-state FQI,Buyer responsive,conversion_increment,0.009494818652849742,0.001308236183074266,0.01809385794473229,193
+Stubborn offers,0.25,Exogenous,Full-state FQI,Time concession,seller_increment,0.0001807343146893856,-0.0007295551066164423,0.0011465139581345713,193
+Stubborn offers,0.25,Exogenous,Full-state FQI,Time concession,buyer_increment,-0.002427564984202699,-0.003706005401075552,-0.0011202605586229136,193
+Stubborn offers,0.25,Exogenous,Full-state FQI,Time concession,joint_increment,-0.0022468306695133133,-0.004359775330548529,-9.263950580094996e-06,193
+Stubborn offers,0.25,Exogenous,Full-state FQI,Time concession,conversion_increment,-0.011360103626943004,-0.017539102979274614,-0.004986560880829021,193
+Stubborn offers,0.25,Exogenous,Full-state FQI,Clock-only FQI,seller_increment,-0.002468532978078339,-0.003081112223910611,-0.0018679267332996868,193
+Stubborn offers,0.25,Exogenous,Full-state FQI,Clock-only FQI,buyer_increment,-0.009086016099280305,-0.010520847159529858,-0.007702356277014135,193
+Stubborn offers,0.25,Exogenous,Full-state FQI,Clock-only FQI,joint_increment,-0.011554549077358646,-0.013562219281842232,-0.009627434163865332,193
+Stubborn offers,0.25,Exogenous,Full-state FQI,Clock-only FQI,conversion_increment,-0.035576424870466326,-0.04114677784974093,-0.030106460492227982,193
+Stubborn offers,0.25,Exogenous,Full-state FQI,Buyer responsive,seller_increment,-4.3387551132386e-05,-0.0009895993787409525,0.0009600122733500832,193
+Stubborn offers,0.25,Exogenous,Full-state FQI,Buyer responsive,buyer_increment,-0.002454292022477697,-0.0037994412500991425,-0.001099914497792272,193
+Stubborn offers,0.25,Exogenous,Full-state FQI,Buyer responsive,joint_increment,-0.002497679573610083,-0.004676831342411129,-0.0002380294592091821,193
+Stubborn offers,0.25,Exogenous,Full-state FQI,Buyer responsive,conversion_increment,-0.009935233160621762,-0.016344478626943004,-0.0034797603626943083,193
+Stubborn offers,0.25,Value-dependent odds,Full-state FQI,Time concession,seller_increment,0.0009078925008016221,-0.00034919130459969556,0.0022603295075479053,193
+Stubborn offers,0.25,Value-dependent odds,Full-state FQI,Time concession,buyer_increment,-0.001741546473479222,-0.003053435822916289,-0.00038905683132780817,193
+Stubborn offers,0.25,Value-dependent odds,Full-state FQI,Time concession,joint_increment,-0.0008336539726776005,-0.003353873066211538,0.0018505564118525423,193
+Stubborn offers,0.25,Value-dependent odds,Full-state FQI,Time concession,conversion_increment,-0.009697754749568218,-0.017508797495682207,-0.0017882124352331685,193
+Stubborn offers,0.25,Value-dependent odds,Full-state FQI,Clock-only FQI,seller_increment,-0.003657351778887709,-0.004483414480952392,-0.0028615729807493005,193
+Stubborn offers,0.25,Value-dependent odds,Full-state FQI,Clock-only FQI,buyer_increment,-0.00901701433905922,-0.010448563510835429,-0.0076336939603346985,193
+Stubborn offers,0.25,Value-dependent odds,Full-state FQI,Clock-only FQI,joint_increment,-0.012674366117946928,-0.014883825362717944,-0.010488268310086616,193
+Stubborn offers,0.25,Value-dependent odds,Full-state FQI,Clock-only FQI,conversion_increment,-0.041908462867012095,-0.04841887953367876,-0.035462920984455956,193
+Stubborn offers,0.25,Value-dependent odds,Full-state FQI,Buyer responsive,seller_increment,0.0008718666630099573,-0.0004509745341358298,0.0023043837973794434,193
+Stubborn offers,0.25,Value-dependent odds,Full-state FQI,Buyer responsive,buyer_increment,-0.001420940352974134,-0.0027864183684298462,1.8664486235858174e-06,193
+Stubborn offers,0.25,Value-dependent odds,Full-state FQI,Buyer responsive,joint_increment,-0.0005490736899641765,-0.003183223725248839,0.0022750610647165204,193
+Stubborn offers,0.25,Value-dependent odds,Full-state FQI,Buyer responsive,conversion_increment,-0.006351468048359239,-0.014218480138169256,0.0016766515544041345,193
+Stubborn offers,0.5,Exogenous,Full-state FQI,Time concession,seller_increment,-0.004607420237973892,-0.005435084761050057,-0.0037841929296879365,193
+Stubborn offers,0.5,Exogenous,Full-state FQI,Time concession,buyer_increment,-0.0018836104726128312,-0.003226919665778966,-0.0005513181336021467,193
+Stubborn offers,0.5,Exogenous,Full-state FQI,Time concession,joint_increment,-0.006491030710586723,-0.008364111788862299,-0.0045488345333601875,193
+Stubborn offers,0.5,Exogenous,Full-state FQI,Time concession,conversion_increment,-0.023069948186528497,-0.029287726683937823,-0.016971421632124357,193
+Stubborn offers,0.5,Exogenous,Full-state FQI,Clock-only FQI,seller_increment,-0.004175492628123241,-0.005004050525804008,-0.003387265102776414,193
+Stubborn offers,0.5,Exogenous,Full-state FQI,Clock-only FQI,buyer_increment,-0.009792444966841627,-0.011109207506263943,-0.008500431100680106,193
+Stubborn offers,0.5,Exogenous,Full-state FQI,Clock-only FQI,joint_increment,-0.013967937594964867,-0.016041951078203665,-0.011941122302553986,193
+Stubborn offers,0.5,Exogenous,Full-state FQI,Clock-only FQI,conversion_increment,-0.04483160621761658,-0.05096559261658031,-0.03868717616580312,193
+Stubborn offers,0.5,Exogenous,Full-state FQI,Buyer responsive,seller_increment,-0.005783956671730573,-0.006614839260921993,-0.004925361261436125,193
+Stubborn offers,0.5,Exogenous,Full-state FQI,Buyer responsive,buyer_increment,-0.005541191931907023,-0.006985085089415784,-0.004109658276017042,193
+Stubborn offers,0.5,Exogenous,Full-state FQI,Buyer responsive,joint_increment,-0.011325148603637593,-0.013205189634769833,-0.009330614452340624,193
+Stubborn offers,0.5,Exogenous,Full-state FQI,Buyer responsive,conversion_increment,-0.0341288860103627,-0.04066070272020726,-0.027749271373056997,193
+Stubborn offers,0.5,Value-dependent odds,Full-state FQI,Time concession,seller_increment,-0.003559360578594938,-0.004573430860511827,-0.0024971665584843116,193
+Stubborn offers,0.5,Value-dependent odds,Full-state FQI,Time concession,buyer_increment,-0.0012541761414525431,-0.0026347514117501403,0.00012772435522488533,193
+Stubborn offers,0.5,Value-dependent odds,Full-state FQI,Time concession,joint_increment,-0.004813536720047481,-0.007032828010580813,-0.0025187020226445844,193
+Stubborn offers,0.5,Value-dependent odds,Full-state FQI,Time concession,conversion_increment,-0.021658031088082903,-0.029258203799654582,-0.014111614853195169,193
+Stubborn offers,0.5,Value-dependent odds,Full-state FQI,Clock-only FQI,seller_increment,-0.004928127313320766,-0.0059585975019132405,-0.003969865418398431,193
+Stubborn offers,0.5,Value-dependent odds,Full-state FQI,Clock-only FQI,buyer_increment,-0.010007028254469832,-0.01145086679210508,-0.00863813965904469,193
+Stubborn offers,0.5,Value-dependent odds,Full-state FQI,Clock-only FQI,joint_increment,-0.014935155567790598,-0.01734244937062627,-0.012652689382425837,193
+Stubborn offers,0.5,Value-dependent odds,Full-state FQI,Clock-only FQI,conversion_increment,-0.051761658031088086,-0.059346502590673575,-0.04434115932642487,193
+Stubborn offers,0.5,Value-dependent odds,Full-state FQI,Buyer responsive,seller_increment,-0.005102084896490472,-0.00612694304433907,-0.0040279277091403035,193
+Stubborn offers,0.5,Value-dependent odds,Full-state FQI,Buyer responsive,buyer_increment,-0.003891223590705033,-0.005337318070067433,-0.002410320811347648,193
+Stubborn offers,0.5,Value-dependent odds,Full-state FQI,Buyer responsive,joint_increment,-0.008993308487195505,-0.01119533746825435,-0.006629111228033567,193
+Stubborn offers,0.5,Value-dependent odds,Full-state FQI,Buyer responsive,conversion_increment,-0.03149179620034542,-0.039356703367875646,-0.023635362694300523,193
+Stubborn offers,1.0,Exogenous,Full-state FQI,Time concession,seller_increment,-0.007494682751834994,-0.008357139355428894,-0.006580207510668174,193
+Stubborn offers,1.0,Exogenous,Full-state FQI,Time concession,buyer_increment,0.00011790754612262638,-0.0006688972029709285,0.0009311792156990604,193
+Stubborn offers,1.0,Exogenous,Full-state FQI,Time concession,joint_increment,-0.007376775205712368,-0.008518057575258585,-0.006180973276749149,193
+Stubborn offers,1.0,Exogenous,Full-state FQI,Time concession,conversion_increment,-0.03904145077720208,-0.04444543393782383,-0.033762629533678756,193
+Stubborn offers,1.0,Exogenous,Full-state FQI,Clock-only FQI,seller_increment,-0.0046516754091327816,-0.00558214008629433,-0.003758858723579967,193
+Stubborn offers,1.0,Exogenous,Full-state FQI,Clock-only FQI,buyer_increment,-0.0061208654843726935,-0.006797072107070822,-0.0054880912418386685,193
+Stubborn offers,1.0,Exogenous,Full-state FQI,Clock-only FQI,joint_increment,-0.010772540893505477,-0.01212137693912912,-0.009459511393963749,193
+Stubborn offers,1.0,Exogenous,Full-state FQI,Clock-only FQI,conversion_increment,-0.05112046632124353,-0.05637305699481865,-0.045971502590673584,193
+Stubborn offers,1.0,Exogenous,Full-state FQI,Buyer responsive,seller_increment,-0.0023444600961938563,-0.0035118470371318907,-0.001255981246224248,193
+Stubborn offers,1.0,Exogenous,Full-state FQI,Buyer responsive,buyer_increment,-0.009161129646715466,-0.010153261877262355,-0.008142691669306368,193
+Stubborn offers,1.0,Exogenous,Full-state FQI,Buyer responsive,joint_increment,-0.011505589742909323,-0.012732123338717585,-0.010229090618917275,193
+Stubborn offers,1.0,Exogenous,Full-state FQI,Buyer responsive,conversion_increment,-0.06018782383419688,-0.06604323186528498,-0.054272830310880836,193
+Stubborn offers,1.0,Value-dependent odds,Full-state FQI,Time concession,seller_increment,-0.012234860263204356,-0.013436547783307424,-0.011005721965846553,193
+Stubborn offers,1.0,Value-dependent odds,Full-state FQI,Time concession,buyer_increment,0.002399159988921197,0.0013360193868108207,0.003498773077942976,193
+Stubborn offers,1.0,Value-dependent odds,Full-state FQI,Time concession,joint_increment,-0.009835700274283158,-0.011357410100344781,-0.008241297702332196,193
+Stubborn offers,1.0,Value-dependent odds,Full-state FQI,Time concession,conversion_increment,-0.0520552677029361,-0.059260578583765114,-0.04501683937823834,193
+Stubborn offers,1.0,Value-dependent odds,Full-state FQI,Clock-only FQI,seller_increment,-0.008876802121792773,-0.010181556038628456,-0.007611137128727027,193
+Stubborn offers,1.0,Value-dependent odds,Full-state FQI,Clock-only FQI,buyer_increment,-0.005486585736214526,-0.006239364533884041,-0.004788254895355749,193
+Stubborn offers,1.0,Value-dependent odds,Full-state FQI,Clock-only FQI,joint_increment,-0.0143633878580073,-0.016161835918838824,-0.012612681858618335,193
+Stubborn offers,1.0,Value-dependent odds,Full-state FQI,Clock-only FQI,conversion_increment,-0.06816062176165803,-0.07516407599309151,-0.06129533678756476,193
+Stubborn offers,1.0,Value-dependent odds,Full-state FQI,Buyer responsive,seller_increment,-0.009757653438737291,-0.011231189377017581,-0.008327927940448916,193
+Stubborn offers,1.0,Value-dependent odds,Full-state FQI,Buyer responsive,buyer_increment,-0.005583132885141804,-0.006861919964036575,-0.00427702875226026,193
+Stubborn offers,1.0,Value-dependent odds,Full-state FQI,Buyer responsive,joint_increment,-0.015340786323879094,-0.016976164451623445,-0.013638787491889697,193
+Stubborn offers,1.0,Value-dependent odds,Full-state FQI,Buyer responsive,conversion_increment,-0.08025043177892918,-0.08805764248704662,-0.07236377374784111,193
